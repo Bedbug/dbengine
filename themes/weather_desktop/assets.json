@@ -1,0 +1,469 @@
+[{
+    "type": "override",
+    "key": "responsible_gaming",
+    "path": "../../assets/scripts/responsible.js"
+}, {
+    "type": "override",
+    "key": "uip",
+    "path": "../../assets/scripts/uip.js"
+}, {
+    "type": "image",
+    "key": "icon_home",
+    "data": "data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22iso-8859-1%22%3F%3E%3C!DOCTYPE%20svg%20PUBLIC%20%22-%2F%2FW3C%2F%2FDTD%20SVG%201.1%2F%2FEN%22%20%22http%3A%2F%2Fwww.w3.org%2FGraphics%2FSVG%2F1.1%2FDTD%2Fsvg11.dtd%22%3E%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%20%20width%3D%2214px%22%20height%3D%2214px%22%20viewBox%3D%220%200%2014%2014%22%20style%3D%22enable-background%3Anew%200%200%2014%2014%3B%22%20xml%3Aspace%3D%22preserve%22%3E%3Cpolygon%20fill%3D%22%23FFF%22%20points%3D%227%2C0%200%2C7%202%2C7%202%2C14%205%2C14%205%2C9%209%2C9%209%2C14%2012%2C14%2012%2C7%2014%2C7%20%22%2F%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+    "path": "images/home.png"
+}, {
+    "type": "audio",
+    "key": "ambiance_cloud",
+    "path": [
+        "sounds/intralot/ogg/ambiance_cloudy.ogg",
+        "sounds/intralot/mp3/ambiance_cloudy.mp3",
+        "sounds/intralot/wav/ambiance_cloudy.wav"
+    ]
+}, {
+    "type": "audio",
+    "key": "ambiance_storm",
+    "path": [
+        "sounds/intralot/ogg/ambiance_rainy.ogg",
+        "sounds/intralot/mp3/ambiance_rainy.mp3",
+        "sounds/intralot/wav/ambiance_rainy.wav"
+    ]
+}, {
+    "type": "audio",
+    "key": "ambiance_snow",
+    "path": [
+        "sounds/intralot/ogg/ambiance_snowy.ogg",
+        "sounds/intralot/mp3/ambiance_snowy.mp3",
+        "sounds/intralot/wav/ambiance_snowy.wav"
+    ]
+}, {
+    "type": "audio",
+    "key": "ambiance_sun",
+    "path": [
+        "sounds/intralot/ogg/ambiance_sunny.ogg",
+        "sounds/intralot/mp3/ambiance_sunny.mp3",
+        "sounds/intralot/wav/ambiance_sunny.wav"
+    ]
+}, {
+    "type": "audio",
+    "key": "ambiance_state1",
+    "path": [
+        "sounds/intralot/ogg/ambiance_tfs_stage_1.ogg",
+        "sounds/intralot/mp3/ambiance_tfs_stage_1.mp3",
+        "sounds/intralot/wav/ambiance_tfs_stage_1.wav"
+    ]
+}, {
+    "type": "audio",
+    "key": "ambiance_state2",
+    "path": [
+        "sounds/intralot/ogg/ambiance_tfs_stage_2.ogg",
+        "sounds/intralot/mp3/ambiance_tfs_stage_2.mp3",
+        "sounds/intralot/wav/ambiance_tfs_stage_2.wav"
+    ]
+}, {
+    "type": "audio",
+    "key": "ambiance_state3",
+    "path": [
+        "sounds/intralot/ogg/ambiance_tfs_stage_3.ogg",
+        "sounds/intralot/mp3/ambiance_tfs_stage_3.mp3",
+        "sounds/intralot/wav/ambiance_tfs_stage_3.wav"
+    ]
+}, {
+    "type": "audio",
+    "key": "ambiance_state4",
+    "path": [
+        "sounds/intralot/ogg/ambiance_tfs_stage_4.ogg",
+        "sounds/intralot/mp3/ambiance_tfs_stage_4.mp3",
+        "sounds/intralot/wav/ambiance_tfs_stage_4.wav"
+    ]
+}, {
+    "type": "audio",
+    "key": "ambiance_wind",
+    "path": [
+        "sounds/intralot/ogg/ambiance_windy.ogg",
+        "sounds/intralot/mp3/ambiance_windy.mp3",
+        "sounds/intralot/wav/ambiance_windy.wav"
+    ]
+}, {
+    "type": "audio",
+    "key": "coin_count",
+    "path": [
+        "sounds/intralot/ogg/coin_count.ogg",
+        "sounds/intralot/mp3/coin_count.mp3",
+        "sounds/intralot/wav/coin_count.wav"
+    ]
+}, {
+    "type": "audio",
+    "key": "coin_count_loop",
+    "path": [
+        "sounds/intralot/ogg/coin_count_loop.ogg",
+        "sounds/intralot/mp3/coin_count_loop.mp3",
+        "sounds/intralot/wav/coin_count_loop.wav"
+    ]
+}, {
+    "type": "audio",
+    "key": "coins_count_end",
+    "path": [
+        "sounds/intralot/ogg/coins_count_end.ogg",
+        "sounds/intralot/mp3/coins_count_end.mp3",
+        "sounds/intralot/wav/coins_count_end.wav"
+    ]
+}, {
+    "type": "audio",
+    "key": "evnt_anticipation_failed",
+    "path": [
+        "sounds/intralot/ogg/evnt_anticipation_failed.ogg",
+        "sounds/intralot/mp3/evnt_anticipation_failed.mp3",
+        "sounds/intralot/wav/evnt_anticipation_failed.wav"
+    ]
+}, {
+    "type": "audio",
+    "key": "evnt_anticipation_start",
+    "path": [
+        "sounds/intralot/ogg/evnt_anticipation_stage_01.ogg",
+        "sounds/intralot/mp3/evnt_anticipation_stage_01.mp3",
+        "sounds/intralot/wav/evnt_anticipation_stage_01.wav"
+    ]
+}, {
+    "type": "audio",
+    "key": "evnt_reel_spinning_loop",
+    "path": [
+        "sounds/intralot/ogg/evnt_reel_spinning_loop.ogg",
+        "sounds/intralot/mp3/evnt_reel_spinning_loop.mp3",
+        "sounds/intralot/wav/evnt_reel_spinning_loop.wav"
+    ]
+}, {
+    "type": "audio",
+    "key": "evnt_reel_spinning_stop",
+    "path": [
+        "sounds/intralot/ogg/evnt_reel_spinning_stop.ogg",
+        "sounds/intralot/mp3/evnt_reel_spinning_stop.mp3",
+        "sounds/intralot/wav/evnt_reel_spinning_stop.wav"
+    ]
+}, {
+    "type": "audio",
+    "key": "generic_error",
+    "path": [
+        "sounds/intralot/ogg/generic_error.ogg",
+        "sounds/intralot/mp3/generic_error.mp3",
+        "sounds/intralot/wav/generic_error.wav"
+    ]
+}, {
+    "type": "audio",
+    "key": "onClick_generic",
+    "path": [
+        "sounds/intralot/ogg/onClick_generic.ogg",
+        "sounds/intralot/mp3/onClick_generic.mp3",
+        "sounds/intralot/wav/onClick_generic.wav"
+    ]
+}, {
+    "type": "audio",
+    "key": "onClick_max_bet",
+    "path": [
+        "sounds/intralot/ogg/onClick_max_bet.ogg",
+        "sounds/intralot/mp3/onClick_max_bet.mp3",
+        "sounds/intralot/wav/onClick_max_bet.wav"
+    ]
+}, {
+    "type": "audio",
+    "key": "onClick_navigate",
+    "path": [
+        "sounds/intralot/ogg/onClick_navigate.ogg",
+        "sounds/intralot/mp3/onClick_navigate.mp3",
+        "sounds/intralot/wav/onClick_navigate.wav"
+    ]
+}, {
+    "type": "audio",
+    "key": "onClick_play",
+    "path": [
+        "sounds/intralot/ogg/onClick_play.ogg",
+        "sounds/intralot/mp3/onClick_play.mp3",
+        "sounds/intralot/wav/onClick_play.wav"
+    ]
+}, {
+    "type": "audio",
+    "key": "onClick_stop",
+    "path": [
+        "sounds/intralot/ogg/onClick_stop.ogg",
+        "sounds/intralot/mp3/onClick_stop.mp3",
+        "sounds/intralot/wav/onClick_stop.wav"
+    ]
+}, {
+    "type": "audio",
+    "key": "onClick_toggle",
+    "path": [
+        "sounds/intralot/ogg/onClick_toggle.ogg",
+        "sounds/intralot/mp3/onClick_toggle.mp3",
+        "sounds/intralot/wav/onClick_toggle.wav"
+    ]
+}, {
+    "type": "audio",
+    "key": "onClick_uip_generic",
+    "path": [
+        "sounds/intralot/ogg/onClick_uip_generic.ogg",
+        "sounds/intralot/mp3/onClick_uip_generic.mp3",
+        "sounds/intralot/wav/onClick_uip_generic.wav"
+    ]
+}, {
+    "type": "audio",
+    "key": "scatter_appear_1",
+    "path": [
+        "sounds/intralot/ogg/scatter_appear_01.ogg",
+        "sounds/intralot/mp3/scatter_appear_01.mp3",
+        "sounds/intralot/wav/scatter_appear_01.wav"
+    ]
+}, {
+    "type": "audio",
+    "key": "scatter_appear_2",
+    "path": [
+        "sounds/intralot/ogg/scatter_appear_02.ogg",
+        "sounds/intralot/mp3/scatter_appear_02.mp3",
+        "sounds/intralot/wav/scatter_appear_02.wav"
+    ]
+}, {
+    "type": "audio",
+    "key": "scatter_appear_3",
+    "path": [
+        "sounds/intralot/ogg/scatter_appear_03.ogg",
+        "sounds/intralot/mp3/scatter_appear_03.mp3",
+        "sounds/intralot/wav/scatter_appear_03.wav"
+    ]
+}, {
+    "type": "audio",
+    "key": "scatter_appear_4",
+    "path": [
+        "sounds/intralot/ogg/scatter_appear_04.ogg",
+        "sounds/intralot/mp3/scatter_appear_04.mp3",
+        "sounds/intralot/wav/scatter_appear_04.wav"
+    ]
+}, {
+    "type": "audio",
+    "key": "scatter_appear_5",
+    "path": [
+        "sounds/intralot/ogg/scatter_appear_05.ogg",
+        "sounds/intralot/mp3/scatter_appear_05.mp3",
+        "sounds/intralot/wav/scatter_appear_05.wav"
+    ]
+}, {
+    "type": "audio",
+    "key": "win_big",
+    "path": [
+        "sounds/intralot/ogg/win_big_alt_end.ogg",
+        "sounds/intralot/mp3/win_big_alt_end.mp3",
+        "sounds/intralot/wav/win_big_alt_end.wav"
+    ]
+}, {
+    "type": "audio",
+    "key": "win_medium",
+    "path": [
+        "sounds/intralot/ogg/win_medium.ogg",
+        "sounds/intralot/mp3/win_medium.mp3",
+        "sounds/intralot/wav/win_medium.wav"
+    ]
+}, {
+    "type": "audio",
+    "key": "win_small",
+    "path": [
+        "sounds/intralot/ogg/win_small.ogg",
+        "sounds/intralot/mp3/win_small.mp3",
+        "sounds/intralot/wav/win_small.wav"
+    ]
+}, {
+    "type": "atlas",
+    "key": "symbols",
+    "path": "images/symbols/symbols.png",
+    "jsonpath": "images/symbols/symbols.json"
+}, {
+    "type": "atlas",
+    "key": "extras",
+    "path": "images/symbols/extras.png",
+    "jsonpath": "images/symbols/extras.json"
+}, {
+    "type": "atlas",
+    "key": "extras-0",
+    "path": "images/symbols/extras-0.png",
+    "jsonpath": "images/symbols/extras-0.json"
+}, {
+    "type": "atlas",
+    "key": "extras-1",
+    "path": "images/symbols/extras-1.png",
+    "jsonpath": "images/symbols/extras-1.json"
+}, {
+    "type": "atlas",
+    "key": "extras-2",
+    "path": "images/symbols/extras-2.png",
+    "jsonpath": "images/symbols/extras-2.json"
+}, {
+    "type": "atlas",
+    "key": "extras-3",
+    "path": "images/symbols/extras-3.png",
+    "jsonpath": "images/symbols/extras-3.json"
+}, {
+    "type": "atlas",
+    "key": "extras-4",
+    "path": "images/symbols/extras-4.png",
+    "jsonpath": "images/symbols/extras-4.json"
+}, {
+    "type": "atlas",
+    "key": "windytree",
+    "path": "images/symbols/windytree.png",
+    "jsonpath": "images/symbols/windytree.json"
+}, {
+    "type": "atlas",
+    "key": "bigwin",
+    "path": "images/symbols/bigwin.png",
+    "jsonpath": "images/symbols/bigwin.json"
+}, {
+    "type": "atlas",
+    "key": "extras2",
+    "path": "images/symbols/extras2.png",
+    "jsonpath": "images/symbols/extras2.json"
+}, {
+    "type": "atlas",
+    "key": "gui",
+    "path": "images/symbols/gui.png",
+    "jsonpath": "images/symbols/gui.json"
+}, {
+    "type": "bitmapfont",
+    "key": "pointsfont",
+    "path": "fonts/pointsfont.png",
+    "xmlpath": "fonts/pointsfont.xml"
+}, {
+    "type": "image",
+    "key": "splash",
+    "path": "images/splash2.jpg"
+}, {
+    "type": "image",
+    "key": "vcheck",
+    "path": "images/vcheck.png"
+}, {
+    "type": "image",
+    "key": "light",
+    "path": "images/light.png"
+}, {
+    "type": "image",
+    "key": "line",
+    "path": "images/down_line.png"
+}, {
+    "type": "image",
+    "key": "clouds",
+    "path": "images/clouds.png"
+}, {
+    "type": "image",
+    "key": "clouds2",
+    "path": "images/clouds2.png"
+}, {
+    "type": "image",
+    "key": "win_line",
+    "path": "images/game/win_line.png"
+}, {
+    "type": "image",
+    "key": "bg_patern",
+    "path": "images/backgroundpattern.png"
+}, {
+    "type": "image",
+    "key": "black_square",
+    "path": "images/black_square.png"
+}, {
+    "type": "image",
+    "key": "slider_chevron_left",
+    "data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADYAAABBCAMAAACtvKeWAAABy1BMVEUAAAD////////////////////////+/v7////////////////////////9/f3////////////////////////////////////////////9/f3////////////////////////+/v7////////////////////////////8/Pz////////////////////////////////+/v74+Pj////////////+/v7////////////////////////+/v79/f3+/v7////////////////////////////6+vr////////////////////////+/v7////////////////////////////9/f3////////////////////////////////////+/v7////////9/f3////////////////////////8/Pz+/v7////+/v7////////+/v7+/v77+/v////+/v7////////+/v7////////////////////////+/v7+/v7////////////////////////+/v7////////8/Pz////////////////////+/v7////+/v7////////////////+/v7///+rH4kxAAAAmHRSTlMA+gMm/vwhjv0c9/v4IKwMoiwCCSXrClboU6IyXdo9BCirJ1veBZUpRqOCDePxYMtCLqWW8Ml/p8Ix4YZ676ytps4bCJM15kGVPpJN9jv5qumNo9bXKzqpob+OjH52wDjTrr10qlB4C5DHMJyk7IdY7WWFmSOjxIeNL8U0zEcUk4jnHhC10XytN9iW2x0GiVRVWqlO30/kewleptMAAAGtSURBVHjatZdVT8RQEIWR7tICC4u7LO7u7u7u7u7u7i7n53I3gTQ80UOy8/6lX9s7d85YUXV/5+f/9HjFQTb6wIebsIBr332GUrYvLm+tZcB7a00zNBnitb7jqIO5Nrw0+1VPzS7huzyWNfol5xUE6KQfzH5FC+Rp62PMEn5qLWjxq+/x9cCvsvvbz2XC1KaTOMzNdrxlwF74MZirvqO5swkAgwm/flOrTqIw4fdu7Db7EZjwG+wd84YEClPaRxuHHGSAwUrda7tG6oQfhSnluU4VkgQKi41MyCw2+zFYuCEqIjoeAIWV+MU4xcngMOdg/6JE0b8UFmRIKktNA0BhSnZGYY4MChN+oSnpwo/CgvSVNVX5AChMmekbfpPBYZ7ui3PTDTI47GB3c3UeAIedBh7uWUs0dnJ07gDQmM+ZI/6BhR5L/8E+P2C5p/Hvxn9J/r/xp4Q/k3wHhLEdIMrGoPYb190hz0R3E3cJcXOR96RFbmV+BvATh59v/DSlZ/eLOrstmBTUXPKq5hIyBTUSKYjPXHzC4/Mkn14tkpX5ZM7vAfzWwe84/EbF729f6rFuNq6y/IkAAAAASUVORK5CYII=",
+    "path": "images/arrow-left.png"
+}, {
+    "type": "image",
+    "key": "slider_chevron_right",
+    "data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADYAAABBCAMAAACtvKeWAAABy1BMVEUAAAD////////////////////////+/v7////////////////////////9/f3////////////////////////////////////////9/f3////////////////////////////////+/v7////////////////////////8/Pz////////////+/v7////////////////+/v7////////4+Pj9/f3////////////////+/v7////////////////////////////////////////////+/v7////6+vr////////////////////////////////////////+/v7////////////9/f3////////////////////9/f3////////////////////////////+/v78/Pz+/v7////////////////////+/v7+/v7+/v7////////+/v7////////7+/v////////////////+/v7////////+/v7////+/v7////////////+/v7////////////////////////+/v78/Pz////////////////////////////+/v7////////+/v7////WsQQ8AAAAmHRSTlMA+gMm/P4hjv0c9/v4IKwMoiwCCSXrVgroojJd2lM9KAQnq1veKePxDaOVRmCnBYJChqXmG5atej4xzqxN8MsI75M1yS5/wqbhlaELkNM7kiuj146qjDp0qtY4vY3pqfZ2eL/AQVCunIf5fjDH7aSjhexYZS/FmSPEfIeNNMytFJNH29GIELXnHjfYVZaJBlQdWk9Oqd/kezy2KVEAAAGvSURBVHgBvZdFcxtBEIVX0o4yK07EDFKYmZkZojBzzMzMzOD+uZ6tssvl274++Lt/pSdpZvq1pmkTc1PJxPyshjEQn0yVpmcyTjtitXXFiKRtsLej2QC0SDuZ6J6Wukj+sWWtKUwb1Px7csFy0nrXpib01OXzdywm/U9b6J57gbQjakXbRdsIx18/U0lRTeivCj92G6Cm0F2/Xv5xBFFN8eXr57fOPbAm9A/l7yopqJlJfwaWVFJQI0Gx928+qqSQppDup8vvXhigptC/fXp0JXQd1UiI076TtwxUM5NeOnpk7wFUU+w/eOiw9xiskdznO544A2skbdfuJ7N+VFNcPXvzhDcHayQfnLt70YA1lfT2qYW8H9UUNx4+/+21wxrJ0t/KKgPWSFZU1zaGoqimaGjt7O7DNWHr6c+MKA3FPTQ8ztDIM5rmaGKsyNFodY3/afzvhv+S/P8NPyU7ciblCucGmPfNmcNvdzHrZ78l+MvFfyfxV5k/A/CJg8833jSFZ3dZzW5+U8B6yaIjCLegAt6C8M6FNzy8T+LtFe/K/GbO3wPwrYO/47A3Kt7+tg5+Hm42tatcDgAAAABJRU5ErkJggg==",
+    "path": "images/arrow-right.png"
+}, {
+    "type": "image",
+    "key": "on_x2",
+    "path": "images/symbols/x2_on.png"
+}, {
+    "type": "image",
+    "key": "on_x3",
+    "path": "images/symbols/x3_on.png"
+}, {
+    "type": "image",
+    "key": "on_x4",
+    "path": "images/symbols/x4_on.png"
+}, {
+    "type": "image",
+    "key": "on_x5",
+    "path": "images/symbols/x5_on.png"
+}, {
+    "type": "image",
+    "key": "off_x2",
+    "path": "images/symbols/x2_off.png"
+}, {
+    "type": "image",
+    "key": "off_x3",
+    "path": "images/symbols/x3_off.png"
+}, {
+    "type": "image",
+    "key": "off_x4",
+    "path": "images/symbols/x4_off.png"
+}, {
+    "type": "image",
+    "key": "off_x5",
+    "path": "images/symbols/x5_off.png"
+}, {
+    "type": "override",
+    "key": "splash",
+    "path": "splash.js"
+}, {
+    "type": "override",
+    "key": "sounds",
+    "path": "sounds.js"
+}, {
+    "type": "override",
+    "key": "controls",
+    "path": "controls.js"
+}, {
+    "type": "override",
+    "key": "theme",
+    "path": "theme.js"
+}, {
+    "type": "override",
+    "key": "demo_plays",
+    "path": "demo_plays.js"
+}, {
+    "type": "spritesheet",
+    "key": "play_button",
+    "path": "images/game/play_button.png",
+    "frame_width": 130,
+    "frame_height": 130
+}, {
+    "type": "spritesheet",
+    "key": "line_dot",
+    "path": "images/game/line_dot.png",
+    "frame_width": 40,
+    "frame_height": 40,
+    "frame_num": 2
+}, {
+    "type": "spritesheet",
+    "key": "rain",
+    "path": "images/rain.png",
+    "frame_width": 17,
+    "frame_height": 65,
+    "frame_num": 1
+}, {
+    "type": "spritesheet",
+    "key": "rain2",
+    "path": "/images/rain2.png",
+    "frame_width": 3,
+    "frame_height": 25,
+    "frame_num": 1
+}, {
+    "type": "spritesheet",
+    "key": "snowflakes",
+    "path": "images/snowflakes.png",
+    "frame_width": 17,
+    "frame_height": 17,
+    "frame_num": 5
+}, {
+    "type": "spritesheet",
+    "key": "snowflakes_large",
+    "path": "images/snowflakes_large.png",
+    "frame_width": 64,
+    "frame_height": 64,
+    "frame_num": 5
+}]

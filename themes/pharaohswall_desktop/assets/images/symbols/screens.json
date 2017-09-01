@@ -1,0 +1,196 @@
+{"frames": [
+
+{
+	"filename": "papyrus.0001.png",
+	"frame": {"x":1015,"y":871,"w":156,"h":433},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":156,"h":433},
+	"sourceSize": {"w":529,"h":433}
+},
+{
+	"filename": "papyrus.0002.png",
+	"frame": {"x":1107,"y":1306,"w":156,"h":433},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":156,"h":433},
+	"sourceSize": {"w":529,"h":433}
+},
+{
+	"filename": "papyrus.0003.png",
+	"frame": {"x":939,"y":1306,"w":166,"h":433},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":166,"h":433},
+	"sourceSize": {"w":529,"h":433}
+},
+{
+	"filename": "papyrus.0004.png",
+	"frame": {"x":763,"y":1306,"w":174,"h":433},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":174,"h":433},
+	"sourceSize": {"w":529,"h":433}
+},
+{
+	"filename": "papyrus.0005.png",
+	"frame": {"x":518,"y":1306,"w":243,"h":433},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":243,"h":433},
+	"sourceSize": {"w":529,"h":433}
+},
+{
+	"filename": "papyrus.0006.png",
+	"frame": {"x":921,"y":436,"w":320,"h":433},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":320,"h":433},
+	"sourceSize": {"w":529,"h":433}
+},
+{
+	"filename": "papyrus.0007.png",
+	"frame": {"x":525,"y":436,"w":394,"h":433},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":394,"h":433},
+	"sourceSize": {"w":529,"h":433}
+},
+{
+	"filename": "papyrus.0008.png",
+	"frame": {"x":1589,"y":1,"w":452,"h":433},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":452,"h":433},
+	"sourceSize": {"w":529,"h":433}
+},
+{
+	"filename": "papyrus.0009.png",
+	"frame": {"x":518,"y":871,"w":495,"h":433},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":495,"h":433},
+	"sourceSize": {"w":529,"h":433}
+},
+{
+	"filename": "papyrus.0010.png",
+	"frame": {"x":1,"y":436,"w":522,"h":433},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":522,"h":433},
+	"sourceSize": {"w":529,"h":433}
+},
+{
+	"filename": "papyrus.0011.png",
+	"frame": {"x":1,"y":1,"w":529,"h":433},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":529,"h":433},
+	"sourceSize": {"w":529,"h":433}
+},
+{
+	"filename": "papyrus.0012.png",
+	"frame": {"x":532,"y":1,"w":529,"h":433},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":529,"h":433},
+	"sourceSize": {"w":529,"h":433}
+},
+{
+	"filename": "papyrus.0013.png",
+	"frame": {"x":1063,"y":1,"w":524,"h":433},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":524,"h":433},
+	"sourceSize": {"w":529,"h":433}
+},
+{
+	"filename": "papyrus.0014.png",
+	"frame": {"x":1,"y":871,"w":515,"h":433},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":515,"h":433},
+	"sourceSize": {"w":529,"h":433}
+},
+{
+	"filename": "papyrus.0015.png",
+	"frame": {"x":1,"y":1306,"w":515,"h":433},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":515,"h":433},
+	"sourceSize": {"w":529,"h":433}
+},
+{
+	"filename": "papyrus.0016.png",
+	"frame": {"x":1,"y":436,"w":522,"h":433},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":522,"h":433},
+	"sourceSize": {"w":529,"h":433}
+},
+{
+	"filename": "papyrus.0017.png",
+	"frame": {"x":518,"y":871,"w":495,"h":433},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":495,"h":433},
+	"sourceSize": {"w":529,"h":433}
+},
+{
+	"filename": "papyrus.0018.png",
+	"frame": {"x":1589,"y":1,"w":452,"h":433},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":452,"h":433},
+	"sourceSize": {"w":529,"h":433}
+},
+{
+	"filename": "papyrus.0019.png",
+	"frame": {"x":525,"y":436,"w":394,"h":433},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":394,"h":433},
+	"sourceSize": {"w":529,"h":433}
+},
+{
+	"filename": "papyrus.0020.png",
+	"frame": {"x":921,"y":436,"w":320,"h":433},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":320,"h":433},
+	"sourceSize": {"w":529,"h":433}
+},
+{
+	"filename": "papyrus.0021.png",
+	"frame": {"x":518,"y":1306,"w":243,"h":433},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":243,"h":433},
+	"sourceSize": {"w":529,"h":433}
+},
+{
+	"filename": "papyrus.0022.png",
+	"frame": {"x":763,"y":1306,"w":174,"h":433},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":174,"h":433},
+	"sourceSize": {"w":529,"h":433}
+},
+{
+	"filename": "papyrus.0023.png",
+	"frame": {"x":939,"y":1306,"w":166,"h":433},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":166,"h":433},
+	"sourceSize": {"w":529,"h":433}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "screens.png",
+	"format": "RGBA8888",
+	"size": {"w":2048,"h":2048},
+	"scale": "0.5",
+	"smartupdate": "$TexturePacker:SmartUpdate:07df67f9f1583169ca7fe2aa5f1216a1:341d361a53f43692bcf804c89c6151d2:0a24621c481c1fdf345970e3ad535d37$"
+}
+}

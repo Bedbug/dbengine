@@ -1,0 +1,7 @@
+  {
+      "title": "Winchill",
+      "theme": "weather",
+      "override_intralot_config_file_with_theme_local": false,
+      "show_error_heading": false
+  }
+  

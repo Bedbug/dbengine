@@ -1,0 +1,60 @@
+{"frames": [
+
+{
+	"filename": "big-win-popup.png",
+	"frame": {"x":1,"y":1686,"w":505,"h":287},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":505,"h":287},
+	"sourceSize": {"w":505,"h":287}
+},
+{
+	"filename": "bulletEmpty.png",
+	"frame": {"x":988,"y":1,"w":15,"h":15},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":15,"h":15},
+	"sourceSize": {"w":15,"h":15}
+},
+{
+	"filename": "bulletFull.png",
+	"frame": {"x":1005,"y":1,"w":15,"h":15},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":15,"h":15},
+	"sourceSize": {"w":15,"h":15}
+},
+{
+	"filename": "First_Time_Help_Screen.png",
+	"frame": {"x":1,"y":1,"w":985,"h":639},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":153,"y":32,"w":985,"h":639},
+	"sourceSize": {"w":1280,"h":720}
+},
+{
+	"filename": "free-spin-popup.png",
+	"frame": {"x":1,"y":1281,"w":422,"h":403},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":422,"h":403},
+	"sourceSize": {"w":422,"h":403}
+},
+{
+	"filename": "Paytable_Clear.png",
+	"frame": {"x":1,"y":642,"w":983,"h":637},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":983,"h":637},
+	"sourceSize": {"w":983,"h":637}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "screens.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":2048},
+	"scale": "0.6667",
+	"smartupdate": "$TexturePacker:SmartUpdate:88242c2194af8c9c235a3c5875eee3b7:e60e7eebed3693dfd2cedd93ea3e411b:0a24621c481c1fdf345970e3ad535d37$"
+}
+}

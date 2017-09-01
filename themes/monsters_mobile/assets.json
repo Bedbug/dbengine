@@ -1,0 +1,289 @@
+[{
+        "type": "override",
+        "key": "numericInput",
+        "path": "../../assets/scripts/numericInput.js"
+    }, {
+        "type": "override",
+        "key": "responsible_gaming",
+        "path": "../../assets/scripts/responsible.js"
+    }, {
+        "type": "atlas",
+        "key": "anticipation",
+        "path": "images/symbols/anticipation.png",
+        "jsonpath": "images/symbols/anticipation.json"
+    }, {
+        "type": "atlas",
+        "key": "assets",
+        "path": "images/symbols/assets.png",
+        "jsonpath": "images/symbols/assets.json"
+    }, {
+        "type": "atlas",
+        "key": "screensmb",
+        "path": "images/symbols/screensmb.png",
+        "jsonpath": "images/symbols/screensmb.json"
+    }, {
+        "type": "atlas",
+        "key": "mobile",
+        "path": "images/symbols/mobile.png",
+        "jsonpath": "images/symbols/mobile.json"
+    }, {
+        "type": "audio",
+        "key": "music_main_loop",
+        "path": [
+            "sounds/intralot/ogg/music_main_loop.ogg",
+            "sounds/intralot/mp3/music_main_loop.mp3"
+        ]
+    }, {
+        "type": "audio",
+        "key": "evnt_free_spins_awarded",
+        "path": [
+            "sounds/intralot/ogg/evnt_free_spins_awarded.ogg",
+            "sounds/intralot/mp3/evnt_free_spins_awarded.mp3"
+        ]
+    }, {
+        "type": "audio",
+        "key": "music_free_spins_loop",
+        "path": [
+            "sounds/intralot/ogg/music_free_spins_loop.ogg",
+            "sounds/intralot/mp3/music_free_spins_loop.mp3"
+        ]
+    }, {
+        "type": "audio",
+        "key": "coin_count",
+        "path": [
+            "sounds/intralot/ogg/coin_count_single.ogg",
+            "sounds/intralot/mp3/coin_count_single.mp3"
+        ]
+    }, {
+        "type": "audio",
+        "key": "coin_count_loop",
+        "path": [
+            "sounds/intralot/ogg/coin_count_loop.ogg",
+            "sounds/intralot/mp3/coin_count_loop.mp3"
+        ]
+    }, {
+        "type": "audio",
+        "key": "coins_count_end",
+        "path": [
+            "sounds/intralot/ogg/coins_count_end.ogg",
+            "sounds/intralot/mp3/coins_count_end.mp3"
+        ]
+    }, {
+        "type": "audio",
+        "key": "evnt_anticipation_start",
+        "path": [
+            "sounds/intralot/ogg/evnt_anticipation_loop.ogg",
+            "sounds/intralot/mp3/evnt_anticipation_loop.mp3"
+        ]
+    }, {
+        "type": "audio",
+        "key": "evnt_reel_spinning_loop",
+        "path": [
+            "sounds/intralot/ogg/evnt_reel_spinning_loop.ogg",
+            "sounds/intralot/mp3/evnt_reel_spinning_loop.mp3"
+        ]
+    }, {
+        "type": "audio",
+        "key": "evnt_reel_spinning_stop",
+        "path": [
+            "sounds/intralot/ogg/evnt_reel_spinning_stop.ogg",
+            "sounds/intralot/mp3/evnt_reel_spinning_stop.mp3"
+        ]
+    }, {
+        "type": "audio",
+        "key": "generic_error",
+        "path": [
+            "sounds/intralot/ogg/generic_error.ogg",
+            "sounds/intralot/mp3/generic_error.mp3"
+        ]
+    }, {
+        "type": "audio",
+        "key": "onClick_generic",
+        "path": [
+            "sounds/intralot/ogg/onClick_generic.ogg",
+            "sounds/intralot/mp3/onClick_generic.mp3"
+        ]
+    }, {
+        "type": "audio",
+        "key": "onClick_max_bet",
+        "path": [
+            "sounds/intralot/ogg/onClick_generic.ogg",
+            "sounds/intralot/mp3/onClick_generic.mp3"
+        ]
+    }, {
+        "type": "audio",
+        "key": "onClick_navigate",
+        "path": [
+            "sounds/intralot/ogg/onClick_generic.ogg",
+            "sounds/intralot/mp3/onClick_generic.mp3"
+        ]
+    }, {
+        "type": "audio",
+        "key": "onClick_play",
+        "path": [
+            "sounds/intralot/ogg/onClick_play.ogg",
+            "sounds/intralot/mp3/onClick_play.mp3"
+        ]
+    }, {
+        "type": "audio",
+        "key": "onClick_stop",
+        "path": [
+            "sounds/intralot/ogg/onClick_stop.ogg",
+            "sounds/intralot/mp3/onClick_stop.mp3"
+        ]
+    }, {
+        "type": "audio",
+        "key": "onClick_toggle",
+        "path": [
+            "sounds/intralot/ogg/onClick_toggle.ogg",
+            "sounds/intralot/mp3/onClick_toggle.mp3"
+        ]
+    }, {
+        "type": "audio",
+        "key": "onClick_uip_generic",
+        "path": [
+            "sounds/intralot/ogg/onClick_uip_generic.ogg",
+            "sounds/intralot/mp3/onClick_uip_generic.mp3"
+        ]
+    }, {
+        "type": "audio",
+        "key": "win_big",
+        "path": [
+            "sounds/intralot/ogg/win_big.ogg",
+            "sounds/intralot/mp3/win_big.mp3"
+        ]
+    }, {
+        "type": "audio",
+        "key": "win_big_loop",
+        "path": [
+            "sounds/intralot/ogg/win_big_loop.ogg",
+            "sounds/intralot/mp3/win_big_loop.mp3"
+        ]
+    }, {
+        "type": "audio",
+        "key": "win_big_loop_end",
+        "path": [
+            "sounds/intralot/ogg/win_big_loop_end.ogg",
+            "sounds/intralot/mp3/win_big_loop_end.mp3"
+        ]
+    }, {
+        "type": "audio",
+        "key": "win_magnitude_change_impact",
+        "path": [
+            "sounds/intralot/ogg/win_magnitude_change_impact.ogg",
+            "sounds/intralot/mp3/win_magnitude_change_impact.mp3"
+        ]
+    }, {
+        "type": "audio",
+        "key": "win_medium",
+        "path": [
+            "sounds/intralot/ogg/win_medium.ogg",
+            "sounds/intralot/mp3/win_medium.mp3"
+        ]
+    }, {
+        "type": "audio",
+        "key": "win_small",
+        "path": [
+            "sounds/intralot/ogg/win_small.ogg",
+            "sounds/intralot/mp3/win_small.mp3"
+        ]
+    }, {
+        "type": "bitmapfont",
+        "key": "contrail_plain",
+        "path": "fonts/contrail_plain_0.png",
+        "xmlpath": "fonts/contrail_plain.xml"
+    }, {
+        "type": "bitmapfont",
+        "key": "contrail_small",
+        "path": "fonts/contrail_small_0.png",
+        "xmlpath": "fonts/contrail_small.xml"
+    }, {
+        "type": "bitmapfont",
+        "key": "pointfonts",
+        "path": "fonts/pointfonts_0.png",
+        "xmlpath": "fonts/pointfonts.xml"
+    },
+
+    {
+        "type": "image",
+        "key": "symbol_background_measure",
+        "path": "images/tests/symbol_background_measure.png"
+    }, {
+        "type": "image",
+        "key": "symbol_measure",
+        "path": "images/tests/symbol_measure.png"
+    },
+
+    {
+        "type": "image",
+        "key": "vcheck",
+        "path": "images/vcheck.png"
+    }, {
+        "type": "image",
+        "key": "light",
+        "path": "images/light.png"
+    }, {
+        "type": "image",
+        "key": "line",
+        "path": "images/down_line.png"
+    }, {
+        "type": "image",
+        "key": "win_line",
+        "path": "images/game/win_line.png"
+    }, {
+        "type": "image",
+        "key": "bg_patern",
+        "path": "images/backgroundpattern.png"
+    }, {
+        "type": "image",
+        "key": "black_square",
+        "path": "images/black_square.png"
+    }, {
+        "type": "image",
+        "key": "slider_chevron_left",
+        "data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADYAAABBCAMAAACtvKeWAAABy1BMVEUAAAD////////////////////////+/v7////////////////////////9/f3////////////////////////////////////////////9/f3////////////////////////+/v7////////////////////////////8/Pz////////////////////////////////+/v74+Pj////////////+/v7////////////////////////+/v79/f3+/v7////////////////////////////6+vr////////////////////////+/v7////////////////////////////9/f3////////////////////////////////////+/v7////////9/f3////////////////////////8/Pz+/v7////+/v7////////+/v7+/v77+/v////+/v7////////+/v7////////////////////////+/v7+/v7////////////////////////+/v7////////8/Pz////////////////////+/v7////+/v7////////////////+/v7///+rH4kxAAAAmHRSTlMA+gMm/vwhjv0c9/v4IKwMoiwCCSXrClboU6IyXdo9BCirJ1veBZUpRqOCDePxYMtCLqWW8Ml/p8Ix4YZ676ytps4bCJM15kGVPpJN9jv5qumNo9bXKzqpob+OjH52wDjTrr10qlB4C5DHMJyk7IdY7WWFmSOjxIeNL8U0zEcUk4jnHhC10XytN9iW2x0GiVRVWqlO30/kewleptMAAAGtSURBVHjatZdVT8RQEIWR7tICC4u7LO7u7u7u7u7u7i7n53I3gTQ80UOy8/6lX9s7d85YUXV/5+f/9HjFQTb6wIebsIBr332GUrYvLm+tZcB7a00zNBnitb7jqIO5Nrw0+1VPzS7huzyWNfol5xUE6KQfzH5FC+Rp62PMEn5qLWjxq+/x9cCvsvvbz2XC1KaTOMzNdrxlwF74MZirvqO5swkAgwm/flOrTqIw4fdu7Db7EZjwG+wd84YEClPaRxuHHGSAwUrda7tG6oQfhSnluU4VkgQKi41MyCw2+zFYuCEqIjoeAIWV+MU4xcngMOdg/6JE0b8UFmRIKktNA0BhSnZGYY4MChN+oSnpwo/CgvSVNVX5AChMmekbfpPBYZ7ui3PTDTI47GB3c3UeAIedBh7uWUs0dnJ07gDQmM+ZI/6BhR5L/8E+P2C5p/Hvxn9J/r/xp4Q/k3wHhLEdIMrGoPYb190hz0R3E3cJcXOR96RFbmV+BvATh59v/DSlZ/eLOrstmBTUXPKq5hIyBTUSKYjPXHzC4/Mkn14tkpX5ZM7vAfzWwe84/EbF729f6rFuNq6y/IkAAAAASUVORK5CYII=",
+        "path": "images/arrow-left.png"
+    }, {
+        "type": "image",
+        "key": "slider_chevron_right",
+        "data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADYAAABBCAMAAACtvKeWAAABy1BMVEUAAAD////////////////////////+/v7////////////////////////9/f3////////////////////////////////////////9/f3////////////////////////////////+/v7////////////////////////8/Pz////////////+/v7////////////////+/v7////////4+Pj9/f3////////////////+/v7////////////////////////////////////////////+/v7////6+vr////////////////////////////////////////+/v7////////////9/f3////////////////////9/f3////////////////////////////+/v78/Pz+/v7////////////////////+/v7+/v7+/v7////////+/v7////////7+/v////////////////+/v7////////+/v7////+/v7////////////+/v7////////////////////////+/v78/Pz////////////////////////////+/v7////////+/v7////WsQQ8AAAAmHRSTlMA+gMm/P4hjv0c9/v4IKwMoiwCCSXrVgroojJd2lM9KAQnq1veKePxDaOVRmCnBYJChqXmG5atej4xzqxN8MsI75M1yS5/wqbhlaELkNM7kiuj146qjDp0qtY4vY3pqfZ2eL/AQVCunIf5fjDH7aSjhexYZS/FmSPEfIeNNMytFJNH29GIELXnHjfYVZaJBlQdWk9Oqd/kezy2KVEAAAGvSURBVHgBvZdFcxtBEIVX0o4yK07EDFKYmZkZojBzzMzMzOD+uZ6tssvl274++Lt/pSdpZvq1pmkTc1PJxPyshjEQn0yVpmcyTjtitXXFiKRtsLej2QC0SDuZ6J6Wukj+sWWtKUwb1Px7csFy0nrXpib01OXzdywm/U9b6J57gbQjakXbRdsIx18/U0lRTeivCj92G6Cm0F2/Xv5xBFFN8eXr57fOPbAm9A/l7yopqJlJfwaWVFJQI0Gx928+qqSQppDup8vvXhigptC/fXp0JXQd1UiI076TtwxUM5NeOnpk7wFUU+w/eOiw9xiskdznO544A2skbdfuJ7N+VFNcPXvzhDcHayQfnLt70YA1lfT2qYW8H9UUNx4+/+21wxrJ0t/KKgPWSFZU1zaGoqimaGjt7O7DNWHr6c+MKA3FPTQ8ztDIM5rmaGKsyNFodY3/afzvhv+S/P8NPyU7ciblCucGmPfNmcNvdzHrZ78l+MvFfyfxV5k/A/CJg8833jSFZ3dZzW5+U8B6yaIjCLegAt6C8M6FNzy8T+LtFe/K/GbO3wPwrYO/47A3Kt7+tg5+Hm42tatcDgAAAABJRU5ErkJggg==",
+        "path": "images/arrow-right.png"
+    }, {
+        "type": "override",
+        "key": "sounds",
+        "path": "sounds.js"
+    }, {
+        "type": "override",
+        "key": "controls",
+        "path": "controls.js"
+    }, {
+        "type": "override",
+        "key": "theme",
+        "path": "theme.js"
+    }, {
+        "type": "override",
+        "key": "slot",
+        "path": "theme_overrides/slot.js"
+    }, {
+        "type": "override",
+        "key": "reel",
+        "path": "theme_overrides/reel.js"
+    }, {
+        "type": "override",
+        "key": "splash",
+        "path": "splash.js"
+    }, {
+        "type": "override",
+        "key": "demo_plays",
+        "path": "demo_plays.js"
+    },
+
+    {
+        "type": "spritesheet",
+        "key": "line_dot",
+        "path": "images/game/line_dot.png",
+        "frame_width": 40,
+        "frame_height": 40,
+        "frame_num": 2
+    }
+]

@@ -1,0 +1,172 @@
+{"frames": [
+
+{
+	"filename": "Tree_wind0000.png",
+	"frame": {"x":1037,"y":690,"w":342,"h":343},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":58,"y":0,"w":342,"h":343},
+	"sourceSize": {"w":400,"h":343}
+},
+{
+	"filename": "Tree_wind0001.png",
+	"frame": {"x":1040,"y":1,"w":342,"h":342},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":58,"y":1,"w":342,"h":342},
+	"sourceSize": {"w":400,"h":343}
+},
+{
+	"filename": "Tree_wind0002.png",
+	"frame": {"x":1384,"y":1,"w":341,"h":342},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":59,"y":1,"w":341,"h":342},
+	"sourceSize": {"w":400,"h":343}
+},
+{
+	"filename": "Tree_wind0003.png",
+	"frame": {"x":1381,"y":690,"w":342,"h":342},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":58,"y":1,"w":342,"h":342},
+	"sourceSize": {"w":400,"h":343}
+},
+{
+	"filename": "Tree_wind0004.png",
+	"frame": {"x":1,"y":1,"w":346,"h":342},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":54,"y":1,"w":346,"h":342},
+	"sourceSize": {"w":400,"h":343}
+},
+{
+	"filename": "Tree_wind0005.png",
+	"frame": {"x":1038,"y":345,"w":342,"h":343},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":58,"y":0,"w":342,"h":343},
+	"sourceSize": {"w":400,"h":343}
+},
+{
+	"filename": "Tree_wind0006.png",
+	"frame": {"x":1,"y":345,"w":344,"h":343},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":56,"y":0,"w":344,"h":343},
+	"sourceSize": {"w":400,"h":343}
+},
+{
+	"filename": "Tree_wind0007.png",
+	"frame": {"x":347,"y":690,"w":343,"h":343},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":57,"y":0,"w":343,"h":343},
+	"sourceSize": {"w":400,"h":343}
+},
+{
+	"filename": "Tree_wind0008.png",
+	"frame": {"x":347,"y":1035,"w":343,"h":343},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":57,"y":0,"w":343,"h":343},
+	"sourceSize": {"w":400,"h":343}
+},
+{
+	"filename": "Tree_wind0009.png",
+	"frame": {"x":692,"y":690,"w":343,"h":343},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":57,"y":0,"w":343,"h":343},
+	"sourceSize": {"w":400,"h":343}
+},
+{
+	"filename": "Tree_wind0010.png",
+	"frame": {"x":349,"y":1,"w":344,"h":342},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":56,"y":1,"w":344,"h":342},
+	"sourceSize": {"w":400,"h":343}
+},
+{
+	"filename": "Tree_wind0011.png",
+	"frame": {"x":693,"y":345,"w":343,"h":343},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":57,"y":0,"w":343,"h":343},
+	"sourceSize": {"w":400,"h":343}
+},
+{
+	"filename": "Tree_wind0012.png",
+	"frame": {"x":1,"y":690,"w":344,"h":343},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":56,"y":0,"w":344,"h":343},
+	"sourceSize": {"w":400,"h":343}
+},
+{
+	"filename": "Tree_wind0013.png",
+	"frame": {"x":692,"y":1035,"w":343,"h":343},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":57,"y":0,"w":343,"h":343},
+	"sourceSize": {"w":400,"h":343}
+},
+{
+	"filename": "Tree_wind0014.png",
+	"frame": {"x":1,"y":1035,"w":344,"h":343},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":56,"y":0,"w":344,"h":343},
+	"sourceSize": {"w":400,"h":343}
+},
+{
+	"filename": "Tree_wind0015.png",
+	"frame": {"x":347,"y":345,"w":344,"h":343},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":56,"y":0,"w":344,"h":343},
+	"sourceSize": {"w":400,"h":343}
+},
+{
+	"filename": "Tree_wind0016.png",
+	"frame": {"x":1037,"y":1035,"w":342,"h":343},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":58,"y":0,"w":342,"h":343},
+	"sourceSize": {"w":400,"h":343}
+},
+{
+	"filename": "Tree_wind0017.png",
+	"frame": {"x":695,"y":1,"w":343,"h":342},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":57,"y":1,"w":343,"h":342},
+	"sourceSize": {"w":400,"h":343}
+},
+{
+	"filename": "Tree_wind0018.png",
+	"frame": {"x":1382,"y":345,"w":342,"h":342},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":58,"y":1,"w":342,"h":342},
+	"sourceSize": {"w":400,"h":343}
+},
+{
+	"filename": "Tree_wind0019.png",
+	"frame": {"x":1381,"y":1034,"w":342,"h":342},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":58,"y":1,"w":342,"h":342},
+	"sourceSize": {"w":400,"h":343}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "windytree.png",
+	"format": "RGBA8888",
+	"size": {"w":1726,"h":1379},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:1fc78b06513698a7733fedf051986e7f:110fb6ba01b927956a541955a367acb3:802f517e7786c3fd7ce210bbdcf47baf$"
+}
+}

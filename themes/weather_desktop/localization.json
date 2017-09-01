@@ -1,0 +1,177 @@
+  {
+     "TXT_BALANCE_LABEL": {
+          "en-GB": "BALANCE"
+      },
+      "total_bet": {
+          "en-GB": "TOTAL BET"
+      },
+       "total_win": {
+          "en-GB": "TOTAL WIN"
+      },
+      "home": {
+          "en-GB": "HOME"
+      },
+      "TXT_WIN_LABEL": {
+          "en-GB": "WIN"
+      },
+      "bet_level": {
+          "en-GB": "BET LEVEL"
+      },
+      "bet": {
+          "en-GB": "BET"
+      },
+      "auto":{
+        "en-GB":"Auto"
+      },
+      "auto_play": {
+          "en-GB": "AUTO PLAY"
+      },
+      "stop": {
+          "en-GB": "STOP"
+      },
+      "auto_play_vertical": {
+          "en-GB": "A\nU\nT\nO\nP\nL\nA\nY"
+      },
+       "auto_play_stop_vertical": {
+          "en-GB": "S\nT\nO\nP"
+      },
+      
+        "TXT_AUTOPLAY_STOP_ANY": {
+          "en-GB": "Stop on any win."
+      },
+      
+       "TXT_AUTOPLAY_STOP_WIN_AMOUNT": {
+          "en-GB": "Stop on win amount:"
+      },
+      
+        "TXT_AUTOPLAY_STOP_WIN_CASH": {
+          "en-GB": "Stop on cash amount:"
+      },
+      
+       "TXT_AUTOPLAY_STOP_TIME": {
+          "en-GB": "Stop on time:"
+      },
+      
+        "TXT_AUTOPLAY_STOP_LOSE": {
+          "en-GB": "Stop on lose amount:"
+      },
+      
+        "TXT_GAMEPLAY_SETTINGS_LABEL": {
+          "en-GB": "Gameplay Settings"
+      },
+      
+        "TXT_SOUND_SETTINGS_LABEL": {
+          "en-GB": "Sound Settings"
+      },
+      
+       "TXT_FAST_SPINS_TOGGLE": {
+          "en-GB": "Enable Fast Spins"
+      },
+      
+        "TXT_SOUND_EFFECTS_TOGGLE": {
+          "en-GB": "Enable Sound Effects"
+      },
+      
+       "TXT_SOUND_AMBIANCE_TOGGLE": {
+          "en-GB": "Enable Ambiance"
+      },
+      
+        "responsible_options": {
+          "en-GB": "Responsible Play Options"
+      },
+      
+        "time_per_session": {
+          "en-GB": "Set max time per session"
+      },
+      
+        "reality_message_interval": {
+          "en-GB": "Set Reality Check message interval"
+      },
+        "txt_msg_responsible_reality_check_title": {
+          "en-GB": "Reality Check Message!"
+      },
+      
+      "official_welcome": {
+          "en-GB": "Official Welcome!"
+      },
+      
+      "ok": {
+          "en-GB": "OK"
+      },
+      
+      "continue": {
+          "en-GB": "Continue"
+      },
+      
+      "paytable": {
+          "en-GB": "PAYTABLE"
+      },
+      "max_bet": {
+          "en-GB": "MAX BET"
+      },
+       "bet_in_cash": {
+          "en-GB": "Bet in Cash"
+      },
+       "TXT_TOTAL_BET_LABEL": {
+          "en-GB": "Bet in Coins"
+      },
+       "TXT_HELP_LABEL": {
+          "en-GB": "Game Rules"
+      },
+      "coins": {
+          "en-GB": "COINS"
+      },
+      "coin_value": {
+          "en-GB": "COIN VALUE"
+      },
+      "paytable_betlines_heading": {
+          "en-GB": "WINNING BET LINES"
+      },
+      "paytable_bonus_heading": {
+          "en-GB": "BONUS GAME"
+      },
+      "bonus_stage": {
+          "en-GB": "STAGE "
+      },
+      "paytable_symbols_payout_heading": {
+          "en-GB": "SYMBOLS PAYOUT"
+      },
+      "TXT_PAYTABLE_PAGE_01_INFO_02": {
+          "en-GB": "Free Spins"
+      },
+      "free_spins_left": {
+          "en-GB": "Free Spins Left"
+      },
+      "medium_win_text": {
+          "en-GB": "MEDIUM WIN "
+      },
+      "small_win_text": {
+          "en-GB": "WIN"
+      },
+      
+      "TXT_PAYTABLE_PAGE_01_INFO_01": {
+          "en-GB": "Wild symbols can appear on reels 2, 3, 4 and 5.\nWild symbols contributing to a winning line, double the prize!"
+      },
+      "TXT_PAYTABLE_PAGE_01_INFO_03": {
+          "en-GB": "Scatter Symbol combinations, pay when appear anywhere on the board."
+      },
+      "thunderstorm_paytable_heading_text": {
+          "en-GB": "THUNDERSTORM FREE SPINS"
+      },
+      "thunderstorm_paytable_info_text": {
+          "en-GB": "Thunderstorm Free Spins are awarded when 3, 4 or 5 Scatter symbols appear anywhere on the board.\n\nThunderstorm Free Spins have 4 stages.\nStage 1 is initiated from the main game.\nEach additional stage is initiated from the previous.\nEach Stage has a different multiplier:\nStage 1 :x2\nStage 2 :x3\nStage 3 :x4\nStage 4 : x5\n\nWhen Stage 5 is achieved, additional scatter wins will oniy trigger 5 Stage 4 Free spins regardless of the number of scatters appeared."
+      },
+      "TXT_PAYTABLE_GENERAL_INFO": {
+          "en-GB": "Wins are calculated starting on the leftmost reel to the rightmost reel. Winning coins are based on bet level 1. Additional levels multiply the winnings. Only the highest win is paid per bet line. Additional information can be found in the Game Rules. Malfunction voids all pays and plays."
+      },
+       "thunder_title": {
+          "en-GB": "Thunderstorm Free Spins"
+      },
+       "freespins_intro": {
+          "en-GB": "3 or more Scatter Symbols initiate the Thunderstorm Free Spins. \n\n Thunderstorm Free Spins have 4 stages. \n\n Each stage has a different multiplier, starting from x2 and up to x5 \n\nAdditional Scatter Wins during a Thunderstorm Free Spins round\n will award Free Spins of the next stage."
+      }
+      ,
+       "show_again": {
+          "en-GB": "Do not show this again"
+      }
+  }

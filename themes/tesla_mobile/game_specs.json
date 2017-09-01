@@ -1,0 +1,885 @@
+{
+  "title": "Tesla Coins",
+  "theme": "tesla",
+  "version": "1.0.1.0",
+  "config": {
+    "bet_lines": 25,
+    "timmings": {
+      "reel_each_spin_delay": 100,
+      "reel_spin_duration": 2000,
+      "reel_fast_spin_duration": 1000,
+      "reel_time_space": 100,
+      "reel_fast_spin_time_space": 100,
+      "symbol_stagger_start_delay": 100,
+      "symbol_stagger_end_delay": 50,
+      "anticipation_time": 3000,
+      "fast_spin_anticipation_time": 1000,
+      "reel_finish_wait_time": 600
+    },
+    "bonus_game": {
+      "spin_space_delay": 1000,
+      "end_delay": 2000
+    }
+  },
+  "grid": {
+    "use_mask": false,
+    "columns": 5,
+    "rows": 3,
+    "x": 135,
+    "y": 70
+  },
+  "reels": {
+    "spacing": {
+      "x": 1,
+      "y": -10
+    },
+    "slots_adjustments": [
+      [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      [
+        [
+          2,
+          2
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      [
+        [
+          2,
+          2
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          -4,
+          0
+        ]
+      ],
+      [
+        [
+          4,
+          2
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          -3,
+          0
+        ]
+      ]
+    ]
+  },
+  "slots": {
+    "symbols_count": 1,
+    "width": 200,
+    "height": 200,
+    "concated": true,
+    "scatterSymbolID": ""
+  },
+  "logo": {
+    "x": 670,
+    "y": 35,
+    "width": 600,
+    "height": 50
+  },
+  "infobox": {
+    "visible": true,
+    "x": 150,
+    "y": 610,
+    "width": 900,
+    "height": 25,
+    "rounded": 6,
+    "style": {
+      "font": "20px ArialRound",
+      "fill": "white",
+      "alpha": 1,
+      "gradient": false,
+      "rampColor1": "white",
+      "rampColor2": "white"
+    }
+  },
+  "messages": {
+    "style": {
+      "normal": {
+        "bgColor": "0x11242c",
+        "fill": "0xffffff",
+        "headingBgColor": "0xffffff",
+        "headingFill": "#3456A5",
+        "lineColor": "0xe4f1ff",
+        "shadow": true,
+        "bevel": true,
+        "alpha": 0.5,
+        "gradient": true,
+        "rampColor1": "0x3456A5",
+        "rampColor2": "0xffffff"
+      },
+      "error": {
+        "bgColor": "0x000000",
+        "fill": "0xffffff",
+        "headingBgColor": "0xff0000",
+        "headingFill": "#FFF",
+        "lineColor": "0xff0000"
+      }
+    }
+  },
+  "dot_constants": {
+    "start": 242,
+    "end": 1040,
+    "start_stagger": -1.2,
+    "end_stagger": 1.3
+  },
+  "lines": [
+    {
+      "id": "line02",
+      "winlineid": "",
+      "localized_label": {
+        "en": "line"
+      },
+      "side_index": 0,
+      "name": 2,
+      "dots": {
+        "start": [
+          "start",
+          140
+        ],
+        "end": null,
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line05",
+      "localized_label": {
+        "en": "line"
+      },
+      "side_index": 1,
+      "name": 5,
+      "dots": {
+        "start": [
+          "start",
+          170
+        ],
+        "end": null,
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        0,
+        1,
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line08",
+      "localized_label": {
+        "en": "line"
+      },
+      "side_index": 2,
+      "name": 8,
+      "dots": {
+        "start": [
+          "start",
+          200
+        ],
+        "end": null,
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        0,
+        2,
+        1,
+        0,
+        2
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line11",
+      "localized_label": {
+        "en": "line"
+      },
+      "side_index": 3,
+      "name": 11,
+      "dots": {
+        "start": [
+          "start",
+          230
+        ],
+        "end": null,
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        0,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line14",
+      "localized_label": {
+        "en": "line"
+      },
+      "side_index": 4,
+      "name": 14,
+      "dots": {
+        "start": [
+          "start",
+          260
+        ],
+        "end": null,
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        0,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line01",
+      "localized_label": {
+        "en": "line"
+      },
+      "side_index": 5,
+      "name": 1,
+      "dots": {
+        "start": [
+          "start",
+          300
+        ],
+        "end": null,
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line04",
+      "localized_label": {
+        "en": "line"
+      },
+      "name": 4,
+      "side_index": 6,
+      "dots": {
+        "start": [
+          "start",
+          330
+        ],
+        "end": null,
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        1,
+        2,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line07",
+      "localized_label": {
+        "en": "line"
+      },
+      "name": 7,
+      "side_index": 7,
+      "dots": {
+        "start": [
+          "start",
+          360
+        ],
+        "end": null,
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        1,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line13",
+      "localized_label": {
+        "en": "line"
+      },
+      "side_index": 8,
+      "name": 13,
+      "dots": {
+        "start": [
+          "start",
+          390
+        ],
+        "end": null,
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        1,
+        2,
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line03",
+      "localized_label": {
+        "en": "line"
+      },
+      "side_index": 9,
+      "name": 3,
+      "dots": {
+        "start": [
+          "start",
+          440
+        ],
+        "end": null,
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line06",
+      "localized_label": {
+        "en": "line"
+      },
+      "side_index": 10,
+      "name": 6,
+      "dots": {
+        "start": [
+          "start",
+          470
+        ],
+        "end": null,
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        2,
+        1,
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line09",
+      "localized_label": {
+        "en": "line"
+      },
+      "side_index": 11,
+      "name": 9,
+      "dots": {
+        "start": [
+          "start",
+          500
+        ],
+        "end": null,
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        2,
+        0,
+        1,
+        0,
+        2
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line12",
+      "localized_label": {
+        "en": "line"
+      },
+      "side_index": 12,
+      "name": 12,
+      "dots": {
+        "sprite_sheet": "uri_to_spriteshet",
+        "start": [
+          "start",
+          530
+        ],
+        "end": null
+      },
+      "slots": [
+        2,
+        1,
+        2,
+        1,
+        2
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line17",
+      "localized_label": {
+        "en": "line"
+      },
+      "side_index": 0,
+      "name": 17,
+      "dots": {
+        "start": null,
+        "end": [
+          "end",
+          150
+        ],
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        0,
+        2,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line20",
+      "localized_label": {
+        "en": "line"
+      },
+      "side_index": 1,
+      "name": 20,
+      "dots": {
+        "start": null,
+        "end": [
+          "end",
+          180
+        ],
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        0,
+        2,
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line24",
+      "localized_label": {
+        "en": "line"
+      },
+      "side_index": 2,
+      "name": 24,
+      "dots": {
+        "start": null,
+        "end": [
+          "end",
+          210
+        ],
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        2,
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line25",
+      "localized_label": {
+        "en": "line"
+      },
+      "side_index": 3,
+      "name": 25,
+      "dots": {
+        "start": null,
+        "end": [
+          "end",
+          240
+        ],
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        1,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line10",
+      "localized_label": {
+        "en": "line"
+      },
+      "name": 10,
+      "side_index": 4,
+      "dots": {
+        "sprite_sheet": "uri_to_spriteshet",
+        "start": null,
+        "end": [
+          "end",
+          290
+        ]
+      },
+      "slots": [
+        1,
+        0,
+        1,
+        2,
+        1
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line16",
+      "localized_label": {
+        "en": "line"
+      },
+      "side_index": 5,
+      "name": 16,
+      "dots": {
+        "start": null,
+        "end": [
+          "end",
+          320
+        ],
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        1,
+        0,
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line19",
+      "localized_label": {
+        "en": "line"
+      },
+      "name": 19,
+      "side_index": 6,
+      "dots": {
+        "start": null,
+        "end": [
+          "end",
+          350
+        ],
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        1,
+        2,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line21",
+      "localized_label": {
+        "en": "line"
+      },
+      "side_index": 7,
+      "name": 21,
+      "dots": {
+        "start": null,
+        "end": [
+          "end",
+          380
+        ],
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        2,
+        0,
+        1,
+        2,
+        1
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line15",
+      "localized_label": {
+        "en": "line"
+      },
+      "side_index": 8,
+      "name": 15,
+      "dots": {
+        "start": null,
+        "end": [
+          "end",
+          440
+        ],
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        2,
+        1,
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line18",
+      "localized_label": {
+        "en": "line"
+      },
+      "side_index": 10,
+      "name": 18,
+      "dots": {
+        "start": null,
+        "end": [
+          "end",
+          500
+        ],
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        2,
+        0,
+        2,
+        0,
+        2
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line22",
+      "localized_label": {
+        "en": "line"
+      },
+      "side_index": 9,
+      "name": 22,
+      "dots": {
+        "start": null,
+        "end": [
+          "end",
+          470
+        ],
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        1,
+        1,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line23",
+      "localized_label": {
+        "en": "line"
+      },
+      "side_index": 11,
+      "name": 23,
+      "dots": {
+        "start": null,
+        "end": [
+          "end",
+          530
+        ],
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        0,
+        0,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "test_symbols": [
+    {
+      "SymbolID": "969BA2F3-F659-4B46-B44F-9DBD36F30794",
+      "SymbolName": "H1",
+      "SymbolType": "0",
+      "SymbolURL": "",
+      "SymbolMultiplier": "1",
+      "SymbolHintURL": "",
+      "CData": null
+    },
+    {
+      "SymbolID": "0E73B235-D4D2-4653-8ABB-A063E61C9151",
+      "SymbolName": "H2",
+      "SymbolType": "0",
+      "SymbolURL": "",
+      "SymbolMultiplier": "1",
+      "SymbolHintURL": "",
+      "CData": null
+    },
+    {
+      "SymbolID": "A998952E-AB3D-4A46-8628-6F70EFBB832A",
+      "SymbolName": "L1",
+      "SymbolType": "0",
+      "SymbolURL": "",
+      "SymbolMultiplier": "1",
+      "SymbolHintURL": "",
+      "CData": null
+    },
+    {
+      "SymbolID": "CC65C5A8-4668-45B0-A823-B51596811EE9",
+      "SymbolName": "L2",
+      "SymbolType": "0",
+      "SymbolURL": "",
+      "SymbolMultiplier": "1",
+      "SymbolHintURL": "",
+      "CData": null
+    },
+    {
+      "SymbolID": "3EE018AF-11C1-42D0-B6A7-5C8E85258B33",
+      "SymbolName": "L3",
+      "SymbolType": "0",
+      "SymbolURL": "",
+      "SymbolMultiplier": "1",
+      "SymbolHintURL": "",
+      "CData": null
+    },
+    {
+      "SymbolID": "3D8EC913-6A73-457C-A715-1FD8D36BF5D8",
+      "SymbolName": "L4",
+      "SymbolType": "0",
+      "SymbolURL": "",
+      "SymbolMultiplier": "1",
+      "SymbolHintURL": "",
+      "CData": null
+    },
+    {
+      "SymbolID": "7A132125-E78F-432B-BA99-6080997029BE",
+      "SymbolName": "L5",
+      "SymbolType": "0",
+      "SymbolURL": "",
+      "SymbolMultiplier": "1",
+      "SymbolHintURL": "",
+      "CData": null
+    },
+    {
+      "SymbolID": "D5A2BAC5-DD89-43B9-9F3A-C02BBA7DDCBC",
+      "SymbolName": "M1",
+      "SymbolType": "0",
+      "SymbolURL": "",
+      "SymbolMultiplier": "1",
+      "SymbolHintURL": "",
+      "CData": null
+    },
+    {
+      "SymbolID": "582B66FF-A2E5-4269-8EF5-84344A1430C6",
+      "SymbolName": "M2",
+      "SymbolType": "0",
+      "SymbolURL": "",
+      "SymbolMultiplier": "1",
+      "SymbolHintURL": "",
+      "CData": null
+    },
+    {
+      "SymbolID": "BC53FEFA-98F1-45BA-85F4-DE904BB9A70C",
+      "SymbolName": "M3",
+      "SymbolType": "0",
+      "SymbolURL": "",
+      "SymbolMultiplier": "1",
+      "SymbolHintURL": "",
+      "CData": null
+    },
+    {
+      "SymbolID": "9BC1EFB1-9F03-4148-8687-79ADD7A54B69",
+      "SymbolName": "SCATTER",
+      "SymbolType": "1",
+      "SymbolURL": "",
+      "SymbolMultiplier": "1",
+      "SymbolHintURL": "",
+      "CData": null
+    },
+    {
+      "SymbolID": "6C1A1314-0929-49A5-9173-24CD39388412",
+      "SymbolName": "WILD",
+      "SymbolType": "2",
+      "SymbolURL": "",
+      "SymbolMultiplier": "1",
+      "SymbolHintURL": "",
+      "CData": null
+    }
+  ],
+  "rumblings": [
+    "Wow! Look at those effects!",
+    "Risk big, win big, my grandma used to say.",
+    "If you like sparkles, this is you game."
+  ]
+}

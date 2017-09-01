@@ -1,0 +1,372 @@
+<!doctype html>
+<!--<html manifest="./cache_manifest.cfm">-->
+<html>
+
+
+<head>
+	<title id="game_title"></title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="chrome=1, IE=9">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="HandheldFriendly" content="true" />
+	<meta name="robots" content="noindex,nofollow" />
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<meta name="apple-mobile-web-app-title" content="WinChill">
+	<meta xmlns="http://www.w3.org/1999/xhtml" name="viewport" content="width=device-width,height = device-height, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no, minimal-ui" />
+	<meta name="HandheldFriendly" content="true" />
+	<!--<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui" />-->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+
+	<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+	<!-- non-retina iPhone pre iOS 7 -->
+	<link rel="apple-touch-icon" sizes="57x57" href="icons/app_icon_57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="icons/app_icon_60x60.png">
+	<!-- non-retina iPad pre iOS 7 -->
+	<link rel="apple-touch-icon" sizes="72x72" href="icons/app_icon_72x72.png">
+	<!-- non-retina iPad iOS 7 -->
+	<link rel="apple-touch-icon" sizes="76x76" href="icons/app_icon_76x76.png">
+	<!-- retina iPhone pre iOS 7 -->
+	<link rel="apple-touch-icon" sizes="114x114" href="icons/app_icon_114x114.png">
+	<!-- retina iPhone iOS 7 -->
+	<link rel="apple-touch-icon" sizes="120x120" href="icons/app_icon_120x120.png">
+	<!-- retina iPad pre iOS 7 -->
+	<link rel="apple-touch-icon" sizes="144x144" href="icons/app_icon_144x144.png">
+	<!-- retina iPad iOS 7 -->
+	<link rel="apple-touch-icon" sizes="152x152" href="icons/app_icon_152x152.png">
+	<link rel="apple-touch-icon" sizes="256x256" href="icons/app_icon_256x256.png">
+	<link rel="apple-touch-icon" sizes="512x512" href="icons/app_icon_512x512.png">
+	<link rel="apple-touch-icon" sizes="1024x1024" href="icons/app_icon_1024x1024.png">
+	<link rel="stylesheet" href="css/styles.css" type="text/css" charset="utf-8" />
+
+	<link rel="manifest" href="manifest.json">
+
+	<!-- JqueryUIMobile -->
+	<link rel="stylesheet" href="css/jquery.mobile-1.4.5.css">
+	<link rel="stylesheet" href="css/intralot-theme.css">
+
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+
+
+	<script src='lib/brim.js'></script>
+	<script src='lib/scream.js'></script>
+	<script src='lib/platform.js'></script>
+	<script src="lib/lodash.min.js"></script>
+	<script src='lib/EventEmitter.js'></script>
+	<script src="lib/jquery-3.1.0.min.js"></script>
+	<script src="lib/jquery-ui.js"></script>
+
+
+	<!-- An Array of tests for the Demo Play Mode -->
+	<!--<script src="assets/data/demo_plays.js"></script>-->
+
+	<!--Lobby Proxy-->
+	<script src="LobbyProxy.js"></script>
+
+	<!-- build:engine -->
+	<!--Framework Classes -->
+	<script src="js/engine/phaser.js"></script>
+	<!--<script src="js/phaser-spine.js"></script>-->
+	<script src="js/screenfull.js"></script>
+	<script src="js/phaser-input.js"></script>
+	<script src="js/slick-ui.min.js"></script>
+	<script src="js/phaser-nineslice.js"></script>
+	<script src="js/phase-slider.js"></script>
+	<script src="js/UnifiedPanel.js"></script>
+	<script src="js/BedbugTools.js"></script>
+	<script src="js/prefabs/CustomButton.js"></script>
+	<script src="js/prefabs/BitmapButton.js"></script>
+	<script src="js/prefabs/CustomLabel.js"></script>
+	<script src="js/prefabs/Stepper.js"></script>
+	<script src="js/prefabs/StepperSmall.js"></script>
+	<script src="js/prefabs/ValueBox.js"></script>
+	<script src="js/prefabs/CheckBox.js"></script>
+	<script src="js/prefabs/CheckBoxSmall.js"></script>
+	<script src="js/prefabs/WinningLineMap.js"></script>
+	<script src="js/classes/BBReel.js"></script>
+	<script src="js/classes/BBSlot.js"></script>
+	<script src="js/IntralotServer.js"></script>
+	<script src="js/DemoServer.js"></script>
+	<script src="js/parsers/intralot.js"></script>
+	<!--Bedbug Framework -->
+	<script src="js/bgf/bgf.js"></script>
+	<script src="js/bgf/bgf0.js"></script>
+	<script src="js/bgf/bgf1.js"></script>
+	<script src="js/bgf/bgf2.js"></script>
+	<script src="js/bgf/bgf3.js"></script>
+	<!-- endbuild -->
+
+
+	<!--<script src="bundles/engine-bundle.js"></script>-->
+	<!--<script src="bundles/tools-bundle.js"></script>-->
+	<!--<script src="bundles/prefabs-bundle.js"></script>-->
+	<!--<script src="bundles/classes-bundle.js"></script>-->
+	<!--<script src="bundles/bgf-bundle.js"></script>-->
+	<!--<script src="js/compiled-bundle.js"></script>-->
+	<!--<script src="js/compiled-bundle.min.js"></script>-->
+
+</head>
+
+<body>
+	<!--<div class="wrong-orientation" id="wrong-orientation"><img src="./assets/images/rotatePhone.png"></div>-->
+
+	<!--<div id="brim-main">-->
+	<!--	<div id="game-mobile" class="game-container"></div>-->
+	<!--</div>-->
+
+	
+	<div id="viewport">
+		<div id="game" class="game-container"></div>
+		<!--<div id="canvas-overlay" style="z-index:899;position:fixed"></div>-->
+	</div>
+	 <div class="scrollup"></div>
+	 <div class="scrollupimage" style="text-align:center; visibility: hidden"></div>
+
+	<!--<div id="preload" style="display:none">-->
+	<!--	<img src="./assets/images/unified_panel/volume-empty.png">-->
+	<!--	<img src="./assets/images/unified_panel/volume-full.png">-->
+	<!--	<img src="./assets/images/unified_panel/volume-knob.png">-->
+	<!--	<img src="./assets/images/unified_panel/glyphicons-183-mute.png">-->
+	<!--	<img src="./assets/images/unified_panel/glyphicons-184-volume-down.png">-->
+	<!--	<img src="./assets/images/unified_panel/glyphicons-185-volume-up.png">-->
+	<!--</div>-->
+
+
+
+
+
+
+	<script type="text/javascript">
+		var domElement;
+		(function() {
+
+			var scream;
+			var brim;
+			// var checkAgainst = ;
+			// console.log("Initial check [window.screen.width]:"+ window.innerWidth);
+			// console.log("Initial check [window.innerHeight]:"+ window.innerHeight);
+			function startScreaming() {
+
+				$(function() {
+					if (!screenfull.enabled) {
+						return false;
+					}
+
+					document.querySelector('#game').addEventListener('click', function() {
+
+						if (screenfull.enabled) {
+							if (!bedbugGameCore.game.device.desktop)
+								bedbugGameCore.game.scale.startFullScreen(false, false);
+						}
+						else {
+							// Ignore or do something else
+						}
+					});
+
+					// if (!bedbugGameCore.game.device.desktop) {
+					// 	var overlay = $('#canvas-overlay');
+					// 	overlay.height($(window).height());
+					// 	overlay.width($(window).width());
+					// 	overlay.click(function() {
+					// 		console.log("overlay");
+					// 		if (screenfull.enabled) {
+					// 			if (!bedbugGameCore.game.device.desktop)
+					// 				bedbugGameCore.game.scale.startFullScreen(false, false);
+					// 		}
+					// 		else {
+					// 			// Ignore or do something else
+					// 		}
+					// 	});
+					// }
+				});
+
+			
+				var firstTime = true;
+			
+				var width = window.innerWidth;
+				var height = window.innerHeight;
+
+				//CHECK FOR IOS8 AND IF ITS NOT IN STANDALONE MODE
+
+				// if (("standalone" in window.navigator) && !window.navigator.standalone && (window.innerWidth > window.innerHeight)) {
+					// var switchWidth = width;
+					// if (width < height) {
+					// 	width = height;
+					// 	height = switchWidth;
+					// }
+					// scream = gajus.Scream({
+					// 	width: {
+					// 		portrait: height, //specs["iphone4"][1],
+					// 		landscape: width, // specs["iphone4"][0]
+
+					// 	}
+					// });
+
+					// brim = gajus.Brim({
+					// 	viewport: scream
+					// });
+
+					// domElement = document.querySelector('#game-mobile');
+
+
+					//YOU ARE ON IOS SET FULL SCREEN SIZE 
+					// height = scream.getViewportHeight();
+					// width = scream.getViewportWidth();
+
+					// console.log("Viewport: " + window.screen.width + " x " + window.screen.height + " | Inner: " + window.innerWidth + " x " + window.innerHeight);
+					// console.log("Orientation: " + orientation);
+					// brim.on('viewchange', function(e) {
+
+					// 	if (bedbugGameCore.inputBlock && bedbugGameCore.inputBlock.alpha == 1) {
+					// 		return;
+					// 	}
+
+					// 	document.body.className = e.viewName;
+
+					// 	// / console.log("Viewport: " + window.screen.width + " x " + window.screen.height + " | Inner: " + window.innerWidth + " x " + window.innerHeight);
+					// 	// domElement = document.querySelector('#game-mobile');
+
+					// 	//WRONG ORIENTATION SHOW IMAGE
+					// 	if (scream.getOrientation() == "portrait") {
+					// 		// document.getElementById('wrong-orientation').style.display = 'block';
+					// 		document.querySelector('#brim-main').style.width = '100%';
+					// 		document.querySelector('#brim-main').style.height = '100%';
+					// 		document.querySelector('#game-mobile').style.width = '100%';
+					// 		document.querySelector('#game-mobile').style.height = window.screen.height;
+					// 	};
+
+					// 	if (scream.getOrientation() == "landscape") {
+					// 		// document.getElementById('wrong-orientation').style.display = 'none';
+					// 		document.querySelector('#brim-main').style.width = '100%';
+					// 		// document.querySelector('#brim-main').style.height = '100%';
+					// 		document.querySelector('#game-mobile').style.width = '100%';
+					// 		document.querySelector('#game-mobile').style.height = window.screen.height;
+					// 	};
+
+					// 	if (firstTime && e.viewName == "minimal") {
+					// 		//DO ONLY ONCE AT STARTUP
+					// 		firstTime = false;
+					// 		//SET THE RIGHT DOM ELEMENT
+
+					// 		document.querySelector('#viewport').style.display = 'none';
+					// 		//CREATE PHASER CANVAS
+					// 		startgame();
+					// 	};
+
+					// });
+
+					// scream.on('orientationchangeend', function(e) {
+					// 	if (bedbugGameCore.inputBlock && bedbugGameCore.inputBlock.alpha == 1) return;
+
+					// 	if (firstTime) {
+					// 		//DO ONLY ONCE AT STARTUP
+					// 		firstTime = false;
+					// 		//SET THE RIGHT DOM ELEMENT
+
+					// 		document.querySelector('#viewport').style.display = 'none';
+					// 		//CREATE PHASER CANVAS
+					// 		startgame();
+					// 	};
+					// });
+
+
+				// }
+				// else {
+
+					//ITS NOT IOS START STANDARD
+					if (firstTime) {
+						//DO ONLY ONCE AT STARTUP
+						firstTime = false;
+						// document.querySelector('#brim-main').style.display = 'none';
+						// document.querySelector('#brim-mask').style.display = 'none';
+						document.querySelector('#game').style.display = 'block';
+						//SET THE RIGHT DOM ELEMENT
+						domElement = document.querySelector('#game');
+						// domElement.style.width = '100%';
+						// domElement.style.height = window.screen.height;
+						//CREATE PHASER CANVAS
+						startgame();
+					}
+				// };
+			}
+
+			function startgame() {
+
+
+
+				var vars = [],
+					hash;
+				var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+				for (var i = 0; i < hashes.length; i++) {
+					hash = hashes[i].split('=');
+					vars.push(hash[0]);
+					vars[hash[0]] = hash[1];
+				}
+
+				// Map specific url settings to the game
+				bedbugGameCore.mapUrlSettings(vars);
+
+				var game = new Phaser.Game(1280, 720, Phaser.AUTO, domElement, false, false);
+
+				// Load needed plugins
+				Phaser.Device.whenReady(function() {
+					game.plugins.add(Fabrique.Plugins.InputField);
+					// game.plugins.add(Fabrique.Plugins.NineSlice);
+				});
+
+				game.state.add('boot', bedbugGameCore.Boot);
+				game.state.add('gameover', bedbugGameCore.Gameover);
+				game.state.add('preload', bedbugGameCore.Preload);
+				game.state.add('menu', bedbugGameCore.Menu);
+				game.state.add('play', bedbugGameCore.Play);
+
+				game.state.start('boot');
+				// console.log(game.scale);
+				// game.scale.fullScreenTarget = domElement;
+
+				// setInterval(function() {
+				// 	checkScreenStates();
+				// }, 2000);
+
+				// setTimeout(function() {
+				// 	var canvas = game.canvas;
+				// 	console.log(canvas);
+				// 	canvas.addEventListener('click', () => {
+				// 		console.log("Click");
+				// 		if (screenfull.enabled) {
+				// 			// screenfull.request(el);
+				// 			bedbugGameCore.game.scale.startFullScreen(false, false);
+				// 		}
+				// 		else {
+				// 			// Ignore or do something else
+				// 		}
+				// 	});
+
+
+				// }, 2000);
+
+				function checkScreenStates() {
+
+
+
+					// if (window.innerHeight != window.screen.width) {
+					if (window.innerHeight < window.innerWidth) {
+						if (window.innerHeight != document.documentElement.clientHeight)
+							if (scream)
+								scream._detectViewChange();
+					}
+
+					// console.log(scream.getOrientation());
+					// console.log(window.screen.width+" "+window.innerHeight+ " "+ window.outerWidth+ " "+ window.outerHeight);
+				}
+			}
+
+			window.onload = startScreaming();
+		})();
+	</script>
+
+</body>
+
+</html>

@@ -1,0 +1,553 @@
+{
+    "title":"Soul Gems",
+    "theme": "soulgems",
+     "version": "1.0.0.4",
+    "config": {
+        "bet_lines": 18,
+        "timmings": {
+          "reel_spins_num": 6,
+            "reel_fast_spins_num":1,
+            "reel_each_spin_delay": 100,
+            "reel_spin_duration": 1800,
+            "reel_fast_spin_duration": 400,
+            "reel_time_space": 100,
+            "reel_fast_spin_time_space": 50,
+            "symbol_stagger_start_delay": 500,
+            "symbol_stagger_end_delay": 1000,
+            "anticipation_time": 3000,
+            "fast_spin_anticipation_time": 1000,
+            "reel_finish_wait_time": 200
+        },
+        "bonus_game": {
+            "spin_space_delay": 1000,
+            "end_delay": 2000
+        }
+    },
+    "grid": {
+        "debug": false,
+        "use_mask": true,
+        "mask_padding": [
+            8,
+            12,
+            8,
+            14
+        ],
+        "columns": 5,
+        "rows": 3,
+        "x": 205,
+        "y": 130
+    },
+    "reels": {
+        "spacing": {
+            "x": -114,
+            "y": -12
+        },
+        "slots_adjustments": [
+            [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0
+                ]
+            ],
+            [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0
+                ]
+            ],
+            [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0
+                ]
+            ],
+            [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0
+                ]
+            ],
+            [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0
+                ]
+            ]
+        ]
+    },
+    "slots": {
+        "symbols_count": 1,
+        "width": 267,
+        "height": 150,
+        "concated": true,
+        "scatterSymbolID": ""
+    },
+    "logo": {
+        "x": 670,
+        "y": 35,
+        "width": 600,
+        "height": 50
+    },
+    "infobox": {
+        "visible": true,
+        "x": 368,
+        "y": 565,
+        "width": 545,
+        "height": 25,
+        "rounded": 6,
+        "style": {
+            "font": "15px ArialRound",
+            "fill": "white",
+            "alpha": 1,
+            "gradient": false,
+            "rampColor1": "white",
+            "rampColor2": "white"
+        }
+    },
+    "messages": {"style": {
+        "normal": {
+            "bgColor": "0x3456A5",
+            "fill": "0xffffff",
+            "headingBgColor": "0xffffff",
+            "headingFill": "#3456A5",
+            "lineColor": "0xffffff",
+            "shadow": true,
+            "bevel": true,
+            "alpha": 0.5,
+            "gradient": true,
+            "rampColor1": "0x3456A5",
+            "rampColor2": "0xffffff"
+        },
+        "error": {
+            "bgColor": "0x000000",
+            "fill": "0xffffff",
+            "headingBgColor": "0xff0000",
+            "headingFill": "#FFF",
+            "lineColor": "0xff0000"
+        }
+    }},
+    "dot_constants": {
+        "start": 225,
+        "end": 1060,
+        "start_stagger": 0,
+        "end_stagger": 0
+    },
+    "lines": [
+        {
+            "winlineid": "",
+            "id": "line02",
+            "localized_label": {"en": "line"},
+            "side_index": 0,
+            "name": 2,
+            "dots": {
+                "start": [
+                    "start",
+                    155
+                ],
+                "end": [
+                    "end",
+                    155
+                ],
+                "sprite_sheet": "symbols",
+                "sprite_name": "two_"
+            },
+            "slots": [
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "winlineid": "",
+            "id": "line04",
+            "localized_label": {"en": "line"},
+            "side_index": 1,
+            "name": 4,
+            "dots": {
+                "start": [
+                    "start",
+                    195
+                ],
+                "end": [
+                    "end",
+                    195
+                ],
+                "sprite_sheet": "symbols",
+                "sprite_name": "four_"
+            },
+            "slots": [
+                0,
+                1,
+                2,
+                1,
+                0
+            ]
+        },
+        {
+            "winlineid": "",
+            "id": "line08",
+            "localized_label": {"en": "line"},
+            "side_index": 2,
+            "name": 8,
+            "dots": {
+                "start": [
+                    "start",
+                    235
+                ],
+                "end": [
+                    "end",
+                    235
+                ],
+                "sprite_sheet": "symbols",
+                "sprite_name": "eight_"
+            },
+            "slots": [
+                0,
+                0,
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "winlineid": "",
+            "id": "line01",
+            "localized_label": {"en": "line"},
+            "side_index": 3,
+            "name": 1,
+            "dots": {
+                "start": [
+                    "start",
+                    285
+                ],
+                "end": [
+                    "end",
+                    285
+                ],
+                "sprite_sheet": "symbols",
+                "sprite_name": "one_"
+            },
+            "slots": [
+                1,
+                1,
+                1,
+                1,
+                1
+            ]
+        },
+        {
+            "winlineid": "",
+            "id": "line06",
+            "localized_label": {"en": "line"},
+            "side_index": 4,
+            "name": 6,
+            "dots": {
+                "start": [
+                    "start",
+                    320
+                ],
+                "end": [
+                    "end",
+                    320
+                ],
+                "sprite_sheet": "symbols",
+                "sprite_name": "six_"
+            },
+            "slots": [
+                1,
+                0,
+                1,
+                0,
+                1
+            ]
+        },
+        {
+            "winlineid": "",
+            "id": "line07",
+            "localized_label": {"en": "line"},
+            "side_index": 5,
+            "name": 7,
+            "dots": {
+                "start": [
+                    "start",
+                    355
+                ],
+                "end": [
+                    "end",
+                    355
+                ],
+                "sprite_sheet": "symbols",
+                "sprite_name": "seven_"
+            },
+            "slots": [
+                1,
+                2,
+                1,
+                2,
+                1
+            ]
+        },
+        {
+            "winlineid": "",
+            "id": "line10",
+            "localized_label": {"en": "line"},
+            "side_index": 6,
+            "name": 10,
+            "dots": {
+                "start": [
+                    "start",
+                    390
+                ],
+                "end": [
+                    "end",
+                    390
+                ],
+                "sprite_sheet": "symbols",
+                "sprite_name": "ten_"
+            },
+            "slots": [
+                1,
+                0,
+                1,
+                2,
+                1
+            ]
+        },
+        {
+            "winlineid": "",
+            "id": "line03",
+            "localized_label": {"en": "line"},
+            "side_index": 7,
+            "name": 3,
+            "dots": {
+                "start": [
+                    "start",
+                    440
+                ],
+                "end": [
+                    "end",
+                    440
+                ],
+                "sprite_sheet": "symbols",
+                "sprite_name": "three_"
+            },
+            "slots": [
+                2,
+                2,
+                2,
+                2,
+                2
+            ]
+        },
+        {
+            "winlineid": "",
+            "id": "line05",
+            "localized_label": {"en": "line"},
+            "side_index": 8,
+            "name": 5,
+            "dots": {
+                "start": [
+                    "start",
+                    480
+                ],
+                "end": [
+                    "end",
+                    480
+                ],
+                "sprite_sheet": "symbols",
+                "sprite_name": "five_"
+            },
+            "slots": [
+                2,
+                1,
+                0,
+                1,
+                2
+            ]
+        },
+        {
+            "winlineid": "",
+            "id": "line09",
+            "localized_label": {"en": "line"},
+            "side_index": 9,
+            "name": 9,
+            "dots": {
+                "start": [
+                    "start",
+                    520
+                ],
+                "end": [
+                    "end",
+                    520
+                ],
+                "sprite_sheet": "symbols",
+                "sprite_name": "nine_"
+            },
+            "slots": [
+                2,
+                2,
+                1,
+                2,
+                2
+            ]
+        }
+       
+    ],
+    "test_symbols": [
+        {
+            "SymbolID": "969BA2F3-F659-4B46-B44F-9DBD36F30794",
+            "SymbolName": "H1",
+            "SymbolType": 0,
+            "SymbolURL": "",
+            "SymbolMultiplier": 1,
+            "SymbolHintURL": "",
+            "CData": null
+        },
+        {
+            "SymbolID": "0E73B235-D4D2-4653-8ABB-A063E61C9151",
+            "SymbolName": "H2",
+            "SymbolType": 0,
+            "SymbolURL": "",
+            "SymbolMultiplier": 1,
+            "SymbolHintURL": "",
+            "CData": null
+        },
+        {
+            "SymbolID": "A998952E-AB3D-4A46-8628-6F70EFBB832A",
+            "SymbolName": "L1",
+            "SymbolType": 0,
+            "SymbolURL": "",
+            "SymbolMultiplier": 1,
+            "SymbolHintURL": "",
+            "CData": null
+        },
+        {
+            "SymbolID": "CC65C5A8-4668-45B0-A823-B51596811EE9",
+            "SymbolName": "L2",
+            "SymbolType": 0,
+            "SymbolURL": "",
+            "SymbolMultiplier": 1,
+            "SymbolHintURL": "",
+            "CData": null
+        },
+        {
+            "SymbolID": "3EE018AF-11C1-42D0-B6A7-5C8E85258B33",
+            "SymbolName": "L3",
+            "SymbolType": 0,
+            "SymbolURL": "",
+            "SymbolMultiplier": 1,
+            "SymbolHintURL": "",
+            "CData": null
+        },
+        {
+            "SymbolID": "3D8EC913-6A73-457C-A715-1FD8D36BF5D8",
+            "SymbolName": "L4",
+            "SymbolType": 0,
+            "SymbolURL": "",
+            "SymbolMultiplier": 1,
+            "SymbolHintURL": "",
+            "CData": null
+        },
+        {
+            "SymbolID": "7A132125-E78F-432B-BA99-6080997029BE",
+            "SymbolName": "L5",
+            "SymbolType": 0,
+            "SymbolURL": "",
+            "SymbolMultiplier": 1,
+            "SymbolHintURL": "",
+            "CData": null
+        },
+        {
+            "SymbolID": "D5A2BAC5-DD89-43B9-9F3A-C02BBA7DDCBC",
+            "SymbolName": "M1",
+            "SymbolType": 0,
+            "SymbolURL": "",
+            "SymbolMultiplier": 1,
+            "SymbolHintURL": "",
+            "CData": null
+        },
+        {
+            "SymbolID": "582B66FF-A2E5-4269-8EF5-84344A1430C6",
+            "SymbolName": "M2",
+            "SymbolType": 0,
+            "SymbolURL": "",
+            "SymbolMultiplier": 1,
+            "SymbolHintURL": "",
+            "CData": null
+        },
+        {
+            "SymbolID": "BC53FEFA-98F1-45BA-85F4-DE904BB9A70C",
+            "SymbolName": "M3",
+            "SymbolType": 0,
+            "SymbolURL": "",
+            "SymbolMultiplier": 1,
+            "SymbolHintURL": "",
+            "CData": null
+        },
+        {
+            "SymbolID": "9BC1EFB1-9F03-4148-8687-79ADD7A54B69",
+            "SymbolName": "SCATTER",
+            "SymbolType": 1,
+            "SymbolURL": "",
+            "SymbolMultiplier": 1,
+            "SymbolHintURL": "",
+            "CData": null
+        },
+        {
+            "SymbolID": "6C1A1314-0929-49A5-9173-24CD39388412",
+            "SymbolName": "WILD",
+            "SymbolType": 2,
+            "SymbolURL": "",
+            "SymbolMultiplier": 1,
+            "SymbolHintURL": "",
+            "CData": null
+        }
+    ],
+    "rumblings": [
+        "Wow! Look at those effects!",
+        "Risk big, win big, my grandma used to say.",
+        "If you like sparkles, this is you game."
+    ]
+}

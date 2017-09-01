@@ -1,0 +1,1083 @@
+      {
+          "info1": "All these properties are for testing only and will be deprecated in future releases.",
+          "states": ["REAL_MONEY", "DEMO_PLAY", "SANDBOX", "TEST_MODE"],
+          "selected_game_state": 2,
+          "default_language": "en-GB",
+          "change_weather_special_count": 2,
+          "fun_game_settings": {
+              "fun_label_interval": 10000,
+              "fun_label_duration": 2500,
+              "user_starting_balance": 5000
+          },
+          "currency_symbol": "€",
+          "game_rules_url": "www.google.com",
+          "lobby_url": "www.google.com",
+          "info2": "Server setting here are the default values. On GET_SETTINGS response this values are overridden",
+          "server_settings": {
+              "Header": {
+                      "APIVersionID": "1",
+                      "RequestID": "3e305e56218e178d5bfde1c01a2b5820",
+                      "ResponseID": "5CF44C36-6284-4B68-B077-854F9C22BECE",
+                      "ResponseCode": "200",
+                      "ResponseMessage": "OK",
+                      "GameID": "24CFC2D8-FCC4-4408-B5DE-99CF23408BF0",
+                      "GameLocaleID": "en-GB",
+                      "OperatorID": "00000000-0000-0000-0000-000000000002",
+                      "UserToken": "1",
+                      "AuthToken": "AC4D47E8-329B-4806-9406-4D8F6677F413",
+                      "GameMode": "1",
+                      "CData": {
+                          "Balance": "{{yz{yz{"
+                      }
+                  },
+                  "Device": {
+                      "DeviceClass": "Windows",
+                      "DeviceModel": "intel corei7",
+                      "DeviceSDKVersion": "10",
+                      "DeviceMobileBrowserName": "Chrome",
+                      "DeviceScreenWidth": "3440",
+                      "DeviceScreenHeight": "1440",
+                      "DevicePixelRatio": "1",
+                      "CData": null
+                  },
+                  "Player": {
+                      "Alias": "-",
+                      "CurrentBalance": "10000000",
+                      "CurrentBalance2": "0",
+                      "CurrentBalance3": "0",
+                      "CurrentBalance4": "0",
+                      "CurrentBalance5": "0",
+                      "CData": null
+                  },
+                  "Game": {
+                      "Configuration": {
+                          "OperatorGameID": "24CFC2D8-FCC4-4408-B5DE-99CF23408BF0",
+                          "OperatorGameName": "Girly",
+                          "OperatorGameDescription": "Slot Game",
+                          "GameID": "00000000-0000-0000-0000-000000000035",
+                          "GameName": "Girly",
+                          "GameDescription": "Slot Game",
+                          "Version": "",
+                          "GameTypeID": "1",
+                          "GameTypeName": "Slot",
+                          "GameTypeDescription": "Slot Type   ",
+                          "GameMode": "1",
+                          "ResumeState": "0",
+                          "ResumeTicketID": null,
+                          "LocalizedCurrencySymbol": "€",
+                          "CurrencySymbolPosition": "0",
+                          "LocalizedDecimalSeparator": ".",
+                          "LocalizedThousandsSeparator": ",",
+                          "LocalizedDecimalDigitsCount": "2",
+                          "DefaultLocale": "",
+                          "CData": null
+                      },
+                      "Symbols": [{
+                          "SymbolID": "CC4F60D7-4E8A-4D00-B486-43BFA6E5AB5E",
+                          "SymbolName": "H1",
+                          "SymbolType": "0",
+                          "SymbolURL": "",
+                          "SymbolMultiplier": "1",
+                          "SymbolHintURL": "",
+                          "CData": null
+                      }, {
+                          "SymbolID": "725C2A9E-7AA3-4A10-9E8A-05760A512E90",
+                          "SymbolName": "H2",
+                          "SymbolType": "0",
+                          "SymbolURL": "",
+                          "SymbolMultiplier": "1",
+                          "SymbolHintURL": "",
+                          "CData": null
+                      }, {
+                          "SymbolID": "26FB84BC-0179-477A-A839-1696BCB38A34",
+                          "SymbolName": "H3",
+                          "SymbolType": "0",
+                          "SymbolURL": "",
+                          "SymbolMultiplier": "1",
+                          "SymbolHintURL": "",
+                          "CData": null
+                      }, {
+                          "SymbolID": "063479D8-2A9E-4099-AFDF-34364DFFA56D",
+                          "SymbolName": "L1",
+                          "SymbolType": "0",
+                          "SymbolURL": "",
+                          "SymbolMultiplier": "1",
+                          "SymbolHintURL": "",
+                          "CData": null
+                      }, {
+                          "SymbolID": "82CBC8CF-D82C-4B1D-85B2-93C5048A0370",
+                          "SymbolName": "L2",
+                          "SymbolType": "0",
+                          "SymbolURL": "",
+                          "SymbolMultiplier": "1",
+                          "SymbolHintURL": "",
+                          "CData": null
+                      }, {
+                          "SymbolID": "83EF1514-1062-4F6A-A03C-5664E764DD58",
+                          "SymbolName": "L3",
+                          "SymbolType": "0",
+                          "SymbolURL": "",
+                          "SymbolMultiplier": "1",
+                          "SymbolHintURL": "",
+                          "CData": null
+                      }, {
+                          "SymbolID": "789EAB30-1708-41C9-ABF8-F4A42E6D71A7",
+                          "SymbolName": "WILD",
+                          "SymbolType": "2",
+                          "SymbolURL": "",
+                          "SymbolMultiplier": "1",
+                          "SymbolHintURL": "",
+                          "CData": null
+                      }],
+                      "Reels": [{
+                          "ReelID": "EC2AEA87-5E90-4106-8DB9-CAA6A1294856",
+                          "ReelName": "reel_0",
+                          "ReelIndex": "0"
+                      }, {
+                          "ReelID": "A0155376-C23A-433B-A099-F6D480021CC1",
+                          "ReelName": "reel_1",
+                          "ReelIndex": "1"
+                      }, {
+                          "ReelID": "622EB4C3-278A-43F8-8002-AD6464DA34FB",
+                          "ReelName": "reel_2",
+                          "ReelIndex": "2"
+                      }, {
+                          "ReelID": "C32B13D1-5052-47A5-9965-DFEE92CB9439",
+                          "ReelName": "reel_3",
+                          "ReelIndex": "3"
+                      }, {
+                          "ReelID": "37C36A5C-9901-4D17-80CF-0BA80141679A",
+                          "ReelName": "reel_4",
+                          "ReelIndex": "4"
+                      }],
+                      "WinLines": [{
+                          "WinLineID": "49CEF977-7C86-48B3-98E5-CFCC2F1E9E5C",
+                          "WinLineCaption": "line01",
+                          "WinLineURL": "",
+                          "WinLineLayout": ["5", "6", "7", "8", "9"]
+                      }, {
+                          "WinLineID": "B96229FD-14B4-40DF-925F-6CB9E6748100",
+                          "WinLineCaption": "line02",
+                          "WinLineURL": "",
+                          "WinLineLayout": ["0", "1", "2", "3", "4"]
+                      }, {
+                          "WinLineID": "61B1D06F-B66A-49C8-A46B-8B85D96DA39B",
+                          "WinLineCaption": "line03",
+                          "WinLineURL": "",
+                          "WinLineLayout": ["10", "11", "12", "13", "14"]
+                      }, {
+                          "WinLineID": "FA74836A-C480-4F1F-82D3-91F8A69A81FA",
+                          "WinLineCaption": "line04",
+                          "WinLineURL": "",
+                          "WinLineLayout": ["0", "6", "12", "8", "4"]
+                      }, {
+                          "WinLineID": "09659912-EF40-4420-B921-C18D9DB4466A",
+                          "WinLineCaption": "line05",
+                          "WinLineURL": "",
+                          "WinLineLayout": ["10", "6", "2", "8", "14"]
+                      }, {
+                          "WinLineID": "173A1AD5-2B76-4CE8-92FB-A6CC8D399D0E",
+                          "WinLineCaption": "line06",
+                          "WinLineURL": "",
+                          "WinLineLayout": ["5", "1", "7", "3", "9"]
+                      }, {
+                          "WinLineID": "5C554003-8985-4C37-BA93-13E4DF44D571",
+                          "WinLineCaption": "line07",
+                          "WinLineURL": "",
+                          "WinLineLayout": ["5", "11", "7", "13", "9"]
+                      }, {
+                          "WinLineID": "F54C8BD8-9488-40F3-AC7E-257B8FC5E52D",
+                          "WinLineCaption": "line08",
+                          "WinLineURL": "",
+                          "WinLineLayout": ["0", "1", "7", "3", "4"]
+                      }, {
+                          "WinLineID": "4AD0A354-8A1C-4A02-B1AA-070AB9F735FC",
+                          "WinLineCaption": "line09",
+                          "WinLineURL": "",
+                          "WinLineLayout": ["10", "11", "7", "13", "14"]
+                      }, {
+                          "WinLineID": "648BAF19-0209-439A-B4F3-D7DA2A2F1C9F",
+                          "WinLineCaption": "line10",
+                          "WinLineURL": "",
+                          "WinLineLayout": ["5", "1", "7", "13", "9"]
+                      }],
+                      "WagerSettings": {
+                          "CoinValues": ["1", "2", "5", "10", "25", "50", "100", "200"],
+                          "BetLevels": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"],
+                          "BetLines": ["10"]
+                      },
+                      "Settings": [{
+                          "SettingName": "MobileRulesURL",
+                          "SettingType": "2",
+                          "SettingKey": "MobileRulesURL",
+                          "SettingValue": "",
+                          "CData": null
+                      }, {
+                          "SettingName": "MaxAutoPlayRounds",
+                          "SettingType": "0",
+                          "SettingKey": "MaxAutoPlayRounds",
+                          "SettingValue": "999",
+                          "CData": null
+                      }, {
+                          "SettingName": "ShowRoundID",
+                          "SettingType": "3",
+                          "SettingKey": "ShowRoundID",
+                          "SettingValue": "0",
+                          "CData": null
+                      }, {
+                          "SettingName": "WinLevel",
+                          "SettingType": "0",
+                          "SettingKey": "3",
+                          "SettingValue": "201",
+                          "CData": null
+                      }, {
+                          "SettingName": "LobbyURL",
+                          "SettingType": "2",
+                          "SettingKey": "LobbyURL",
+                          "SettingValue": "",
+                          "CData": null
+                      }, {
+                          "SettingName": "BoardSize",
+                          "SettingType": "0",
+                          "SettingKey": "BoardSize",
+                          "SettingValue": "15",
+                          "CData": null
+                      }, {
+                          "SettingName": "LocalizedDecimalSeparator",
+                          "SettingType": "2",
+                          "SettingKey": "LocalizedDecimalSeparator",
+                          "SettingValue": ".",
+                          "CData": null
+                      }, {
+                          "SettingName": "ReelsWindowHeight",
+                          "SettingType": "0",
+                          "SettingKey": "ReelsWindowHeight",
+                          "SettingValue": "3",
+                          "CData": null
+                      }, {
+                          "SettingName": "WinLevel",
+                          "SettingType": "0",
+                          "SettingKey": "2",
+                          "SettingValue": "101",
+                          "CData": null
+                      }, {
+                          "SettingName": "LocalizedThousandsSeparator",
+                          "SettingType": "2",
+                          "SettingKey": "LocalizedThousandsSeparator",
+                          "SettingValue": ",",
+                          "CData": null
+                      }, {
+                          "SettingName": "HistoryURL",
+                          "SettingType": "2",
+                          "SettingKey": "HistoryURL",
+                          "SettingValue": "",
+                          "CData": null
+                      }, {
+                          "SettingName": "ShowTicketID",
+                          "SettingType": "3",
+                          "SettingKey": "ShowTicketID",
+                          "SettingValue": "0",
+                          "CData": null
+                      }, {
+                          "SettingName": "DefaultLocale",
+                          "SettingType": "2",
+                          "SettingKey": "DefaultLocale",
+                          "SettingValue": "en-GB",
+                          "CData": null
+                      }, {
+                          "SettingName": "RulesURL",
+                          "SettingType": "2",
+                          "SettingKey": "RulesURL",
+                          "SettingValue": "",
+                          "CData": null
+                      }, {
+                          "SettingName": "PosterImageHash",
+                          "SettingType": "2",
+                          "SettingKey": "PosterImageHash",
+                          "SettingValue": "",
+                          "CData": null
+                      }, {
+                          "SettingName": "ResponsibleGaming",
+                          "SettingType": "3",
+                          "SettingKey": "ResponsibleGaming",
+                          "SettingValue": "0",
+                          "CData": null
+                      }, {
+                          "SettingName": "CurrencySymbolPosition",
+                          "SettingType": "2",
+                          "SettingKey": "CurrencySymbolPosition",
+                          "SettingValue": "0",
+                          "CData": null
+                      }, {
+                          "SettingName": "LocalizedCurrencySymbol",
+                          "SettingType": "2",
+                          "SettingKey": "LocalizedCurrencySymbol",
+                          "SettingValue": "€",
+                          "CData": null
+                      }, {
+                          "SettingName": "ThumbnailHash",
+                          "SettingType": "2",
+                          "SettingKey": "ThumbnailHash",
+                          "SettingValue": "",
+                          "CData": null
+                      }, {
+                          "SettingName": "LocalizedDecimalDigitsCount",
+                          "SettingType": "0",
+                          "SettingKey": "LocalizedDecimalDigitsCount",
+                          "SettingValue": "2",
+                          "CData": null
+                      }, {
+                          "SettingName": "HelpURL",
+                          "SettingType": "2",
+                          "SettingKey": "HelpURL",
+                          "SettingValue": "./help/index.html",
+                          "CData": null
+                      }, {
+                          "SettingName": "WinLevel",
+                          "SettingType": "0",
+                          "SettingKey": "1",
+                          "SettingValue": "1",
+                          "CData": null
+                      }, {
+                          "SettingName": "NumberOfReels",
+                          "SettingType": "0",
+                          "SettingKey": "NumberOfReels",
+                          "SettingValue": "5",
+                          "CData": null
+                      }, {
+                          "SettingName": "PosterImageURL",
+                          "SettingType": "2",
+                          "SettingKey": "PosterImageURL",
+                          "SettingValue": "",
+                          "CData": null
+                      }, {
+                          "SettingName": "RechargeCreditURL",
+                          "SettingType": "2",
+                          "SettingKey": "RechargeCreditURL",
+                          "SettingValue": "",
+                          "CData": null
+                      }],
+                      "PayTables": [{
+                          "PayTableID": "BE642E92-77D4-42EA-A140-5750EA4E4C04",
+                          "BetAmount": "1",
+                          "BetMultiplier": "0",
+                          "OverallOdds": "0",
+                          "OverallPayout": "0",
+                          "MinWager": "0",
+                          "MaxWager": "0",
+                          "Prizes": [{
+                              "PrizeID": "CBCB36D9-FE2D-42ED-B2B8-B65A9134F22F",
+                              "Wager": "1",
+                              "WinAmount": "300",
+                              "WinLabel": "",
+                              "PrizeLabel": "H3 x 5",
+                              "PrizeOdds": "0",
+                              "PrizePayout": "0",
+                              "PrizeLines": [{
+                                  "PrizeLineID": "D27EC3BD-BD2B-4330-A593-3C43EC18586A",
+                                  "WinAmount": "300",
+                                  "Label": "H3 x 5",
+                                  "RequiredQty": "5",
+                                  "SymbolID": "26FB84BC-0179-477A-A839-1696BCB38A34",
+                                  "PrizeCode": "H3",
+                                  "CData": null
+                              }],
+                              "CData": null
+                          }, {
+                              "PrizeID": "F6D07926-7BA9-41AB-AC76-C97442098572",
+                              "Wager": "1",
+                              "WinAmount": "80",
+                              "WinLabel": "",
+                              "PrizeLabel": "H2 x 5",
+                              "PrizeOdds": "0",
+                              "PrizePayout": "0",
+                              "PrizeLines": [{
+                                  "PrizeLineID": "104D9F2F-9DD9-44C5-BA7B-F5EA112958F4",
+                                  "WinAmount": "80",
+                                  "Label": "H2 x 5",
+                                  "RequiredQty": "5",
+                                  "SymbolID": "725C2A9E-7AA3-4A10-9E8A-05760A512E90",
+                                  "PrizeCode": "H2",
+                                  "CData": null
+                              }],
+                              "CData": null
+                          }, {
+                              "PrizeID": "59BAE234-9FDC-4DD1-B277-B841E15822E8",
+                              "Wager": "1",
+                              "WinAmount": "80",
+                              "WinLabel": "",
+                              "PrizeLabel": "H3 x 4",
+                              "PrizeOdds": "0",
+                              "PrizePayout": "0",
+                              "PrizeLines": [{
+                                  "PrizeLineID": "1824B5D2-33E1-4E8E-AB84-5AC716747514",
+                                  "WinAmount": "80",
+                                  "Label": "H3 x 4",
+                                  "RequiredQty": "4",
+                                  "SymbolID": "26FB84BC-0179-477A-A839-1696BCB38A34",
+                                  "PrizeCode": "H3",
+                                  "CData": null
+                              }],
+                              "CData": null
+                          }, {
+                              "PrizeID": "BD0785C2-4B1A-434B-8FB6-F6C8EC4C81AF",
+                              "Wager": "1",
+                              "WinAmount": "40",
+                              "WinLabel": "",
+                              "PrizeLabel": "H1 x 5",
+                              "PrizeOdds": "0",
+                              "PrizePayout": "0",
+                              "PrizeLines": [{
+                                  "PrizeLineID": "E0C01FC3-9789-4F84-8AD9-AD3483C09DD7",
+                                  "WinAmount": "40",
+                                  "Label": "H1 x 5",
+                                  "RequiredQty": "5",
+                                  "SymbolID": "CC4F60D7-4E8A-4D00-B486-43BFA6E5AB5E",
+                                  "PrizeCode": "H1",
+                                  "CData": null
+                              }],
+                              "CData": null
+                          }, {
+                              "PrizeID": "B008E2A7-3ED5-4BB0-B4E3-D32B7C861278",
+                              "Wager": "1",
+                              "WinAmount": "40",
+                              "WinLabel": "",
+                              "PrizeLabel": "H2 x 4",
+                              "PrizeOdds": "0",
+                              "PrizePayout": "0",
+                              "PrizeLines": [{
+                                  "PrizeLineID": "0455323E-5E11-4C5C-B494-811CBB588B55",
+                                  "WinAmount": "40",
+                                  "Label": "H2 x 4",
+                                  "RequiredQty": "4",
+                                  "SymbolID": "725C2A9E-7AA3-4A10-9E8A-05760A512E90",
+                                  "PrizeCode": "H2",
+                                  "CData": null
+                              }],
+                              "CData": null
+                          }, {
+                              "PrizeID": "95D21D96-74D8-48E1-B246-1E02D1824EC6",
+                              "Wager": "1",
+                              "WinAmount": "30",
+                              "WinLabel": "",
+                              "PrizeLabel": "L3 x 5",
+                              "PrizeOdds": "0",
+                              "PrizePayout": "0",
+                              "PrizeLines": [{
+                                  "PrizeLineID": "FBAC71A7-745D-486B-BB4C-08E13065F6AC",
+                                  "WinAmount": "30",
+                                  "Label": "L3 x 5",
+                                  "RequiredQty": "5",
+                                  "SymbolID": "83EF1514-1062-4F6A-A03C-5664E764DD58",
+                                  "PrizeCode": "L3",
+                                  "CData": null
+                              }],
+                              "CData": null
+                          }, {
+                              "PrizeID": "028FCA75-A7F2-4672-954B-8CA902843649",
+                              "Wager": "1",
+                              "WinAmount": "25",
+                              "WinLabel": "",
+                              "PrizeLabel": "H3 x 3",
+                              "PrizeOdds": "0",
+                              "PrizePayout": "0",
+                              "PrizeLines": [{
+                                  "PrizeLineID": "663FDBDE-C9D7-49AA-A44D-4448956BBDD5",
+                                  "WinAmount": "25",
+                                  "Label": "H3 x 3",
+                                  "RequiredQty": "3",
+                                  "SymbolID": "26FB84BC-0179-477A-A839-1696BCB38A34",
+                                  "PrizeCode": "H3",
+                                  "CData": null
+                              }],
+                              "CData": null
+                          }, {
+                              "PrizeID": "8D9DEED2-3C1A-4433-A597-A397CA12CB69",
+                              "Wager": "1",
+                              "WinAmount": "25",
+                              "WinLabel": "",
+                              "PrizeLabel": "L2 x 5",
+                              "PrizeOdds": "0",
+                              "PrizePayout": "0",
+                              "PrizeLines": [{
+                                  "PrizeLineID": "1F205523-2CE6-4CAF-8324-5A3CB5E40A90",
+                                  "WinAmount": "25",
+                                  "Label": "L2 x 5",
+                                  "RequiredQty": "5",
+                                  "SymbolID": "82CBC8CF-D82C-4B1D-85B2-93C5048A0370",
+                                  "PrizeCode": "L2",
+                                  "CData": null
+                              }],
+                              "CData": null
+                          }, {
+                              "PrizeID": "2D983AA5-8776-4EB8-8432-7C3FD1391581",
+                              "Wager": "1",
+                              "WinAmount": "20",
+                              "WinLabel": "",
+                              "PrizeLabel": "H1 x 4",
+                              "PrizeOdds": "0",
+                              "PrizePayout": "0",
+                              "PrizeLines": [{
+                                  "PrizeLineID": "76773514-029C-4625-8267-99CAA85AD2BE",
+                                  "WinAmount": "20",
+                                  "Label": "H1 x 4",
+                                  "RequiredQty": "4",
+                                  "SymbolID": "CC4F60D7-4E8A-4D00-B486-43BFA6E5AB5E",
+                                  "PrizeCode": "H1",
+                                  "CData": null
+                              }],
+                              "CData": null
+                          }, {
+                              "PrizeID": "FEF81544-0A66-48CC-A7C6-A24740F01303",
+                              "Wager": "1",
+                              "WinAmount": "20",
+                              "WinLabel": "",
+                              "PrizeLabel": "L1 x 5",
+                              "PrizeOdds": "0",
+                              "PrizePayout": "0",
+                              "PrizeLines": [{
+                                  "PrizeLineID": "0348420B-ED4D-4FC9-996D-ECC8A844C7EA",
+                                  "WinAmount": "20",
+                                  "Label": "L1 x 5",
+                                  "RequiredQty": "5",
+                                  "SymbolID": "063479D8-2A9E-4099-AFDF-34364DFFA56D",
+                                  "PrizeCode": "L1",
+                                  "CData": null
+                              }],
+                              "CData": null
+                          }, {
+                              "PrizeID": "7ADD9691-BAF5-4F0E-A6CB-838D04D03EDD",
+                              "Wager": "1",
+                              "WinAmount": "15",
+                              "WinLabel": "",
+                              "PrizeLabel": "H2 x 3",
+                              "PrizeOdds": "0",
+                              "PrizePayout": "0",
+                              "PrizeLines": [{
+                                  "PrizeLineID": "DBA76CE5-D965-4A4E-9979-19D04F445080",
+                                  "WinAmount": "15",
+                                  "Label": "H2 x 3",
+                                  "RequiredQty": "3",
+                                  "SymbolID": "725C2A9E-7AA3-4A10-9E8A-05760A512E90",
+                                  "PrizeCode": "H2",
+                                  "CData": null
+                              }],
+                              "CData": null
+                          }, {
+                              "PrizeID": "B5A16913-EDA9-4A2D-946A-F3D16C52D1C4",
+                              "Wager": "1",
+                              "WinAmount": "15",
+                              "WinLabel": "",
+                              "PrizeLabel": "L3 x 4",
+                              "PrizeOdds": "0",
+                              "PrizePayout": "0",
+                              "PrizeLines": [{
+                                  "PrizeLineID": "D51267C9-5F1A-4BE6-B56B-D9CFC7732C92",
+                                  "WinAmount": "15",
+                                  "Label": "L3 x 4",
+                                  "RequiredQty": "4",
+                                  "SymbolID": "83EF1514-1062-4F6A-A03C-5664E764DD58",
+                                  "PrizeCode": "L3",
+                                  "CData": null
+                              }],
+                              "CData": null
+                          }, {
+                              "PrizeID": "6C9B3E19-94E0-4C97-99B0-29FD1F9F2D15",
+                              "Wager": "1",
+                              "WinAmount": "10",
+                              "WinLabel": "",
+                              "PrizeLabel": "L1 x 4",
+                              "PrizeOdds": "0",
+                              "PrizePayout": "0",
+                              "PrizeLines": [{
+                                  "PrizeLineID": "C7865B38-B559-4075-9AE0-8718D816F566",
+                                  "WinAmount": "10",
+                                  "Label": "L1 x 4",
+                                  "RequiredQty": "4",
+                                  "SymbolID": "063479D8-2A9E-4099-AFDF-34364DFFA56D",
+                                  "PrizeCode": "L1",
+                                  "CData": null
+                              }],
+                              "CData": null
+                          }, {
+                              "PrizeID": "6AD6A8F6-BF49-4CCB-9015-C69FB80BBA8C",
+                              "Wager": "1",
+                              "WinAmount": "10",
+                              "WinLabel": "",
+                              "PrizeLabel": "L2 x 4",
+                              "PrizeOdds": "0",
+                              "PrizePayout": "0",
+                              "PrizeLines": [{
+                                  "PrizeLineID": "0A990825-8DB2-441C-8B75-BEFE3E80C28F",
+                                  "WinAmount": "10",
+                                  "Label": "L2 x 4",
+                                  "RequiredQty": "4",
+                                  "SymbolID": "82CBC8CF-D82C-4B1D-85B2-93C5048A0370",
+                                  "PrizeCode": "L2",
+                                  "CData": null
+                              }],
+                              "CData": null
+                          }, {
+                              "PrizeID": "41B867D7-E027-4C84-B2B4-B9215281D51A",
+                              "Wager": "1",
+                              "WinAmount": "10",
+                              "WinLabel": "",
+                              "PrizeLabel": "H1 x 3",
+                              "PrizeOdds": "0",
+                              "PrizePayout": "0",
+                              "PrizeLines": [{
+                                  "PrizeLineID": "400B43A0-CBD8-4014-94CD-10AB1F2EB8DA",
+                                  "WinAmount": "10",
+                                  "Label": "H1 x 3",
+                                  "RequiredQty": "3",
+                                  "SymbolID": "CC4F60D7-4E8A-4D00-B486-43BFA6E5AB5E",
+                                  "PrizeCode": "H1",
+                                  "CData": null
+                              }],
+                              "CData": null
+                          }, {
+                              "PrizeID": "60369628-E7C5-403E-B361-006A67C57862",
+                              "Wager": "1",
+                              "WinAmount": "7",
+                              "WinLabel": "",
+                              "PrizeLabel": "L3 x 3",
+                              "PrizeOdds": "0",
+                              "PrizePayout": "0",
+                              "PrizeLines": [{
+                                  "PrizeLineID": "AFEFB843-D828-4722-8336-9A6E597A20BF",
+                                  "WinAmount": "7",
+                                  "Label": "L3 x 3",
+                                  "RequiredQty": "3",
+                                  "SymbolID": "83EF1514-1062-4F6A-A03C-5664E764DD58",
+                                  "PrizeCode": "L3",
+                                  "CData": null
+                              }],
+                              "CData": null
+                          }, {
+                              "PrizeID": "816B58DC-0959-4AC4-BADA-13573788F689",
+                              "Wager": "1",
+                              "WinAmount": "5",
+                              "WinLabel": "",
+                              "PrizeLabel": "L2 x 3",
+                              "PrizeOdds": "0",
+                              "PrizePayout": "0",
+                              "PrizeLines": [{
+                                  "PrizeLineID": "743C2F36-AE4A-4C0E-9CBA-5A15ACE13763",
+                                  "WinAmount": "5",
+                                  "Label": "L2 x 3",
+                                  "RequiredQty": "3",
+                                  "SymbolID": "82CBC8CF-D82C-4B1D-85B2-93C5048A0370",
+                                  "PrizeCode": "L2",
+                                  "CData": null
+                              }],
+                              "CData": null
+                          }, {
+                              "PrizeID": "5B3A1E00-1D1E-47BA-A188-15BBC4E8F7A0",
+                              "Wager": "1",
+                              "WinAmount": "5",
+                              "WinLabel": "",
+                              "PrizeLabel": "L1 x 3",
+                              "PrizeOdds": "0",
+                              "PrizePayout": "0",
+                              "PrizeLines": [{
+                                  "PrizeLineID": "D150CE8D-5B55-465A-A7F5-E952278BB54F",
+                                  "WinAmount": "5",
+                                  "Label": "L1 x 3",
+                                  "RequiredQty": "3",
+                                  "SymbolID": "063479D8-2A9E-4099-AFDF-34364DFFA56D",
+                                  "PrizeCode": "L1",
+                                  "CData": null
+                              }],
+                              "CData": null
+                          }, {
+                              "PrizeID": "3FD8ABCB-B715-43B6-AEDD-4F441CA427A5",
+                              "Wager": "1",
+                              "WinAmount": "0",
+                              "WinLabel": "",
+                              "PrizeLabel": "Non Winning",
+                              "PrizeOdds": "0",
+                              "PrizePayout": "0",
+                              "PrizeLines": [{
+                                  "PrizeLineID": "5A331F14-9A85-4FD7-AF08-830ACE7B9A8D",
+                                  "WinAmount": "0",
+                                  "Label": "Non Winning",
+                                  "RequiredQty": "0",
+                                  "SymbolID": "",
+                                  "PrizeCode": "",
+                                  "CData": null
+                              }],
+                              "CData": null
+                          }],
+                          "CData": null
+                      }],
+                      "Resources": [{
+                          "Locale": "en-GB",
+                          "Tokens": [{
+                              "TokenID": "TXT_TOTAL_BET_LABEL",
+                              "Text": "Total Bet",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_ADVANCED_OPTIONS",
+                              "Text": "Options",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_PAYTABLE_PAGE_01_INFO_04",
+                              "Text": "Wilds symbols on reels 2 and 4 appear stacked!",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_COINS_LABEL",
+                              "Text": "Coins",
+                              "CData": null
+                          }, {
+                              "TokenID": "MSG_OUT_OF_BALANCE_TOTAL",
+                              "Text": "Your balance is not sufficient to place a bet. Please update your balance and try again.",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_CASH_LABEL",
+                              "Text": "Cash",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_HELP_LABEL",
+                              "Text": "Rules",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_AUTOPLAY_STOP_WIN_AMOUNT",
+                              "Text": "Stop on win amount:",
+                              "CData": null
+                          }, {
+                              "TokenID": "BTN_TXT_CONTINUE_LABEL",
+                              "Text": "Continue Playing",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_COIN_VALUE_LABEL",
+                              "Text": "Coin Value",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_FTHS_INFO_01",
+                              "Text": "Wild symbols can appear on any reel and substitute all symbols.",
+                              "CData": null
+                          }, {
+                              "TokenID": "DONT_SHOW_AGAIN_LABEL",
+                              "Text": "Don’t show again",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_AUTOPLAY_STOP_LABEL",
+                              "Text": "Stop Auto",
+                              "CData": null
+                          }, {
+                              "TokenID": "MSG_WIN",
+                              "Text": "WIN: $(1)",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_WIN_LABEL",
+                              "Text": "Win",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_OPTIONS_LABEL",
+                              "Text": "Options",
+                              "CData": null
+                          }, {
+                              "TokenID": "MSG_FREE_SPINS_AWARD",
+                              "Text": "Free Spins: $(1)",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_START_LABEL",
+                              "Text": "Start",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_BALANCE_LABEL",
+                              "Text": "Balance",
+                              "CData": null
+                          }, {
+                              "TokenID": "MSG_SESSION_IS_OVER",
+                              "Text": "Your session has ended. Please close the game in order to return to the lobby.",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_PAYTABLE_PAGE_01_INFO_02",
+                              "Text": "Wild symbols substitute all symbols.",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_MAX_TIME_PER_SESSION_LABEL",
+                              "Text": "Set Maximum Time Per Session",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_AMBIENT_SOUNDS_LABEL",
+                              "Text": "Ambient Sounds",
+                              "CData": null
+                          }, {
+                              "TokenID": "MSG_REALITY_CHECK_MM",
+                              "Text": "You have been playing for $(1) minutes.",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_AUTOPLAY_STOP_LOSE",
+                              "Text": "Stop on lose amount:",
+                              "CData": null
+                          }, {
+                              "TokenID": "MSG_FREE_SPINS_REMAIN",
+                              "Text": "$(1) Free Spins Left - Total Wins: $(2)",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_SOUND_EFFECTS_TOGGLE",
+                              "Text": "Enable Sound Effects",
+                              "CData": null
+                          }, {
+                              "TokenID": "MSG_RESPONSIBLE_SESSION_TIME_LIMIT",
+                              "Text": "You have set a Session Time Limit that has now been reached.",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_PAYTABLE_PAGE_01_INFO_03",
+                              "Text": "Wild symbols appear on all reels.",
+                              "CData": null
+                          }, {
+                              "TokenID": "MSG_SESSION_TIME_LIMIT_INFO",
+                              "Text": "You have set a Session Time Limit that has now been reached",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_AUTOPLAY_LABEL",
+                              "Text": "Autoplay",
+                              "CData": null
+                          }, {
+                              "TokenID": "MSG_COMPATIBILITY_ERROR",
+                              "Text": "Your web browser is not compatible with this game. A WebGL enabled browser is required.",
+                              "CData": null
+                          }, {
+                              "TokenID": "MSG_HELP",
+                              "Text": "Help",
+                              "CData": null
+                          }, {
+                              "TokenID": "MGS_RESPONSIBLE_REALITY_CHECK_TITLE",
+                              "Text": "Reality Check Message!",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_GAMEPLAY_SETTINGS_LABEL",
+                              "Text": "Gameplay Settings",
+                              "CData": null
+                          }, {
+                              "TokenID": "MSG_MAX_WIN",
+                              "Text": "Win up to 60 000 coins!",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_BET_LEVEL_LABEL",
+                              "Text": "Bet Level",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_PAYTABLE_LABEL",
+                              "Text": "Paytable",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_REALITY_CHECK_INTERVAR_LABEL",
+                              "Text": "Set Reality Check Message Interval",
+                              "CData": null
+                          }, {
+                              "TokenID": "BTN_TXT_EXIT_TO_LOBBY_LABEL",
+                              "Text": "Exit to Lobby",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_TITLE_OPTIONS",
+                              "Text": "Options",
+                              "CData": null
+                          }, {
+                              "TokenID": "MSG_FREE_SPINS_END",
+                              "Text": "You won $(1) coins after $(2) Free Spins!",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_PAYTABLE_PAGE_01_INFO_01",
+                              "Text": "Combinations pay from BOTH sides!!!",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_PAYTABLE_GENERAL_INFO",
+                              "Text": "Wins are calculated for combinations from BOTH sides: leftmost reel to rightmost reel AND rightmost reel to leftmost reel. Winning coins are based on bet level 1. Additional levels multiply the winnings. Only the highest win is paid per bet line. Additional information can be found in the Game Rules. Malfunction voids all pays and plays.",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_SET_BET_LABEL",
+                              "Text": "Set Bet",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_AUTOPLAY_START_LABEL",
+                              "Text": "Start Auto",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_STOP_LABEL",
+                              "Text": "Stop",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_RESPONSIBLE_GAMING_OPTIONS",
+                              "Text": "Responsible Gaming Option",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_SOUND_EFFECTS_LABEL",
+                              "Text": "Sound Effects",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_FAST_SPINS_LABEL",
+                              "Text": "Fast Spins",
+                              "CData": null
+                          }, {
+                              "TokenID": "MSG_MEDIUM_WIN",
+                              "Text": "You Win: $(1)!",
+                              "CData": null
+                          }, {
+                              "TokenID": "MSG_SERVER_TIME_OUT",
+                              "Text": "An unexpected error has occurred. Please close the game in order to return to the lobby. We apologize for the inconvenience.",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_SOUND_SETTINGS_LABEL",
+                              "Text": "Sound Settings",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_GAMEPLAY_LABEL",
+                              "Text": "GamePlay",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_FAST_SPINS_TOGGLE",
+                              "Text": "Enable Fast Spins",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_BET_LINE_LABEL",
+                              "Text": "Bet Line",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_TOTAL_ROUNDS_LABEL",
+                              "Text": "Total Rounds",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_SOUND_AMBIANCE_TOGGLE",
+                              "Text": "Enable Ambient Sounds",
+                              "CData": null
+                          }, {
+                              "TokenID": "MSG_SESSION_TIME_LIMIT_TITLE",
+                              "Text": "Session Time Limit Reached",
+                              "CData": null
+                          }, {
+                              "TokenID": "MSG_REALITY_CHECK_HH_MM",
+                              "Text": "You have been playing for $(1) hours and $(2) minutes.",
+                              "CData": null
+                          }, {
+                              "TokenID": "MSG_BIG_WIN",
+                              "Text": "Big Win: $(1)!",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_RGO_LABEL",
+                              "Text": "Responsible Gaming",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_SOUND_LABEL",
+                              "Text": "Sound",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_SPIN",
+                              "Text": "Spin",
+                              "CData": null
+                          }, {
+                              "TokenID": "MSG_DEFAULT_02",
+                              "Text": "Both ways pay!!!",
+                              "CData": null
+                          }, {
+                              "TokenID": "MSG_FUN_MODE",
+                              "Text": "You are playing for fun.",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_MAX_BET_LABEL",
+                              "Text": "Max Bet",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_INFO_WILD",
+                              "Text": "Substitutes all symbols",
+                              "CData": null
+                          }, {
+                              "TokenID": "MSG_SMALL_WIN",
+                              "Text": "You Win: $(1)!",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_LINES_LABEL",
+                              "Text": "Lines",
+                              "CData": null
+                          }, {
+                              "TokenID": "MSG_DEFAULT",
+                              "Text": "Good Luck!",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_PAYTABLE_PAGE_01_INFO_05",
+                              "Text": "Reveal stacked symbols for maximum win combinations!",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_FTHS_INFO_02",
+                              "Text": "Wild symbols on reels 2 and 4 are stacked.",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_AUTOPLAY_STOP_TIME",
+                              "Text": "Stop on time:",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_AUTOPLAY_STOP_WIN_CASH",
+                              "Text": "Stop on win cash amount:",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_AUTOPLAY_STOP_ANY",
+                              "Text": "Stop on any Win",
+                              "CData": null
+                          }, {
+                              "TokenID": "MSG_OUT_OF_BALANCE_BET",
+                              "Text": "Your balance is not sufficient to place this bet. Please lower the bet level and try again.",
+                              "CData": null
+                          }, {
+                              "TokenID": "CONTINUE_LABEL",
+                              "Text": "CONTINUE",
+                              "CData": null
+                          }, {
+                              "TokenID": "MSG_GENERIC_ERROR",
+                              "Text": "An unexpected error has occurred. Please close the game in order to return to the lobby. We apologize for the inconvenience.",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_BET_LABEL",
+                              "Text": "Bet",
+                              "CData": null
+                          }],
+                          "CData": null
+                      }],
+                      "CData": null
+                  },
+                  "Statistics": {
+                      "Unit": "milliseconds",
+                      "Handle": "9"
+                  }
+          },
+          "unified_panel_localization": {
+              "localized_gameplay_label": {
+                  "en-GB": "Gameplay settings"
+              },
+              "localized_fast_spins": {
+                  "en-GB": "Enable fast spins"
+              },
+              "localized_sound_effects": {
+                  "en-GB": "Enable Sound Effects"
+              },
+              "localized_sound_ambiance": {
+                  "en-GB": "Enable Ambiance"
+              },
+
+              "localized_fun_play": {
+                  "en-GB": "PLAYING FOR FUN"
+              },
+              "localized_bet": {
+                  "en-GB": "Bet: "
+              },
+              "localized_win": {
+                  "en-GB": "Win: "
+              },
+              "localized_balance": {
+                  "en-GB": "Balance: "
+              }
+
+          },
+          "autoplay_specs": {
+              "win_amount": 250,
+              "cash_amount": "1.25",
+              "time": "5Min",
+              "loss": "0,75"
+          }
+
+
+
+      }
+      

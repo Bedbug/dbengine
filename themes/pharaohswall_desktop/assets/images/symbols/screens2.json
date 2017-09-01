@@ -1,0 +1,204 @@
+{"frames": [
+
+{
+	"filename": "BigButtonHover.png",
+	"frame": {"x":419,"y":898,"w":121,"h":32},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":121,"h":32},
+	"sourceSize": {"w":122,"h":33}
+},
+{
+	"filename": "BigButtonNormal.png",
+	"frame": {"x":513,"y":932,"w":121,"h":32},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":121,"h":32},
+	"sourceSize": {"w":122,"h":33}
+},
+{
+	"filename": "BigButtonPressed.png",
+	"frame": {"x":542,"y":898,"w":120,"h":32},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":3,"w":120,"h":32},
+	"sourceSize": {"w":124,"h":38}
+},
+{
+	"filename": "button-arrow-+-active.png",
+	"frame": {"x":2013,"y":91,"w":25,"h":30},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":1,"w":25,"h":30},
+	"sourceSize": {"w":31,"h":31}
+},
+{
+	"filename": "button-arrow-+-inactive.png",
+	"frame": {"x":1940,"y":69,"w":25,"h":30},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":1,"w":25,"h":30},
+	"sourceSize": {"w":31,"h":31}
+},
+{
+	"filename": "button-arrow-+-over.png",
+	"frame": {"x":1967,"y":69,"w":25,"h":30},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":1,"w":25,"h":30},
+	"sourceSize": {"w":31,"h":31}
+},
+{
+	"filename": "button-arrow-+-pressed.png",
+	"frame": {"x":1940,"y":101,"w":25,"h":30},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":1,"w":25,"h":30},
+	"sourceSize": {"w":31,"h":31}
+},
+{
+	"filename": "button-arrow---active.png",
+	"frame": {"x":1967,"y":101,"w":25,"h":30},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":1,"w":25,"h":30},
+	"sourceSize": {"w":31,"h":31}
+},
+{
+	"filename": "button-arrow---inactive.png",
+	"frame": {"x":1994,"y":123,"w":25,"h":30},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":1,"w":25,"h":30},
+	"sourceSize": {"w":31,"h":31}
+},
+{
+	"filename": "button-arrow---over.png",
+	"frame": {"x":2021,"y":123,"w":25,"h":30},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":1,"w":25,"h":30},
+	"sourceSize": {"w":31,"h":31}
+},
+{
+	"filename": "button-arrow---pressed.png",
+	"frame": {"x":1940,"y":133,"w":25,"h":30},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":1,"w":25,"h":30},
+	"sourceSize": {"w":31,"h":31}
+},
+{
+	"filename": "check_off.png",
+	"frame": {"x":2013,"y":1,"w":27,"h":27},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":2,"w":27,"h":27},
+	"sourceSize": {"w":27,"h":29}
+},
+{
+	"filename": "check_on.png",
+	"frame": {"x":2013,"y":30,"w":26,"h":29},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":0,"w":26,"h":29},
+	"sourceSize": {"w":27,"h":29}
+},
+{
+	"filename": "HandleLeft.png",
+	"frame": {"x":1995,"y":39,"w":16,"h":27},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":27},
+	"sourceSize": {"w":16,"h":27}
+},
+{
+	"filename": "HandleRight.png",
+	"frame": {"x":1995,"y":68,"w":16,"h":27},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":27},
+	"sourceSize": {"w":16,"h":27}
+},
+{
+	"filename": "Input.png",
+	"frame": {"x":1940,"y":39,"w":53,"h":28},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":53,"h":28},
+	"sourceSize": {"w":54,"h":28}
+},
+{
+	"filename": "InputBig.png",
+	"frame": {"x":1940,"y":1,"w":71,"h":36},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":71,"h":36},
+	"sourceSize": {"w":73,"h":38}
+},
+{
+	"filename": "inputSmall.png",
+	"frame": {"x":2013,"y":61,"w":26,"h":28},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":26,"h":28},
+	"sourceSize": {"w":27,"h":28}
+},
+{
+	"filename": "Splash.png",
+	"frame": {"x":1,"y":1,"w":1280,"h":720},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1280,"h":720},
+	"sourceSize": {"w":1280,"h":720}
+},
+{
+	"filename": "SplashWin1.png",
+	"frame": {"x":1283,"y":1,"w":655,"h":451},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":344,"y":157,"w":655,"h":451},
+	"sourceSize": {"w":1280,"h":720}
+},
+{
+	"filename": "SplashWin1Text.png",
+	"frame": {"x":1,"y":898,"w":416,"h":61},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":365,"y":218,"w":416,"h":61},
+	"sourceSize": {"w":1280,"h":720}
+},
+{
+	"filename": "SplashWin2.png",
+	"frame": {"x":1283,"y":454,"w":653,"h":442},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":343,"y":161,"w":653,"h":442},
+	"sourceSize": {"w":1280,"h":720}
+},
+{
+	"filename": "SplashWin2Text.png",
+	"frame": {"x":1,"y":961,"w":510,"h":55},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":397,"y":347,"w":510,"h":55},
+	"sourceSize": {"w":1280,"h":720}
+},
+{
+	"filename": "TextBox2.png",
+	"frame": {"x":1940,"y":1,"w":71,"h":36},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":71,"h":36},
+	"sourceSize": {"w":73,"h":38}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "screens2.png",
+	"format": "RGBA8888",
+	"size": {"w":2048,"h":1024},
+	"scale": "0.6667",
+	"smartupdate": "$TexturePacker:SmartUpdate:7891fbb3cf757bcd065e35e2d2bd0713:6ac00f2b068514ab5bdddeffa1533db0:72192c94427c65079cf927321e7be6c7$"
+}
+}

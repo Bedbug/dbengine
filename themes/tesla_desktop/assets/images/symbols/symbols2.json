@@ -1,0 +1,356 @@
+{"frames": [
+
+{
+	"filename": "lamp.png",
+	"frame": {"x":184,"y":262,"w":60,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":2,"w":60,"h":78},
+	"sourceSize": {"w":60,"h":80}
+},
+{
+	"filename": "leftPower.png",
+	"frame": {"x":1,"y":1,"w":181,"h":346},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":181,"h":346},
+	"sourceSize": {"w":181,"h":346}
+},
+{
+	"filename": "rightPower.png",
+	"frame": {"x":1,"y":349,"w":195,"h":292},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":195,"h":292},
+	"sourceSize": {"w":195,"h":292}
+},
+{
+	"filename": "Screen_HIGH_WIN_00000.png",
+	"frame": {"x":1037,"y":778,"w":255,"h":255},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":6,"w":255,"h":255},
+	"sourceSize": {"w":267,"h":267}
+},
+{
+	"filename": "Screen_HIGH_WIN_00001.png",
+	"frame": {"x":520,"y":1553,"w":255,"h":255},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":6,"w":255,"h":255},
+	"sourceSize": {"w":267,"h":267}
+},
+{
+	"filename": "Screen_HIGH_WIN_00002.png",
+	"frame": {"x":780,"y":1035,"w":255,"h":255},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":6,"w":255,"h":255},
+	"sourceSize": {"w":267,"h":267}
+},
+{
+	"filename": "Screen_HIGH_WIN_00003.png",
+	"frame": {"x":1037,"y":1035,"w":255,"h":255},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":6,"w":255,"h":255},
+	"sourceSize": {"w":267,"h":267}
+},
+{
+	"filename": "Screen_HIGH_WIN_00004.png",
+	"frame": {"x":262,"y":1294,"w":256,"h":257},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":6,"w":256,"h":257},
+	"sourceSize": {"w":267,"h":267}
+},
+{
+	"filename": "Screen_HIGH_WIN_00005.png",
+	"frame": {"x":1748,"y":1035,"w":257,"h":257},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":5,"y":6,"w":257,"h":257},
+	"sourceSize": {"w":267,"h":267}
+},
+{
+	"filename": "Screen_HIGH_WIN_00006.png",
+	"frame": {"x":967,"y":261,"w":259,"h":256},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":6,"w":259,"h":256},
+	"sourceSize": {"w":267,"h":267}
+},
+{
+	"filename": "Screen_HIGH_WIN_00007.png",
+	"frame": {"x":1228,"y":261,"w":259,"h":255},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":6,"w":259,"h":255},
+	"sourceSize": {"w":267,"h":267}
+},
+{
+	"filename": "Screen_HIGH_WIN_00008.png",
+	"frame": {"x":1489,"y":261,"w":259,"h":255},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":6,"w":259,"h":255},
+	"sourceSize": {"w":267,"h":267}
+},
+{
+	"filename": "Screen_HIGH_WIN_00009.png",
+	"frame": {"x":262,"y":779,"w":257,"h":255},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":5,"y":6,"w":257,"h":255},
+	"sourceSize": {"w":267,"h":267}
+},
+{
+	"filename": "Screen_HIGH_WIN_00010.png",
+	"frame": {"x":521,"y":779,"w":256,"h":255},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":6,"w":256,"h":255},
+	"sourceSize": {"w":267,"h":267}
+},
+{
+	"filename": "Screen_HIGH_WIN_00011.png",
+	"frame": {"x":779,"y":778,"w":256,"h":255},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":6,"w":256,"h":255},
+	"sourceSize": {"w":267,"h":267}
+},
+{
+	"filename": "Screen_HIGH_WIN_00012.png",
+	"frame": {"x":521,"y":1036,"w":257,"h":255},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":6,"w":257,"h":255},
+	"sourceSize": {"w":267,"h":267}
+},
+{
+	"filename": "Screen_HIGH_WIN_00013.png",
+	"frame": {"x":1748,"y":778,"w":258,"h":255},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":5,"y":6,"w":258,"h":255},
+	"sourceSize": {"w":267,"h":267}
+},
+{
+	"filename": "Screen_HIGH_WIN_00014.png",
+	"frame": {"x":262,"y":1036,"w":257,"h":256},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":5,"w":257,"h":256},
+	"sourceSize": {"w":267,"h":267}
+},
+{
+	"filename": "Screen_HIGH_WIN_00015.png",
+	"frame": {"x":459,"y":520,"w":257,"h":257},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":4,"w":257,"h":257},
+	"sourceSize": {"w":267,"h":267}
+},
+{
+	"filename": "Screen_HIGH_WIN_00016.png",
+	"frame": {"x":262,"y":1553,"w":256,"h":257},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":4,"w":256,"h":257},
+	"sourceSize": {"w":267,"h":267}
+},
+{
+	"filename": "Screen_HIGH_WIN_00017.png",
+	"frame": {"x":520,"y":1294,"w":255,"h":257},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":4,"w":255,"h":257},
+	"sourceSize": {"w":267,"h":267}
+},
+{
+	"filename": "Screen_HIGH_WIN_00018.png",
+	"frame": {"x":1294,"y":1036,"w":255,"h":255},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":6,"w":255,"h":255},
+	"sourceSize": {"w":267,"h":267}
+},
+{
+	"filename": "Screen_HIGH_WIN_00019.png",
+	"frame": {"x":780,"y":1292,"w":255,"h":255},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":6,"w":255,"h":255},
+	"sourceSize": {"w":267,"h":267}
+},
+{
+	"filename": "Screen_SPECIAL_WIN_00000.png",
+	"frame": {"x":967,"y":519,"w":258,"h":257},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":5,"y":5,"w":258,"h":257},
+	"sourceSize": {"w":267,"h":267}
+},
+{
+	"filename": "Screen_SPECIAL_WIN_00001.png",
+	"frame": {"x":1488,"y":518,"w":258,"h":257},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":5,"y":5,"w":258,"h":257},
+	"sourceSize": {"w":267,"h":267}
+},
+{
+	"filename": "Screen_SPECIAL_WIN_00002.png",
+	"frame": {"x":1748,"y":519,"w":258,"h":257},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":5,"y":5,"w":258,"h":257},
+	"sourceSize": {"w":267,"h":267}
+},
+{
+	"filename": "Screen_SPECIAL_WIN_00003.png",
+	"frame": {"x":1228,"y":518,"w":258,"h":258},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":5,"y":5,"w":258,"h":258},
+	"sourceSize": {"w":267,"h":267}
+},
+{
+	"filename": "Screen_SPECIAL_WIN_00004.png",
+	"frame": {"x":184,"y":1,"w":259,"h":259},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":4,"w":259,"h":259},
+	"sourceSize": {"w":267,"h":267}
+},
+{
+	"filename": "Screen_SPECIAL_WIN_00005.png",
+	"frame": {"x":1,"y":643,"w":259,"h":259},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":4,"w":259,"h":259},
+	"sourceSize": {"w":267,"h":267}
+},
+{
+	"filename": "Screen_SPECIAL_WIN_00006.png",
+	"frame": {"x":1,"y":1165,"w":259,"h":258},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":5,"w":259,"h":258},
+	"sourceSize": {"w":267,"h":267}
+},
+{
+	"filename": "Screen_SPECIAL_WIN_00007.png",
+	"frame": {"x":1,"y":1425,"w":259,"h":258},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":5,"w":259,"h":258},
+	"sourceSize": {"w":267,"h":267}
+},
+{
+	"filename": "Screen_SPECIAL_WIN_00008.png",
+	"frame": {"x":1,"y":1685,"w":259,"h":258},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":5,"w":259,"h":258},
+	"sourceSize": {"w":267,"h":267}
+},
+{
+	"filename": "Screen_SPECIAL_WIN_00009.png",
+	"frame": {"x":706,"y":1,"w":259,"h":258},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":5,"w":259,"h":258},
+	"sourceSize": {"w":267,"h":267}
+},
+{
+	"filename": "Screen_SPECIAL_WIN_00010.png",
+	"frame": {"x":198,"y":342,"w":259,"h":259},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":4,"w":259,"h":259},
+	"sourceSize": {"w":267,"h":267}
+},
+{
+	"filename": "Screen_SPECIAL_WIN_00011.png",
+	"frame": {"x":1750,"y":1,"w":259,"h":257},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":5,"w":259,"h":257},
+	"sourceSize": {"w":267,"h":267}
+},
+{
+	"filename": "Screen_SPECIAL_WIN_00012.png",
+	"frame": {"x":1750,"y":260,"w":259,"h":257},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":5,"w":259,"h":257},
+	"sourceSize": {"w":267,"h":267}
+},
+{
+	"filename": "Screen_SPECIAL_WIN_00013.png",
+	"frame": {"x":967,"y":1,"w":259,"h":258},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":4,"w":259,"h":258},
+	"sourceSize": {"w":267,"h":267}
+},
+{
+	"filename": "Screen_SPECIAL_WIN_00014.png",
+	"frame": {"x":1228,"y":1,"w":259,"h":258},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":4,"w":259,"h":258},
+	"sourceSize": {"w":267,"h":267}
+},
+{
+	"filename": "Screen_SPECIAL_WIN_00015.png",
+	"frame": {"x":445,"y":1,"w":259,"h":259},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":4,"w":259,"h":259},
+	"sourceSize": {"w":267,"h":267}
+},
+{
+	"filename": "Screen_SPECIAL_WIN_00016.png",
+	"frame": {"x":1,"y":904,"w":259,"h":259},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":4,"w":259,"h":259},
+	"sourceSize": {"w":267,"h":267}
+},
+{
+	"filename": "Screen_SPECIAL_WIN_00017.png",
+	"frame": {"x":1489,"y":1,"w":259,"h":258},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":4,"w":259,"h":258},
+	"sourceSize": {"w":267,"h":267}
+},
+{
+	"filename": "Screen_SPECIAL_WIN_00018.png",
+	"frame": {"x":1488,"y":777,"w":258,"h":257},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":5,"y":5,"w":258,"h":257},
+	"sourceSize": {"w":267,"h":267}
+},
+{
+	"filename": "Screen_SPECIAL_WIN_00019.png",
+	"frame": {"x":706,"y":261,"w":259,"h":257},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":5,"w":259,"h":257},
+	"sourceSize": {"w":267,"h":267}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "symbols2.png",
+	"format": "RGBA8888",
+	"size": {"w":2048,"h":2048},
+	"scale": "0.6667",
+	"smartupdate": "$TexturePacker:SmartUpdate:2a5484815b3c80f5ef9608de1699ac8a:fba0df7fd9d87d761af88ea77404061a:b46966b53c883816075f4108c8a085eb$"
+}
+}

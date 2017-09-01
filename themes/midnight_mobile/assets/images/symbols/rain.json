@@ -1,0 +1,52 @@
+{"frames": [
+
+{
+	"filename": "rain_01.png",
+	"frame": {"x":1,"y":543,"w":952,"h":540},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":952,"h":540},
+	"sourceSize": {"w":960,"h":540}
+},
+{
+	"filename": "rain_02.png",
+	"frame": {"x":963,"y":1,"w":960,"h":539},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":960,"h":539},
+	"sourceSize": {"w":960,"h":540}
+},
+{
+	"filename": "rain_03.png",
+	"frame": {"x":1,"y":1,"w":960,"h":540},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":960,"h":540},
+	"sourceSize": {"w":960,"h":540}
+},
+{
+	"filename": "rain_04.png",
+	"frame": {"x":963,"y":542,"w":958,"h":540},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":958,"h":540},
+	"sourceSize": {"w":960,"h":540}
+},
+{
+	"filename": "rain_05.png",
+	"frame": {"x":955,"y":1084,"w":940,"h":540},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":20,"y":0,"w":940,"h":540},
+	"sourceSize": {"w":960,"h":540}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "rain.png",
+	"format": "RGBA8888",
+	"size": {"w":2048,"h":2048},
+	"scale": "0.5",
+	"smartupdate": "$TexturePacker:SmartUpdate:013e008c25818f6683a3fc98072fe628:19a495a9ee02c2b860a84f6e61c50d86:e8cfc8249e9bc780202c75b53a681322$"
+}
+}

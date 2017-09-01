@@ -1,0 +1,437 @@
+<!doctype html>
+<!--<html manifest="./cache_manifest.cfm">-->
+<html>
+
+
+<head>
+	<title id="game_title"></title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="chrome=1, IE=9">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="HandheldFriendly" content="true" />
+	<meta name="robots" content="noindex,nofollow" />
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<meta name="apple-mobile-web-app-title" content="WinChill">
+	<meta name="viewport" content="initial-scale=1 maximum-scale=1 user-scalable=0 shrink-to-fit=no, minimal-ui" />
+
+	<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+	<!-- non-retina iPhone pre iOS 7 -->
+	<link rel="apple-touch-icon" sizes="57x57" href="icons/app_icon_57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="icons/app_icon_60x60.png">
+	<!-- non-retina iPad pre iOS 7 -->
+	<link rel="apple-touch-icon" sizes="72x72" href="icons/app_icon_72x72.png">
+	<!-- non-retina iPad iOS 7 -->
+	<link rel="apple-touch-icon" sizes="76x76" href="icons/app_icon_76x76.png">
+	<!-- retina iPhone pre iOS 7 -->
+	<link rel="apple-touch-icon" sizes="114x114" href="icons/app_icon_114x114.png">
+	<!-- retina iPhone iOS 7 -->
+	<link rel="apple-touch-icon" sizes="120x120" href="icons/app_icon_120x120.png">
+	<!-- retina iPad pre iOS 7 -->
+	<link rel="apple-touch-icon" sizes="144x144" href="icons/app_icon_144x144.png">
+	<!-- retina iPad iOS 7 -->
+	<link rel="apple-touch-icon" sizes="152x152" href="icons/app_icon_152x152.png">
+	<link rel="apple-touch-icon" sizes="256x256" href="icons/app_icon_256x256.png">
+	<link rel="apple-touch-icon" sizes="512x512" href="icons/app_icon_512x512.png">
+	<link rel="apple-touch-icon" sizes="1024x1024" href="icons/app_icon_1024x1024.png">
+	<link rel="stylesheet" href="css/styles.css" type="text/css" charset="utf-8" />
+
+	<!-- JqueryUIMobile -->
+	<link rel="stylesheet" href="css/jquery.mobile-1.4.5.css">
+	<link rel="stylesheet" href="css/intralot-theme.css">
+
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+
+
+	<script src='lib/brim.js'></script>
+	<script src='lib/scream.js'></script>
+	<script src='lib/platform.js'></script>
+	<script src="lib/lodash.min.js"></script>
+	<script src='lib/EventEmitter.js'></script>
+	<script src="lib/jquery-3.1.0.min.js"></script>
+	<script src="lib/jquery-ui.js"></script>
+
+
+	<!-- An Array of tests for the Demo Play Mode -->
+	<!--<script src="assets/data/demo_plays.js"></script>-->
+
+	<!--Lobby Proxy-->
+	<script src="LobbyProxy.js"></script>
+
+	<!-- build:engine -->
+	<!--Framework Classes -->
+	<script src="js/engine/phaser.js"></script>
+	<script src="js/phaser-input.js"></script>
+	<script src="js/slick-ui.min.js"></script>
+	<script src="js/phaser-nineslice.js"></script>
+	<script src="js/phase-slider.js"></script>
+	<script src="js/UnifiedPanel.js"></script>
+	<script src="js/BedbugTools.js"></script>
+	<script src="js/prefabs/CustomButton.js"></script>
+	<script src="js/prefabs/BitmapButton.js"></script>
+	<script src="js/prefabs/CustomLabel.js"></script>
+	<script src="js/prefabs/Stepper.js"></script>
+	<script src="js/prefabs/StepperSmall.js"></script>
+	<script src="js/prefabs/ValueBox.js"></script>
+	<script src="js/prefabs/CheckBox.js"></script>
+	<script src="js/prefabs/CheckBoxSmall.js"></script>
+	<script src="js/prefabs/WinningLineMap.js"></script>
+	<script src="js/classes/BBReel.js"></script>
+	<script src="js/classes/BBSlot.js"></script>
+	<script src="js/IntralotServer.js"></script>
+	<script src="js/DemoServer.js"></script>
+	<script src="js/parsers/intralot.js"></script>
+	<!--Bedbug Framework -->
+	<script src="js/bgf/bgf.js"></script>
+	<script src="js/bgf/bgf0.js"></script>
+	<script src="js/bgf/bgf1.js"></script>
+	<script src="js/bgf/bgf2.js"></script>
+	<script src="js/bgf/bgf3.js"></script>
+	<!-- endbuild -->
+
+
+	<!--<script src="bundles/engine-bundle.js"></script>-->
+	<!--<script src="bundles/tools-bundle.js"></script>-->
+	<!--<script src="bundles/prefabs-bundle.js"></script>-->
+	<!--<script src="bundles/classes-bundle.js"></script>-->
+	<!--<script src="bundles/bgf-bundle.js"></script>-->
+	<!--<script src="js/compiled-bundle.js"></script>-->
+	<!--<script src="js/compiled-bundle.min.js"></script>-->
+
+</head>
+
+<body>
+
+	<div class="wrong-orientation" id="wrong-orientation"><img src="./assets/images/rotatePhone.png"></div>
+
+	<div id="brim-main">
+		<div id="game-mobile" class="game-container"></div>
+	</div>
+
+	<div id="brim-mask" style="text-align:center; display: none">
+		<img style="padding:10%; max-height: 200px; margin: auto; height: 30%" src="./assets/images/touchgesture.png">
+	</div>
+	<div id="viewport">
+		<div id="game" class="game-container">
+			<!--START OF Unified Control Panel Widget  -->
+	<!--		<div id="unified-control" style="display:none">-->
+	<!--			<div class="unified-panel_balance">-->
+	<!--				<div class="volume-panel-wrapper" style="display:none">-->
+	<!--					<div class="volume-panel animated">-->
+	<!--						<div id="player">-->
+	<!--							<div id="volume"></div>-->
+	<!--						</div>-->
+	<!--					</div>-->
+	<!--				</div>-->
+	<!--				<div class="settings-options-panel-wrapper" style="display:none">-->
+	<!--					<div class="settings-options-panel animated">-->
+	<!--						<fieldset data-role="controlgroup" class="ui-controlgroup ui-controlgroup-vertical ui-corner-all ui-page-theme-b">-->
+	<!--							<div role="heading" class="ui-controlgroup-label">-->
+	<!--								<legend id="localized_gameplay_label">Gameplay settings</legend>-->
+	<!--							</div>-->
+	<!--							<div class="ui-checkbox ui-mini"><label id="localized_fast_spins" class="ui-btn ui-corner-all ui-btn-inherit ui-btn-icon-left ui-checkbox-off ui-first-child">Enable fast spins</label><input type="checkbox" name="checkbox-1a" id="checkbox-1a" checked=""></div>-->
+
+	<!--						</fieldset>-->
+	<!--						<fieldset data-role="controlgroup" class="ui-controlgroup ui-controlgroup-vertical ui-corner-all ui-page-theme-b">-->
+	<!--							<div role="heading" class="ui-controlgroup-label">-->
+	<!--								<legend id="localized_sound_label">Sound settings</legend>-->
+	<!--							</div>-->
+	<!--							<div class="ui-checkbox ui-mini"><label id="localized_sound_effects" class="ui-btn ui-corner-all ui-btn-inherit ui-btn-icon-left ui-checkbox-on ui-first-child">Enable sound effects</label><input type="checkbox" name="checkbox-1a" id="checkbox-1a" checked=""></div>-->
+	<!--							<div class="ui-checkbox ui-mini"><label id="localized_sound_ambiance" class="ui-btn ui-corner-all ui-btn-inherit ui-btn-icon-left ui-checkbox-on ui-first-child">Enable sound effects</label><input type="checkbox" name="checkbox-1a" id="checkbox-1a" checked=""></div>-->
+
+	<!--						</fieldset>-->
+	<!--						<fieldset data-role="controlgroup" style="display:none" class="ui-controlgroup ui-controlgroup-vertical ui-corner-all ui-page-theme-b">-->
+	<!--							<div class="ui-controlgroup-controls ">-->
+	<!--								<div role="heading" class="ui-controlgroup-label">-->
+	<!--									<legend id="localized_graphic_quality_label">Graphic quality settings</legend>-->
+	<!--								</div>-->
+	<!--								<div class="ui-radio ui-mini"><label id="localized_quality_high" for="radio-choice-v-2a" class="ui-btn ui-corner-all ui-btn-inherit ui-btn-icon-left ui-radio-on ui-first-child">High</label><input type="radio" name="radio-choice-v-2" id="radio-choice-v-2a" value="on" checked="checked"></div>-->
+	<!--								<div class="ui-radio ui-mini"><label id="localized_quality_medium" for="radio-choice-v-2b" class="ui-btn ui-corner-all ui-btn-inherit ui-btn-icon-left ui-radio-off">Medium</label><input type="radio" name="radio-choice-v-2" id="radio-choice-v-2b" value="off"></div>-->
+	<!--								<div class="ui-radio ui-mini"><label id="localized_quality_low" for="radio-choice-v-2c" class="ui-btn ui-corner-all ui-btn-inherit ui-btn-icon-left ui-radio-off ui-last-child">Low</label><input type="radio" name="radio-choice-v-2" id="radio-choice-v-2c" value="other"></div>-->
+	<!--							</div>-->
+	<!--						</fieldset>-->
+	<!--					</div>-->
+	<!--				</div>-->
+	<!--				<div class="settings-panel">-->
+	<!--					<ul class="unified-panel-buttons">-->
+	<!--						<li class="unified-panel-button">-->
+	<!--							<div id="gameSettingsSettingsButton" class="interface-desktopSettingsMenu_button interface-gameSettings_icon_uri">-->
+	<!--								<button id="unified_home" class="ui-btn ui-btn-small ui-icon-home ui-nodisc-icon ui-btn-b ui-btn-icon-notext ui-corner-all">as</button>-->
+	<!--							</div>-->
+	<!--						</li>-->
+	<!--						<li class="unified-panel-button">-->
+	<!--							<div id="soundSettingsButton" class="interface-desktopSettingsMenu_button interface-soundSettings_audioOn_icon_uri interface-soundSettings_audioOff_icon_uri">-->
+	<!--								<button id="unified_gear" class="ui-btn ui-btn-small ui-icon-gear ui-nodisc-icon ui-btn-b ui-btn-icon-notext ui-corner-all">as</button>-->
+	<!--							</div>-->
+	<!--						</li>-->
+	<!--						<li class="unified-panel-button">-->
+	<!--							<div id="autoplaySettingsSettingsButton" class="interface-desktopSettingsMenu_button interface-autoplaySettings_icon_uri interface-autoplaySettings-menuButton">-->
+	<!--								<button id="unified_audio" class="ui-btn ui-btn-small ui-icon-audio-min ui-nodisc-icon ui-btn-b ui-btn-icon-notext ui-corner-all">as</button>-->
+	<!--							</div>-->
+	<!--						</li>-->
+	<!--						<li class="unified-panel-button">-->
+	<!--							<div id="gameRulesButton" class="interface-desktopSettingsMenu_button interface-gameRules_icon_uri">-->
+	<!--								<button id="unified_home" class="ui-btn ui-btn-small ui-btn-b ui-btn-round text-only ui-corner-all">?</button>-->
+	<!--							</div>-->
+	<!--						</li>-->
+	<!--					</ul>-->
+	<!--				</div>-->
+	<!--				<div class="interface-cashField_base interface-cashField_desktop interface-cashField_desktop_uri">-->
+	<!--					<div id="balance-block" class="three-d">-->
+	<!--						<div class="three-d-box">-->
+	<!--							<div class="front">-->
+	<!--								<div class="balance-block">-->
+	<!--									<div class="interface-cashField_subComponent" style="visibility: visible;">-->
+	<!--										<span class="inline field credit">-->
+	<!--		                                                <div class="wrapper-balance-item balance" >-->
+	<!--		                                                    <span id="localized_balance" class="text">_balance</span>-->
+	<!--										<span class="text value">€0.00</span>-->
+	<!--									</div>-->
+	<!--									</span>-->
+	<!--									<span class="inline field bet">-->
+	<!--		                                                <div class="wrapper-balance-item">-->
+	<!--		                                                    <span id="localized_bet" class="text">_bet</span>-->
+	<!--									<span class="text value">€0.00</span>-->
+	<!--								</div>-->
+	<!--								</span>-->
+	<!--								<span class="inline field win">-->
+	<!--		                                                <div class="wrapper-balance-item" >-->
+	<!--		                                                    <span  id="localized_win" class="text">_win</span>-->
+	<!--								<span class="text value">€0.00</span>-->
+	<!--							</div>-->
+	<!--							</span>-->
+	<!--						</div>-->
+	<!--					</div>-->
+	<!--				</div>-->
+	<!--				<div class="back">-->
+	<!--					<div class="wrapper" style="margin-right:2%;margin-left:2%;">-->
+	<!--						<span id="localized_fun_play" class="text">_fun_play</span>-->
+	<!--					</div>-->
+	<!--				</div>-->
+	<!--			</div>-->
+	<!--		</div>-->
+	<!--	</div>-->
+	<!--	<div id="time" class="time-info">15:00</div>-->
+
+	<!--</div>-->
+	<!--</div>-->
+	<!--END OF Unified Control Panel Widget  -->
+	</div>
+	</div>
+
+
+	<div id="preload" style="display:none">
+		<img src="./assets/images/unified_panel/volume-empty.png">
+		<img src="./assets/images/unified_panel/volume-full.png">
+		<img src="./assets/images/unified_panel/volume-knob.png">
+		<img src="./assets/images/unified_panel/glyphicons-183-mute.png">
+		<img src="./assets/images/unified_panel/glyphicons-184-volume-down.png">
+		<img src="./assets/images/unified_panel/glyphicons-185-volume-up.png">
+	</div>
+
+
+
+
+
+
+	<script type="text/javascript">
+		var domElement;
+		(function() {
+
+			var scream;
+			var brim;
+			// var checkAgainst = ;
+			// console.log("Initial check [window.screen.width]:"+ window.innerWidth);
+			// console.log("Initial check [window.innerHeight]:"+ window.innerHeight);
+			function startScreaming() {
+				
+			
+				// console.log("Initial check [window.screen.width]:"+ window.screen.width);
+				// console.log("Initial check [window.innerHeight]:"+ window.innerHeight);
+				//IS ALREAD LOADED
+				var firstTime = true;
+				// var specs = {
+				// 		"iphone4": [480, 320]
+				// 	}
+				//APPEND CANVAS TO THIS ELEMENT
+
+				// document.getElementById('game-mobile').style.width = (window.innerWidth) +"px";
+				// document.getElementById('game-mobile').style.height = (window.innerHeight) +"px";
+
+				// alert(	document.getElementById('game-mobile').style.width);
+				// alert(	document.getElementById('game-mobile').style.height);
+				//SET BASE SIZE
+				var width = window.innerWidth;
+				var height = window.innerHeight;
+
+				// alert(window.innerHeight);
+
+				//CHECK FOR IOS8 AND IF ITS NOT IN STANDALONE MODE
+				// if ((platform.os.family == 'iOS' && parseInt(platform.os.version, 10) > 8 || platform.ua.indexOf('like Mac OS X') != -1) && ("standalone" in window.navigator) && !window.navigator.standalone) {
+				if (("standalone" in window.navigator) && !window.navigator.standalone && (window.innerWidth > window.innerHeight)) {
+					// if (true) {
+
+					// console.log("index: innerWidth:"+width + " | innerHeight:"+ height)
+					var switchWidth = width;
+					if (width < height) {
+						width = height;
+						height = switchWidth;
+					}
+
+
+					// document.getElementById('game-mobile').style.width = width +"px";
+					// document.getElementById('game-mobile').style.height = height +"px";
+
+					// console.log("Scream");
+					scream = gajus.Scream({
+						width: {
+							portrait: height, //specs["iphone4"][1],
+							landscape: width, // specs["iphone4"][0]
+
+						}
+					});
+
+					brim = gajus.Brim({
+						viewport: scream
+					});
+
+					domElement = document.querySelector('#game-mobile');
+
+
+					//YOU ARE ON IOS SET FULL SCREEN SIZE 
+					height = scream.getViewportHeight();
+					width = scream.getViewportWidth();
+
+					// console.log("Viewport: " + window.screen.width + " x " + window.screen.height + " | Inner: " + window.innerWidth + " x " + window.innerHeight);
+					// console.log("Orientation: " + orientation);
+					brim.on('viewchange', function(e) {
+
+						console.log("Why doesn't start");
+						document.body.className = e.viewName;
+
+						// / console.log("Viewport: " + window.screen.width + " x " + window.screen.height + " | Inner: " + window.innerWidth + " x " + window.innerHeight);
+						// domElement = document.querySelector('#game-mobile');
+
+						//WRONG ORIENTATION SHOW IMAGE
+						if (scream.getOrientation() == "portrait") {
+							document.getElementById('wrong-orientation').style.display = 'block';
+							document.querySelector('#brim-main').style.width = '100%';
+							document.querySelector('#brim-main').style.height = '100%';
+							document.querySelector('#game-mobile').style.width = '100%';
+							document.querySelector('#game-mobile').style.height = window.screen.height;
+						};
+
+						if (scream.getOrientation() == "landscape") {
+							document.getElementById('wrong-orientation').style.display = 'none';
+							document.querySelector('#brim-main').style.width = '100%';
+							document.querySelector('#brim-main').style.height = '100%';
+							document.querySelector('#game-mobile').style.width = '100%';
+							document.querySelector('#game-mobile').style.height = window.screen.height;
+						};
+
+						if (firstTime && e.viewName == "minimal") {
+							//DO ONLY ONCE AT STARTUP
+							firstTime = false;
+							//SET THE RIGHT DOM ELEMENT
+
+							document.querySelector('#viewport').style.display = 'none';
+							//CREATE PHASER CANVAS
+							startgame();
+						};
+
+					});
+
+					scream.on('orientationchangeend', function(e) {
+						console.log("Let's try again");
+						if (firstTime) {
+							//DO ONLY ONCE AT STARTUP
+							firstTime = false;
+							//SET THE RIGHT DOM ELEMENT
+
+							document.querySelector('#viewport').style.display = 'none';
+							//CREATE PHASER CANVAS
+							startgame();
+						};
+					});
+
+
+				}
+				else {
+
+					//ITS NOT IOS START STANDARD
+					if (firstTime) {
+						//DO ONLY ONCE AT STARTUP
+						firstTime = false;
+						document.querySelector('#brim-main').style.display = 'none';
+						document.querySelector('#brim-mask').style.display = 'none';
+						document.querySelector('#game').style.display = 'block';
+						//SET THE RIGHT DOM ELEMENT
+						domElement = document.querySelector('#game');
+						domElement.style.width = '100%';
+						domElement.style.height = window.screen.height;
+						//CREATE PHASER CANVAS
+						startgame();
+					}
+				};
+			}
+
+			function startgame() {
+
+
+
+				var vars = [],
+					hash;
+				var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+				for (var i = 0; i < hashes.length; i++) {
+					hash = hashes[i].split('=');
+					vars.push(hash[0]);
+					vars[hash[0]] = hash[1];
+				}
+
+				// Map specific url settings to the game
+				bedbugGameCore.mapUrlSettings(vars);
+
+				var game = new Phaser.Game(1280, 720, Phaser.AUTO, domElement, false, false);
+				
+				
+				// Load needed plugins
+				Phaser.Device.whenReady(function() {
+					game.plugins.add(Fabrique.Plugins.InputField);
+					game.plugins.add(Fabrique.Plugins.NineSlice);
+				});
+
+				game.state.add('boot', bedbugGameCore.Boot);
+				game.state.add('gameover', bedbugGameCore.Gameover);
+				game.state.add('preload', bedbugGameCore.Preload);
+				game.state.add('menu', bedbugGameCore.Menu);
+				game.state.add('play', bedbugGameCore.Play);
+
+				game.state.start('boot');
+				// console.log(game.scale);
+				// game.scale.fullScreenTarget = domElement;
+
+				setInterval(function() {
+					checkScreenStates();
+
+				}, 5000);
+
+				function checkScreenStates() {
+					if (window.innerHeight != window.screen.width) {
+						if (scream)
+							scream._detectViewChange();
+					}
+
+					// console.log(scream.getOrientation());
+					// console.log(window.screen.width+" "+window.innerHeight+ " "+ window.outerWidth+ " "+ window.outerHeight);
+				}
+			}
+
+			window.onload = startScreaming();
+		})();
+	</script>
+
+</body>
+
+</html>

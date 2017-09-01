@@ -1,0 +1,2382 @@
+      {
+
+
+          "info1": "All these properties are for testing only and will be deprecated in future releases.",
+          "states": ["REAL_MONEY", "DEMO_PLAY", "SANDBOX", "TEST_MODE"],
+          "selected_game_state": 2,
+          "selected_theme": "weather",
+          "default_language": "en-GB",
+          "change_weather_special_count": 2,
+          "fun_game_settings": {
+              "fun_label_interval": 10000,
+              "fun_label_duration": 2500,
+              "user_starting_balance": 5000
+          },
+          "currency_symbol": "€",
+          "game_rules_url": "www.google.com",
+          "lobby_url": "www.google.com",
+          "info2": "Server setting here are the default values. On GET_SETTINGS response this values are overridden",
+          "server_settings": {
+              
+                  "Header": {
+                      "APIVersionID": "1",
+                      "RequestID": "99206554-0bfa-1368-ab99-d6b7d3411d2d",
+                      "ResponseID": "5F369C39-88F1-4B83-AEEA-3B80D7AB55FD",
+                      "ResponseCode": "200",
+                      "ResponseMessage": "OK",
+                      "GameID": "E16D3634-92BF-4C16-A9E6-6B5E43E5C2AB",
+                      "GameLocaleID": "en-GB",
+                      "OperatorID": "00000000-0000-0000-0000-000000000001",
+                      "UserToken": "",
+                      "AuthToken": "",
+                      "GameMode": "1",
+                      "CData": {
+                          "Balance": "{{yz{y"
+                      }
+                  },
+                  "Device": {
+                      "DeviceClass": "Windows",
+                      "DeviceModel": "intel corei7",
+                      "DeviceSDKVersion": "10",
+                      "DeviceMobileBrowserName": "Chrome",
+                      "DeviceScreenWidth": "3440",
+                      "DeviceScreenHeight": "1440",
+                      "DevicePixelRatio": "0.9",
+                      "CData": null
+                  },
+                  "Player": {
+                      "Alias": "-",
+                      "CurrentBalance": "100000",
+                      "CurrentBalance2": "0",
+                      "CurrentBalance3": "0",
+                      "CurrentBalance4": "0",
+                      "CurrentBalance5": "0",
+                      "CData": null
+                  },
+                  "Game": {
+                      "Configuration": {
+                          "OperatorGameID": "E16D3634-92BF-4C16-A9E6-6B5E43E5C2AB",
+                          "OperatorGameName": "Win Chill",
+                          "OperatorGameDescription": "Slot Game",
+                          "GameID": "00000000-0000-0000-0000-000000000030",
+                          "GameName": "Win Chill",
+                          "GameDescription": "Slot Game",
+                          "Version": "",
+                          "GameTypeID": "1",
+                          "GameTypeName": "Slot",
+                          "GameTypeDescription": "Slot Type",
+                          "GameMode": "1",
+                          "ResumeState": "0",
+                          "ResumeTicketID": null,
+                          "LocalizedCurrencySymbol": "$",
+                          "CurrencySymbolPosition": "0",
+                          "LocalizedDecimalSeparator": ".",
+                          "LocalizedThousandsSeparator": ",",
+                          "LocalizedDecimalDigitsCount": "2",
+                          "CData": null
+                      },
+                      "Symbols": [{
+                          "SymbolID": "112198F5-2847-4A42-AEED-18C84B455642",
+                          "SymbolName": "A",
+                          "SymbolType": "0",
+                          "SymbolURL": "",
+                          "SymbolMultiplier": "1",
+                          "SymbolHintURL": "",
+                          "CData": null
+                      }, {
+                          "SymbolID": "B824CBC4-E003-4B82-94D8-6D979CE235E7",
+                          "SymbolName": "CLOUD",
+                          "SymbolType": "0",
+                          "SymbolURL": "",
+                          "SymbolMultiplier": "1",
+                          "SymbolHintURL": "",
+                          "CData": null
+                      }, {
+                          "SymbolID": "EBD625C7-CB21-4CDC-A24C-47B3A8187821",
+                          "SymbolName": "J",
+                          "SymbolType": "0",
+                          "SymbolURL": "",
+                          "SymbolMultiplier": "1",
+                          "SymbolHintURL": "",
+                          "CData": null
+                      }, {
+                          "SymbolID": "27F34095-FB1D-4889-9756-5FC9308D54BF",
+                          "SymbolName": "K",
+                          "SymbolType": "0",
+                          "SymbolURL": "",
+                          "SymbolMultiplier": "1",
+                          "SymbolHintURL": "",
+                          "CData": null
+                      }, {
+                          "SymbolID": "C42BEE45-DBBC-4749-8483-BE296C6C196E",
+                          "SymbolName": "Q",
+                          "SymbolType": "0",
+                          "SymbolURL": "",
+                          "SymbolMultiplier": "1",
+                          "SymbolHintURL": "",
+                          "CData": null
+                      }, {
+                          "SymbolID": "E371047D-7857-45C6-8E42-D0A7FFC074AE",
+                          "SymbolName": "RAIN",
+                          "SymbolType": "0",
+                          "SymbolURL": "",
+                          "SymbolMultiplier": "1",
+                          "SymbolHintURL": "",
+                          "CData": null
+                      }, {
+                          "SymbolID": "E7D3A171-5987-4E08-9900-1D2FD5DBDDFD",
+                          "SymbolName": "SCATTER",
+                          "SymbolType": "1",
+                          "SymbolURL": "",
+                          "SymbolMultiplier": "1",
+                          "SymbolHintURL": "",
+                          "CData": null
+                      }, {
+                          "SymbolID": "08981962-96F9-41BD-B586-548ACBC2BD3B",
+                          "SymbolName": "SNOW",
+                          "SymbolType": "0",
+                          "SymbolURL": "",
+                          "SymbolMultiplier": "1",
+                          "SymbolHintURL": "",
+                          "CData": null
+                      }, {
+                          "SymbolID": "8E3D091C-116F-44C6-BFBA-975B341132F2",
+                          "SymbolName": "SUN",
+                          "SymbolType": "0",
+                          "SymbolURL": "",
+                          "SymbolMultiplier": "1",
+                          "SymbolHintURL": "",
+                          "CData": null
+                      }, {
+                          "SymbolID": "FCEB97FF-EE08-4BE3-9A2B-F7B17C130B69",
+                          "SymbolName": "TEN",
+                          "SymbolType": "0",
+                          "SymbolURL": "",
+                          "SymbolMultiplier": "1",
+                          "SymbolHintURL": "",
+                          "CData": null
+                      }, {
+                          "SymbolID": "59F7FBF9-438E-4B81-8768-C5481E9AAF2F",
+                          "SymbolName": "WILD",
+                          "SymbolType": "2",
+                          "SymbolURL": "",
+                          "SymbolMultiplier": "2",
+                          "SymbolHintURL": "",
+                          "CData": null
+                      }, {
+                          "SymbolID": "75AFE921-AADA-4E90-BABB-3F04FBFAE994",
+                          "SymbolName": "WIND",
+                          "SymbolType": "0",
+                          "SymbolURL": "",
+                          "SymbolMultiplier": "1",
+                          "SymbolHintURL": "",
+                          "CData": null
+                      }],
+                      "Reels": [{
+                          "ReelID": "2805273C-AA4F-4680-87F9-11EED37BA7AE",
+                          "ReelName": "reel_0",
+                          "ReelIndex": "0",
+                          "ReelDistribution": [{
+                              "SymbolID": "27F34095-FB1D-4889-9756-5FC9308D54BF",
+                              "SymbolPosition": "0"
+                          }, {
+                              "SymbolID": "E371047D-7857-45C6-8E42-D0A7FFC074AE",
+                              "SymbolPosition": "1"
+                          }, {
+                              "SymbolID": "C42BEE45-DBBC-4749-8483-BE296C6C196E",
+                              "SymbolPosition": "2"
+                          }, {
+                              "SymbolID": "112198F5-2847-4A42-AEED-18C84B455642",
+                              "SymbolPosition": "3"
+                          }, {
+                              "SymbolID": "75AFE921-AADA-4E90-BABB-3F04FBFAE994",
+                              "SymbolPosition": "4"
+                          }, {
+                              "SymbolID": "C42BEE45-DBBC-4749-8483-BE296C6C196E",
+                              "SymbolPosition": "5"
+                          }, {
+                              "SymbolID": "08981962-96F9-41BD-B586-548ACBC2BD3B",
+                              "SymbolPosition": "6"
+                          }, {
+                              "SymbolID": "75AFE921-AADA-4E90-BABB-3F04FBFAE994",
+                              "SymbolPosition": "7"
+                          }, {
+                              "SymbolID": "E7D3A171-5987-4E08-9900-1D2FD5DBDDFD",
+                              "SymbolPosition": "8"
+                          }, {
+                              "SymbolID": "E371047D-7857-45C6-8E42-D0A7FFC074AE",
+                              "SymbolPosition": "9"
+                          }, {
+                              "SymbolID": "EBD625C7-CB21-4CDC-A24C-47B3A8187821",
+                              "SymbolPosition": "10"
+                          }, {
+                              "SymbolID": "C42BEE45-DBBC-4749-8483-BE296C6C196E",
+                              "SymbolPosition": "11"
+                          }, {
+                              "SymbolID": "08981962-96F9-41BD-B586-548ACBC2BD3B",
+                              "SymbolPosition": "12"
+                          }, {
+                              "SymbolID": "112198F5-2847-4A42-AEED-18C84B455642",
+                              "SymbolPosition": "13"
+                          }, {
+                              "SymbolID": "E371047D-7857-45C6-8E42-D0A7FFC074AE",
+                              "SymbolPosition": "14"
+                          }, {
+                              "SymbolID": "27F34095-FB1D-4889-9756-5FC9308D54BF",
+                              "SymbolPosition": "15"
+                          }, {
+                              "SymbolID": "B824CBC4-E003-4B82-94D8-6D979CE235E7",
+                              "SymbolPosition": "16"
+                          }, {
+                              "SymbolID": "EBD625C7-CB21-4CDC-A24C-47B3A8187821",
+                              "SymbolPosition": "17"
+                          }, {
+                              "SymbolID": "8E3D091C-116F-44C6-BFBA-975B341132F2",
+                              "SymbolPosition": "18"
+                          }, {
+                              "SymbolID": "FCEB97FF-EE08-4BE3-9A2B-F7B17C130B69",
+                              "SymbolPosition": "19"
+                          }, {
+                              "SymbolID": "27F34095-FB1D-4889-9756-5FC9308D54BF",
+                              "SymbolPosition": "20"
+                          }, {
+                              "SymbolID": "B824CBC4-E003-4B82-94D8-6D979CE235E7",
+                              "SymbolPosition": "21"
+                          }, {
+                              "SymbolID": "EBD625C7-CB21-4CDC-A24C-47B3A8187821",
+                              "SymbolPosition": "22"
+                          }, {
+                              "SymbolID": "8E3D091C-116F-44C6-BFBA-975B341132F2",
+                              "SymbolPosition": "23"
+                          }, {
+                              "SymbolID": "FCEB97FF-EE08-4BE3-9A2B-F7B17C130B69",
+                              "SymbolPosition": "24"
+                          }, {
+                              "SymbolID": "27F34095-FB1D-4889-9756-5FC9308D54BF",
+                              "SymbolPosition": "25"
+                          }, {
+                              "SymbolID": "08981962-96F9-41BD-B586-548ACBC2BD3B",
+                              "SymbolPosition": "26"
+                          }, {
+                              "SymbolID": "112198F5-2847-4A42-AEED-18C84B455642",
+                              "SymbolPosition": "27"
+                          }, {
+                              "SymbolID": "E371047D-7857-45C6-8E42-D0A7FFC074AE",
+                              "SymbolPosition": "28"
+                          }, {
+                              "SymbolID": "C42BEE45-DBBC-4749-8483-BE296C6C196E",
+                              "SymbolPosition": "29"
+                          }, {
+                              "SymbolID": "112198F5-2847-4A42-AEED-18C84B455642",
+                              "SymbolPosition": "30"
+                          }, {
+                              "SymbolID": "B824CBC4-E003-4B82-94D8-6D979CE235E7",
+                              "SymbolPosition": "31"
+                          }, {
+                              "SymbolID": "EBD625C7-CB21-4CDC-A24C-47B3A8187821",
+                              "SymbolPosition": "32"
+                          }, {
+                              "SymbolID": "8E3D091C-116F-44C6-BFBA-975B341132F2",
+                              "SymbolPosition": "33"
+                          }, {
+                              "SymbolID": "FCEB97FF-EE08-4BE3-9A2B-F7B17C130B69",
+                              "SymbolPosition": "34"
+                          }, {
+                              "SymbolID": "27F34095-FB1D-4889-9756-5FC9308D54BF",
+                              "SymbolPosition": "35"
+                          }, {
+                              "SymbolID": "08981962-96F9-41BD-B586-548ACBC2BD3B",
+                              "SymbolPosition": "36"
+                          }, {
+                              "SymbolID": "75AFE921-AADA-4E90-BABB-3F04FBFAE994",
+                              "SymbolPosition": "37"
+                          }, {
+                              "SymbolID": "08981962-96F9-41BD-B586-548ACBC2BD3B",
+                              "SymbolPosition": "38"
+                          }, {
+                              "SymbolID": "E7D3A171-5987-4E08-9900-1D2FD5DBDDFD",
+                              "SymbolPosition": "39"
+                          }, {
+                              "SymbolID": "C42BEE45-DBBC-4749-8483-BE296C6C196E",
+                              "SymbolPosition": "40"
+                          }, {
+                              "SymbolID": "75AFE921-AADA-4E90-BABB-3F04FBFAE994",
+                              "SymbolPosition": "41"
+                          }, {
+                              "SymbolID": "27F34095-FB1D-4889-9756-5FC9308D54BF",
+                              "SymbolPosition": "42"
+                          }, {
+                              "SymbolID": "FCEB97FF-EE08-4BE3-9A2B-F7B17C130B69",
+                              "SymbolPosition": "43"
+                          }, {
+                              "SymbolID": "EBD625C7-CB21-4CDC-A24C-47B3A8187821",
+                              "SymbolPosition": "44"
+                          }, {
+                              "SymbolID": "08981962-96F9-41BD-B586-548ACBC2BD3B",
+                              "SymbolPosition": "45"
+                          }, {
+                              "SymbolID": "C42BEE45-DBBC-4749-8483-BE296C6C196E",
+                              "SymbolPosition": "46"
+                          }, {
+                              "SymbolID": "112198F5-2847-4A42-AEED-18C84B455642",
+                              "SymbolPosition": "47"
+                          }, {
+                              "SymbolID": "E7D3A171-5987-4E08-9900-1D2FD5DBDDFD",
+                              "SymbolPosition": "48"
+                          }, {
+                              "SymbolID": "112198F5-2847-4A42-AEED-18C84B455642",
+                              "SymbolPosition": "49"
+                          }, {
+                              "SymbolID": "75AFE921-AADA-4E90-BABB-3F04FBFAE994",
+                              "SymbolPosition": "50"
+                          }, {
+                              "SymbolID": "B824CBC4-E003-4B82-94D8-6D979CE235E7",
+                              "SymbolPosition": "51"
+                          }, {
+                              "SymbolID": "EBD625C7-CB21-4CDC-A24C-47B3A8187821",
+                              "SymbolPosition": "52"
+                          }, {
+                              "SymbolID": "8E3D091C-116F-44C6-BFBA-975B341132F2",
+                              "SymbolPosition": "53"
+                          }, {
+                              "SymbolID": "FCEB97FF-EE08-4BE3-9A2B-F7B17C130B69",
+                              "SymbolPosition": "54"
+                          }]
+                      }, {
+                          "ReelID": "1E657D1F-0CD1-4D81-8E36-01D1CA6D6319",
+                          "ReelName": "reel_1",
+                          "ReelIndex": "1",
+                          "ReelDistribution": [{
+                              "SymbolID": "8E3D091C-116F-44C6-BFBA-975B341132F2",
+                              "SymbolPosition": "0"
+                          }, {
+                              "SymbolID": "112198F5-2847-4A42-AEED-18C84B455642",
+                              "SymbolPosition": "1"
+                          }, {
+                              "SymbolID": "08981962-96F9-41BD-B586-548ACBC2BD3B",
+                              "SymbolPosition": "2"
+                          }, {
+                              "SymbolID": "B824CBC4-E003-4B82-94D8-6D979CE235E7",
+                              "SymbolPosition": "3"
+                          }, {
+                              "SymbolID": "75AFE921-AADA-4E90-BABB-3F04FBFAE994",
+                              "SymbolPosition": "4"
+                          }, {
+                              "SymbolID": "C42BEE45-DBBC-4749-8483-BE296C6C196E",
+                              "SymbolPosition": "5"
+                          }, {
+                              "SymbolID": "112198F5-2847-4A42-AEED-18C84B455642",
+                              "SymbolPosition": "6"
+                          }, {
+                              "SymbolID": "E7D3A171-5987-4E08-9900-1D2FD5DBDDFD",
+                              "SymbolPosition": "7"
+                          }, {
+                              "SymbolID": "27F34095-FB1D-4889-9756-5FC9308D54BF",
+                              "SymbolPosition": "8"
+                          }, {
+                              "SymbolID": "E371047D-7857-45C6-8E42-D0A7FFC074AE",
+                              "SymbolPosition": "9"
+                          }, {
+                              "SymbolID": "08981962-96F9-41BD-B586-548ACBC2BD3B",
+                              "SymbolPosition": "10"
+                          }, {
+                              "SymbolID": "112198F5-2847-4A42-AEED-18C84B455642",
+                              "SymbolPosition": "11"
+                          }, {
+                              "SymbolID": "75AFE921-AADA-4E90-BABB-3F04FBFAE994",
+                              "SymbolPosition": "12"
+                          }, {
+                              "SymbolID": "27F34095-FB1D-4889-9756-5FC9308D54BF",
+                              "SymbolPosition": "13"
+                          }, {
+                              "SymbolID": "8E3D091C-116F-44C6-BFBA-975B341132F2",
+                              "SymbolPosition": "14"
+                          }, {
+                              "SymbolID": "E7D3A171-5987-4E08-9900-1D2FD5DBDDFD",
+                              "SymbolPosition": "15"
+                          }, {
+                              "SymbolID": "27F34095-FB1D-4889-9756-5FC9308D54BF",
+                              "SymbolPosition": "16"
+                          }, {
+                              "SymbolID": "112198F5-2847-4A42-AEED-18C84B455642",
+                              "SymbolPosition": "17"
+                          }, {
+                              "SymbolID": "C42BEE45-DBBC-4749-8483-BE296C6C196E",
+                              "SymbolPosition": "18"
+                          }, {
+                              "SymbolID": "E371047D-7857-45C6-8E42-D0A7FFC074AE",
+                              "SymbolPosition": "19"
+                          }, {
+                              "SymbolID": "FCEB97FF-EE08-4BE3-9A2B-F7B17C130B69",
+                              "SymbolPosition": "20"
+                          }, {
+                              "SymbolID": "59F7FBF9-438E-4B81-8768-C5481E9AAF2F",
+                              "SymbolPosition": "21"
+                          }, {
+                              "SymbolID": "EBD625C7-CB21-4CDC-A24C-47B3A8187821",
+                              "SymbolPosition": "22"
+                          }, {
+                              "SymbolID": "C42BEE45-DBBC-4749-8483-BE296C6C196E",
+                              "SymbolPosition": "23"
+                          }, {
+                              "SymbolID": "FCEB97FF-EE08-4BE3-9A2B-F7B17C130B69",
+                              "SymbolPosition": "24"
+                          }, {
+                              "SymbolID": "C42BEE45-DBBC-4749-8483-BE296C6C196E",
+                              "SymbolPosition": "25"
+                          }, {
+                              "SymbolID": "E371047D-7857-45C6-8E42-D0A7FFC074AE",
+                              "SymbolPosition": "26"
+                          }, {
+                              "SymbolID": "27F34095-FB1D-4889-9756-5FC9308D54BF",
+                              "SymbolPosition": "27"
+                          }, {
+                              "SymbolID": "75AFE921-AADA-4E90-BABB-3F04FBFAE994",
+                              "SymbolPosition": "28"
+                          }, {
+                              "SymbolID": "C42BEE45-DBBC-4749-8483-BE296C6C196E",
+                              "SymbolPosition": "29"
+                          }, {
+                              "SymbolID": "FCEB97FF-EE08-4BE3-9A2B-F7B17C130B69",
+                              "SymbolPosition": "30"
+                          }, {
+                              "SymbolID": "59F7FBF9-438E-4B81-8768-C5481E9AAF2F",
+                              "SymbolPosition": "31"
+                          }, {
+                              "SymbolID": "EBD625C7-CB21-4CDC-A24C-47B3A8187821",
+                              "SymbolPosition": "32"
+                          }, {
+                              "SymbolID": "08981962-96F9-41BD-B586-548ACBC2BD3B",
+                              "SymbolPosition": "33"
+                          }, {
+                              "SymbolID": "27F34095-FB1D-4889-9756-5FC9308D54BF",
+                              "SymbolPosition": "34"
+                          }, {
+                              "SymbolID": "FCEB97FF-EE08-4BE3-9A2B-F7B17C130B69",
+                              "SymbolPosition": "35"
+                          }, {
+                              "SymbolID": "59F7FBF9-438E-4B81-8768-C5481E9AAF2F",
+                              "SymbolPosition": "36"
+                          }, {
+                              "SymbolID": "EBD625C7-CB21-4CDC-A24C-47B3A8187821",
+                              "SymbolPosition": "37"
+                          }, {
+                              "SymbolID": "E7D3A171-5987-4E08-9900-1D2FD5DBDDFD",
+                              "SymbolPosition": "38"
+                          }, {
+                              "SymbolID": "EBD625C7-CB21-4CDC-A24C-47B3A8187821",
+                              "SymbolPosition": "39"
+                          }, {
+                              "SymbolID": "08981962-96F9-41BD-B586-548ACBC2BD3B",
+                              "SymbolPosition": "40"
+                          }, {
+                              "SymbolID": "27F34095-FB1D-4889-9756-5FC9308D54BF",
+                              "SymbolPosition": "41"
+                          }, {
+                              "SymbolID": "B824CBC4-E003-4B82-94D8-6D979CE235E7",
+                              "SymbolPosition": "42"
+                          }, {
+                              "SymbolID": "EBD625C7-CB21-4CDC-A24C-47B3A8187821",
+                              "SymbolPosition": "43"
+                          }, {
+                              "SymbolID": "08981962-96F9-41BD-B586-548ACBC2BD3B",
+                              "SymbolPosition": "44"
+                          }, {
+                              "SymbolID": "FCEB97FF-EE08-4BE3-9A2B-F7B17C130B69",
+                              "SymbolPosition": "45"
+                          }, {
+                              "SymbolID": "59F7FBF9-438E-4B81-8768-C5481E9AAF2F",
+                              "SymbolPosition": "46"
+                          }, {
+                              "SymbolID": "EBD625C7-CB21-4CDC-A24C-47B3A8187821",
+                              "SymbolPosition": "47"
+                          }, {
+                              "SymbolID": "E7D3A171-5987-4E08-9900-1D2FD5DBDDFD",
+                              "SymbolPosition": "48"
+                          }, {
+                              "SymbolID": "112198F5-2847-4A42-AEED-18C84B455642",
+                              "SymbolPosition": "49"
+                          }, {
+                              "SymbolID": "08981962-96F9-41BD-B586-548ACBC2BD3B",
+                              "SymbolPosition": "50"
+                          }, {
+                              "SymbolID": "75AFE921-AADA-4E90-BABB-3F04FBFAE994",
+                              "SymbolPosition": "51"
+                          }, {
+                              "SymbolID": "C42BEE45-DBBC-4749-8483-BE296C6C196E",
+                              "SymbolPosition": "52"
+                          }, {
+                              "SymbolID": "27F34095-FB1D-4889-9756-5FC9308D54BF",
+                              "SymbolPosition": "53"
+                          }, {
+                              "SymbolID": "112198F5-2847-4A42-AEED-18C84B455642",
+                              "SymbolPosition": "54"
+                          }]
+                      }, {
+                          "ReelID": "75768308-9724-4769-9AAC-9DE01729355E",
+                          "ReelName": "reel_2",
+                          "ReelIndex": "2",
+                          "ReelDistribution": [{
+                              "SymbolID": "C42BEE45-DBBC-4749-8483-BE296C6C196E",
+                              "SymbolPosition": "0"
+                          }, {
+                              "SymbolID": "27F34095-FB1D-4889-9756-5FC9308D54BF",
+                              "SymbolPosition": "1"
+                          }, {
+                              "SymbolID": "75AFE921-AADA-4E90-BABB-3F04FBFAE994",
+                              "SymbolPosition": "2"
+                          }, {
+                              "SymbolID": "27F34095-FB1D-4889-9756-5FC9308D54BF",
+                              "SymbolPosition": "3"
+                          }, {
+                              "SymbolID": "E371047D-7857-45C6-8E42-D0A7FFC074AE",
+                              "SymbolPosition": "4"
+                          }, {
+                              "SymbolID": "08981962-96F9-41BD-B586-548ACBC2BD3B",
+                              "SymbolPosition": "5"
+                          }, {
+                              "SymbolID": "EBD625C7-CB21-4CDC-A24C-47B3A8187821",
+                              "SymbolPosition": "6"
+                          }, {
+                              "SymbolID": "E371047D-7857-45C6-8E42-D0A7FFC074AE",
+                              "SymbolPosition": "7"
+                          }, {
+                              "SymbolID": "C42BEE45-DBBC-4749-8483-BE296C6C196E",
+                              "SymbolPosition": "8"
+                          }, {
+                              "SymbolID": "08981962-96F9-41BD-B586-548ACBC2BD3B",
+                              "SymbolPosition": "9"
+                          }, {
+                              "SymbolID": "8E3D091C-116F-44C6-BFBA-975B341132F2",
+                              "SymbolPosition": "10"
+                          }, {
+                              "SymbolID": "112198F5-2847-4A42-AEED-18C84B455642",
+                              "SymbolPosition": "11"
+                          }, {
+                              "SymbolID": "08981962-96F9-41BD-B586-548ACBC2BD3B",
+                              "SymbolPosition": "12"
+                          }, {
+                              "SymbolID": "75AFE921-AADA-4E90-BABB-3F04FBFAE994",
+                              "SymbolPosition": "13"
+                          }, {
+                              "SymbolID": "27F34095-FB1D-4889-9756-5FC9308D54BF",
+                              "SymbolPosition": "14"
+                          }, {
+                              "SymbolID": "C42BEE45-DBBC-4749-8483-BE296C6C196E",
+                              "SymbolPosition": "15"
+                          }, {
+                              "SymbolID": "112198F5-2847-4A42-AEED-18C84B455642",
+                              "SymbolPosition": "16"
+                          }, {
+                              "SymbolID": "27F34095-FB1D-4889-9756-5FC9308D54BF",
+                              "SymbolPosition": "17"
+                          }, {
+                              "SymbolID": "75AFE921-AADA-4E90-BABB-3F04FBFAE994",
+                              "SymbolPosition": "18"
+                          }, {
+                              "SymbolID": "C42BEE45-DBBC-4749-8483-BE296C6C196E",
+                              "SymbolPosition": "19"
+                          }, {
+                              "SymbolID": "08981962-96F9-41BD-B586-548ACBC2BD3B",
+                              "SymbolPosition": "20"
+                          }, {
+                              "SymbolID": "E7D3A171-5987-4E08-9900-1D2FD5DBDDFD",
+                              "SymbolPosition": "21"
+                          }, {
+                              "SymbolID": "75AFE921-AADA-4E90-BABB-3F04FBFAE994",
+                              "SymbolPosition": "22"
+                          }, {
+                              "SymbolID": "08981962-96F9-41BD-B586-548ACBC2BD3B",
+                              "SymbolPosition": "23"
+                          }, {
+                              "SymbolID": "27F34095-FB1D-4889-9756-5FC9308D54BF",
+                              "SymbolPosition": "24"
+                          }, {
+                              "SymbolID": "08981962-96F9-41BD-B586-548ACBC2BD3B",
+                              "SymbolPosition": "25"
+                          }, {
+                              "SymbolID": "C42BEE45-DBBC-4749-8483-BE296C6C196E",
+                              "SymbolPosition": "26"
+                          }, {
+                              "SymbolID": "27F34095-FB1D-4889-9756-5FC9308D54BF",
+                              "SymbolPosition": "27"
+                          }, {
+                              "SymbolID": "FCEB97FF-EE08-4BE3-9A2B-F7B17C130B69",
+                              "SymbolPosition": "28"
+                          }, {
+                              "SymbolID": "EBD625C7-CB21-4CDC-A24C-47B3A8187821",
+                              "SymbolPosition": "29"
+                          }, {
+                              "SymbolID": "59F7FBF9-438E-4B81-8768-C5481E9AAF2F",
+                              "SymbolPosition": "30"
+                          }, {
+                              "SymbolID": "FCEB97FF-EE08-4BE3-9A2B-F7B17C130B69",
+                              "SymbolPosition": "31"
+                          }, {
+                              "SymbolID": "112198F5-2847-4A42-AEED-18C84B455642",
+                              "SymbolPosition": "32"
+                          }, {
+                              "SymbolID": "E371047D-7857-45C6-8E42-D0A7FFC074AE",
+                              "SymbolPosition": "33"
+                          }, {
+                              "SymbolID": "112198F5-2847-4A42-AEED-18C84B455642",
+                              "SymbolPosition": "34"
+                          }, {
+                              "SymbolID": "E7D3A171-5987-4E08-9900-1D2FD5DBDDFD",
+                              "SymbolPosition": "35"
+                          }, {
+                              "SymbolID": "B824CBC4-E003-4B82-94D8-6D979CE235E7",
+                              "SymbolPosition": "36"
+                          }, {
+                              "SymbolID": "112198F5-2847-4A42-AEED-18C84B455642",
+                              "SymbolPosition": "37"
+                          }, {
+                              "SymbolID": "FCEB97FF-EE08-4BE3-9A2B-F7B17C130B69",
+                              "SymbolPosition": "38"
+                          }, {
+                              "SymbolID": "E7D3A171-5987-4E08-9900-1D2FD5DBDDFD",
+                              "SymbolPosition": "39"
+                          }, {
+                              "SymbolID": "FCEB97FF-EE08-4BE3-9A2B-F7B17C130B69",
+                              "SymbolPosition": "40"
+                          }, {
+                              "SymbolID": "EBD625C7-CB21-4CDC-A24C-47B3A8187821",
+                              "SymbolPosition": "41"
+                          }, {
+                              "SymbolID": "59F7FBF9-438E-4B81-8768-C5481E9AAF2F",
+                              "SymbolPosition": "42"
+                          }, {
+                              "SymbolID": "FCEB97FF-EE08-4BE3-9A2B-F7B17C130B69",
+                              "SymbolPosition": "43"
+                          }, {
+                              "SymbolID": "EBD625C7-CB21-4CDC-A24C-47B3A8187821",
+                              "SymbolPosition": "44"
+                          }, {
+                              "SymbolID": "B824CBC4-E003-4B82-94D8-6D979CE235E7",
+                              "SymbolPosition": "45"
+                          }, {
+                              "SymbolID": "75AFE921-AADA-4E90-BABB-3F04FBFAE994",
+                              "SymbolPosition": "46"
+                          }, {
+                              "SymbolID": "C42BEE45-DBBC-4749-8483-BE296C6C196E",
+                              "SymbolPosition": "47"
+                          }, {
+                              "SymbolID": "E7D3A171-5987-4E08-9900-1D2FD5DBDDFD",
+                              "SymbolPosition": "48"
+                          }, {
+                              "SymbolID": "EBD625C7-CB21-4CDC-A24C-47B3A8187821",
+                              "SymbolPosition": "49"
+                          }, {
+                              "SymbolID": "59F7FBF9-438E-4B81-8768-C5481E9AAF2F",
+                              "SymbolPosition": "50"
+                          }, {
+                              "SymbolID": "FCEB97FF-EE08-4BE3-9A2B-F7B17C130B69",
+                              "SymbolPosition": "51"
+                          }, {
+                              "SymbolID": "EBD625C7-CB21-4CDC-A24C-47B3A8187821",
+                              "SymbolPosition": "52"
+                          }, {
+                              "SymbolID": "E371047D-7857-45C6-8E42-D0A7FFC074AE",
+                              "SymbolPosition": "53"
+                          }, {
+                              "SymbolID": "112198F5-2847-4A42-AEED-18C84B455642",
+                              "SymbolPosition": "54"
+                          }]
+                      }, {
+                          "ReelID": "2CE21957-AD26-4F2E-87D3-EDAC7DFA9D7D",
+                          "ReelName": "reel_3",
+                          "ReelIndex": "3",
+                          "ReelDistribution": [{
+                              "SymbolID": "08981962-96F9-41BD-B586-548ACBC2BD3B",
+                              "SymbolPosition": "0"
+                          }, {
+                              "SymbolID": "EBD625C7-CB21-4CDC-A24C-47B3A8187821",
+                              "SymbolPosition": "1"
+                          }, {
+                              "SymbolID": "B824CBC4-E003-4B82-94D8-6D979CE235E7",
+                              "SymbolPosition": "2"
+                          }, {
+                              "SymbolID": "27F34095-FB1D-4889-9756-5FC9308D54BF",
+                              "SymbolPosition": "3"
+                          }, {
+                              "SymbolID": "8E3D091C-116F-44C6-BFBA-975B341132F2",
+                              "SymbolPosition": "4"
+                          }, {
+                              "SymbolID": "112198F5-2847-4A42-AEED-18C84B455642",
+                              "SymbolPosition": "5"
+                          }, {
+                              "SymbolID": "E371047D-7857-45C6-8E42-D0A7FFC074AE",
+                              "SymbolPosition": "6"
+                          }, {
+                              "SymbolID": "27F34095-FB1D-4889-9756-5FC9308D54BF",
+                              "SymbolPosition": "7"
+                          }, {
+                              "SymbolID": "08981962-96F9-41BD-B586-548ACBC2BD3B",
+                              "SymbolPosition": "8"
+                          }, {
+                              "SymbolID": "C42BEE45-DBBC-4749-8483-BE296C6C196E",
+                              "SymbolPosition": "9"
+                          }, {
+                              "SymbolID": "112198F5-2847-4A42-AEED-18C84B455642",
+                              "SymbolPosition": "10"
+                          }, {
+                              "SymbolID": "8E3D091C-116F-44C6-BFBA-975B341132F2",
+                              "SymbolPosition": "11"
+                          }, {
+                              "SymbolID": "75AFE921-AADA-4E90-BABB-3F04FBFAE994",
+                              "SymbolPosition": "12"
+                          }, {
+                              "SymbolID": "E371047D-7857-45C6-8E42-D0A7FFC074AE",
+                              "SymbolPosition": "13"
+                          }, {
+                              "SymbolID": "EBD625C7-CB21-4CDC-A24C-47B3A8187821",
+                              "SymbolPosition": "14"
+                          }, {
+                              "SymbolID": "FCEB97FF-EE08-4BE3-9A2B-F7B17C130B69",
+                              "SymbolPosition": "15"
+                          }, {
+                              "SymbolID": "59F7FBF9-438E-4B81-8768-C5481E9AAF2F",
+                              "SymbolPosition": "16"
+                          }, {
+                              "SymbolID": "EBD625C7-CB21-4CDC-A24C-47B3A8187821",
+                              "SymbolPosition": "17"
+                          }, {
+                              "SymbolID": "27F34095-FB1D-4889-9756-5FC9308D54BF",
+                              "SymbolPosition": "18"
+                          }, {
+                              "SymbolID": "E371047D-7857-45C6-8E42-D0A7FFC074AE",
+                              "SymbolPosition": "19"
+                          }, {
+                              "SymbolID": "FCEB97FF-EE08-4BE3-9A2B-F7B17C130B69",
+                              "SymbolPosition": "20"
+                          }, {
+                              "SymbolID": "59F7FBF9-438E-4B81-8768-C5481E9AAF2F",
+                              "SymbolPosition": "21"
+                          }, {
+                              "SymbolID": "EBD625C7-CB21-4CDC-A24C-47B3A8187821",
+                              "SymbolPosition": "22"
+                          }, {
+                              "SymbolID": "FCEB97FF-EE08-4BE3-9A2B-F7B17C130B69",
+                              "SymbolPosition": "23"
+                          }, {
+                              "SymbolID": "C42BEE45-DBBC-4749-8483-BE296C6C196E",
+                              "SymbolPosition": "24"
+                          }, {
+                              "SymbolID": "B824CBC4-E003-4B82-94D8-6D979CE235E7",
+                              "SymbolPosition": "25"
+                          }, {
+                              "SymbolID": "FCEB97FF-EE08-4BE3-9A2B-F7B17C130B69",
+                              "SymbolPosition": "26"
+                          }, {
+                              "SymbolID": "C42BEE45-DBBC-4749-8483-BE296C6C196E",
+                              "SymbolPosition": "27"
+                          }, {
+                              "SymbolID": "75AFE921-AADA-4E90-BABB-3F04FBFAE994",
+                              "SymbolPosition": "28"
+                          }, {
+                              "SymbolID": "112198F5-2847-4A42-AEED-18C84B455642",
+                              "SymbolPosition": "29"
+                          }, {
+                              "SymbolID": "FCEB97FF-EE08-4BE3-9A2B-F7B17C130B69",
+                              "SymbolPosition": "30"
+                          }, {
+                              "SymbolID": "59F7FBF9-438E-4B81-8768-C5481E9AAF2F",
+                              "SymbolPosition": "31"
+                          }, {
+                              "SymbolID": "EBD625C7-CB21-4CDC-A24C-47B3A8187821",
+                              "SymbolPosition": "32"
+                          }, {
+                              "SymbolID": "112198F5-2847-4A42-AEED-18C84B455642",
+                              "SymbolPosition": "33"
+                          }, {
+                              "SymbolID": "C42BEE45-DBBC-4749-8483-BE296C6C196E",
+                              "SymbolPosition": "34"
+                          }, {
+                              "SymbolID": "08981962-96F9-41BD-B586-548ACBC2BD3B",
+                              "SymbolPosition": "35"
+                          }, {
+                              "SymbolID": "27F34095-FB1D-4889-9756-5FC9308D54BF",
+                              "SymbolPosition": "36"
+                          }, {
+                              "SymbolID": "C42BEE45-DBBC-4749-8483-BE296C6C196E",
+                              "SymbolPosition": "37"
+                          }, {
+                              "SymbolID": "112198F5-2847-4A42-AEED-18C84B455642",
+                              "SymbolPosition": "38"
+                          }, {
+                              "SymbolID": "08981962-96F9-41BD-B586-548ACBC2BD3B",
+                              "SymbolPosition": "39"
+                          }, {
+                              "SymbolID": "27F34095-FB1D-4889-9756-5FC9308D54BF",
+                              "SymbolPosition": "40"
+                          }, {
+                              "SymbolID": "112198F5-2847-4A42-AEED-18C84B455642",
+                              "SymbolPosition": "41"
+                          }, {
+                              "SymbolID": "08981962-96F9-41BD-B586-548ACBC2BD3B",
+                              "SymbolPosition": "42"
+                          }, {
+                              "SymbolID": "E7D3A171-5987-4E08-9900-1D2FD5DBDDFD",
+                              "SymbolPosition": "43"
+                          }, {
+                              "SymbolID": "27F34095-FB1D-4889-9756-5FC9308D54BF",
+                              "SymbolPosition": "44"
+                          }, {
+                              "SymbolID": "08981962-96F9-41BD-B586-548ACBC2BD3B",
+                              "SymbolPosition": "45"
+                          }, {
+                              "SymbolID": "75AFE921-AADA-4E90-BABB-3F04FBFAE994",
+                              "SymbolPosition": "46"
+                          }, {
+                              "SymbolID": "EBD625C7-CB21-4CDC-A24C-47B3A8187821",
+                              "SymbolPosition": "47"
+                          }, {
+                              "SymbolID": "E7D3A171-5987-4E08-9900-1D2FD5DBDDFD",
+                              "SymbolPosition": "48"
+                          }, {
+                              "SymbolID": "EBD625C7-CB21-4CDC-A24C-47B3A8187821",
+                              "SymbolPosition": "49"
+                          }, {
+                              "SymbolID": "75AFE921-AADA-4E90-BABB-3F04FBFAE994",
+                              "SymbolPosition": "50"
+                          }, {
+                              "SymbolID": "C42BEE45-DBBC-4749-8483-BE296C6C196E",
+                              "SymbolPosition": "51"
+                          }, {
+                              "SymbolID": "08981962-96F9-41BD-B586-548ACBC2BD3B",
+                              "SymbolPosition": "52"
+                          }, {
+                              "SymbolID": "27F34095-FB1D-4889-9756-5FC9308D54BF",
+                              "SymbolPosition": "53"
+                          }, {
+                              "SymbolID": "E7D3A171-5987-4E08-9900-1D2FD5DBDDFD",
+                              "SymbolPosition": "54"
+                          }]
+                      }, {
+                          "ReelID": "A0C15602-2EEF-4147-B577-58B34B3A1277",
+                          "ReelName": "reel_4",
+                          "ReelIndex": "4",
+                          "ReelDistribution": [{
+                              "SymbolID": "8E3D091C-116F-44C6-BFBA-975B341132F2",
+                              "SymbolPosition": "0"
+                          }, {
+                              "SymbolID": "E371047D-7857-45C6-8E42-D0A7FFC074AE",
+                              "SymbolPosition": "1"
+                          }, {
+                              "SymbolID": "08981962-96F9-41BD-B586-548ACBC2BD3B",
+                              "SymbolPosition": "2"
+                          }, {
+                              "SymbolID": "75AFE921-AADA-4E90-BABB-3F04FBFAE994",
+                              "SymbolPosition": "3"
+                          }, {
+                              "SymbolID": "112198F5-2847-4A42-AEED-18C84B455642",
+                              "SymbolPosition": "4"
+                          }, {
+                              "SymbolID": "59F7FBF9-438E-4B81-8768-C5481E9AAF2F",
+                              "SymbolPosition": "5"
+                          }, {
+                              "SymbolID": "FCEB97FF-EE08-4BE3-9A2B-F7B17C130B69",
+                              "SymbolPosition": "6"
+                          }, {
+                              "SymbolID": "27F34095-FB1D-4889-9756-5FC9308D54BF",
+                              "SymbolPosition": "7"
+                          }, {
+                              "SymbolID": "8E3D091C-116F-44C6-BFBA-975B341132F2",
+                              "SymbolPosition": "8"
+                          }, {
+                              "SymbolID": "112198F5-2847-4A42-AEED-18C84B455642",
+                              "SymbolPosition": "9"
+                          }, {
+                              "SymbolID": "C42BEE45-DBBC-4749-8483-BE296C6C196E",
+                              "SymbolPosition": "10"
+                          }, {
+                              "SymbolID": "E7D3A171-5987-4E08-9900-1D2FD5DBDDFD",
+                              "SymbolPosition": "11"
+                          }, {
+                              "SymbolID": "27F34095-FB1D-4889-9756-5FC9308D54BF",
+                              "SymbolPosition": "12"
+                          }, {
+                              "SymbolID": "75AFE921-AADA-4E90-BABB-3F04FBFAE994",
+                              "SymbolPosition": "13"
+                          }, {
+                              "SymbolID": "08981962-96F9-41BD-B586-548ACBC2BD3B",
+                              "SymbolPosition": "14"
+                          }, {
+                              "SymbolID": "112198F5-2847-4A42-AEED-18C84B455642",
+                              "SymbolPosition": "15"
+                          }, {
+                              "SymbolID": "C42BEE45-DBBC-4749-8483-BE296C6C196E",
+                              "SymbolPosition": "16"
+                          }, {
+                              "SymbolID": "B824CBC4-E003-4B82-94D8-6D979CE235E7",
+                              "SymbolPosition": "17"
+                          }, {
+                              "SymbolID": "E371047D-7857-45C6-8E42-D0A7FFC074AE",
+                              "SymbolPosition": "18"
+                          }, {
+                              "SymbolID": "B824CBC4-E003-4B82-94D8-6D979CE235E7",
+                              "SymbolPosition": "19"
+                          }, {
+                              "SymbolID": "112198F5-2847-4A42-AEED-18C84B455642",
+                              "SymbolPosition": "20"
+                          }, {
+                              "SymbolID": "75AFE921-AADA-4E90-BABB-3F04FBFAE994",
+                              "SymbolPosition": "21"
+                          }, {
+                              "SymbolID": "27F34095-FB1D-4889-9756-5FC9308D54BF",
+                              "SymbolPosition": "22"
+                          }, {
+                              "SymbolID": "E371047D-7857-45C6-8E42-D0A7FFC074AE",
+                              "SymbolPosition": "23"
+                          }, {
+                              "SymbolID": "EBD625C7-CB21-4CDC-A24C-47B3A8187821",
+                              "SymbolPosition": "24"
+                          }, {
+                              "SymbolID": "C42BEE45-DBBC-4749-8483-BE296C6C196E",
+                              "SymbolPosition": "25"
+                          }, {
+                              "SymbolID": "08981962-96F9-41BD-B586-548ACBC2BD3B",
+                              "SymbolPosition": "26"
+                          }, {
+                              "SymbolID": "B824CBC4-E003-4B82-94D8-6D979CE235E7",
+                              "SymbolPosition": "27"
+                          }, {
+                              "SymbolID": "EBD625C7-CB21-4CDC-A24C-47B3A8187821",
+                              "SymbolPosition": "28"
+                          }, {
+                              "SymbolID": "08981962-96F9-41BD-B586-548ACBC2BD3B",
+                              "SymbolPosition": "29"
+                          }, {
+                              "SymbolID": "FCEB97FF-EE08-4BE3-9A2B-F7B17C130B69",
+                              "SymbolPosition": "30"
+                          }, {
+                              "SymbolID": "EBD625C7-CB21-4CDC-A24C-47B3A8187821",
+                              "SymbolPosition": "31"
+                          }, {
+                              "SymbolID": "59F7FBF9-438E-4B81-8768-C5481E9AAF2F",
+                              "SymbolPosition": "32"
+                          }, {
+                              "SymbolID": "FCEB97FF-EE08-4BE3-9A2B-F7B17C130B69",
+                              "SymbolPosition": "33"
+                          }, {
+                              "SymbolID": "27F34095-FB1D-4889-9756-5FC9308D54BF",
+                              "SymbolPosition": "34"
+                          }, {
+                              "SymbolID": "FCEB97FF-EE08-4BE3-9A2B-F7B17C130B69",
+                              "SymbolPosition": "35"
+                          }, {
+                              "SymbolID": "EBD625C7-CB21-4CDC-A24C-47B3A8187821",
+                              "SymbolPosition": "36"
+                          }, {
+                              "SymbolID": "59F7FBF9-438E-4B81-8768-C5481E9AAF2F",
+                              "SymbolPosition": "37"
+                          }, {
+                              "SymbolID": "FCEB97FF-EE08-4BE3-9A2B-F7B17C130B69",
+                              "SymbolPosition": "38"
+                          }, {
+                              "SymbolID": "27F34095-FB1D-4889-9756-5FC9308D54BF",
+                              "SymbolPosition": "39"
+                          }, {
+                              "SymbolID": "112198F5-2847-4A42-AEED-18C84B455642",
+                              "SymbolPosition": "40"
+                          }, {
+                              "SymbolID": "75AFE921-AADA-4E90-BABB-3F04FBFAE994",
+                              "SymbolPosition": "41"
+                          }, {
+                              "SymbolID": "FCEB97FF-EE08-4BE3-9A2B-F7B17C130B69",
+                              "SymbolPosition": "42"
+                          }, {
+                              "SymbolID": "27F34095-FB1D-4889-9756-5FC9308D54BF",
+                              "SymbolPosition": "43"
+                          }, {
+                              "SymbolID": "E7D3A171-5987-4E08-9900-1D2FD5DBDDFD",
+                              "SymbolPosition": "44"
+                          }, {
+                              "SymbolID": "EBD625C7-CB21-4CDC-A24C-47B3A8187821",
+                              "SymbolPosition": "45"
+                          }, {
+                              "SymbolID": "C42BEE45-DBBC-4749-8483-BE296C6C196E",
+                              "SymbolPosition": "46"
+                          }, {
+                              "SymbolID": "112198F5-2847-4A42-AEED-18C84B455642",
+                              "SymbolPosition": "47"
+                          }, {
+                              "SymbolID": "E7D3A171-5987-4E08-9900-1D2FD5DBDDFD",
+                              "SymbolPosition": "48"
+                          }, {
+                              "SymbolID": "C42BEE45-DBBC-4749-8483-BE296C6C196E",
+                              "SymbolPosition": "49"
+                          }, {
+                              "SymbolID": "E371047D-7857-45C6-8E42-D0A7FFC074AE",
+                              "SymbolPosition": "50"
+                          }, {
+                              "SymbolID": "C42BEE45-DBBC-4749-8483-BE296C6C196E",
+                              "SymbolPosition": "51"
+                          }, {
+                              "SymbolID": "E7D3A171-5987-4E08-9900-1D2FD5DBDDFD",
+                              "SymbolPosition": "52"
+                          }, {
+                              "SymbolID": "EBD625C7-CB21-4CDC-A24C-47B3A8187821",
+                              "SymbolPosition": "53"
+                          }, {
+                              "SymbolID": "08981962-96F9-41BD-B586-548ACBC2BD3B",
+                              "SymbolPosition": "54"
+                          }]
+                      }],
+                      "WinLines": [{
+                          "WinLineID": "518242CB-B6E2-4774-AB83-897393ABDB6A",
+                          "WinLineCaption": "line01",
+                          "WinLineURL": "",
+                          "WinLineLayout": ["5", "6", "7", "8", "9"]
+                      }, {
+                          "WinLineID": "3CEAC040-3319-444F-9951-F6DEFC3163C8",
+                          "WinLineCaption": "line02",
+                          "WinLineURL": "",
+                          "WinLineLayout": ["0", "1", "2", "3", "4"]
+                      }, {
+                          "WinLineID": "795031EB-0DAF-487B-8C35-3383C8EE187D",
+                          "WinLineCaption": "line03",
+                          "WinLineURL": "",
+                          "WinLineLayout": ["10", "11", "12", "13", "14"]
+                      }, {
+                          "WinLineID": "996891B2-1884-4753-82B5-B242ADE3A7F0",
+                          "WinLineCaption": "line04",
+                          "WinLineURL": "",
+                          "WinLineLayout": ["0", "6", "12", "8", "4"]
+                      }, {
+                          "WinLineID": "8BF62310-8DAF-4988-8EC2-C88A1C63062E",
+                          "WinLineCaption": "line05",
+                          "WinLineURL": "",
+                          "WinLineLayout": ["10", "6", "2", "8", "14"]
+                      }, {
+                          "WinLineID": "7D3DF60B-11FC-4166-8656-B60AE5AE2F29",
+                          "WinLineCaption": "line06",
+                          "WinLineURL": "",
+                          "WinLineLayout": ["0", "6", "2", "8", "4"]
+                      }, {
+                          "WinLineID": "F9A16D45-9E14-4052-8B6D-D2C4AB67A004",
+                          "WinLineCaption": "line07",
+                          "WinLineURL": "",
+                          "WinLineLayout": ["10", "6", "12", "8", "14"]
+                      }, {
+                          "WinLineID": "1FB1EA30-E30B-43DB-A99C-1824C6D53F89",
+                          "WinLineCaption": "line08",
+                          "WinLineURL": "",
+                          "WinLineLayout": ["5", "1", "7", "3", "9"]
+                      }, {
+                          "WinLineID": "C9B9828B-8E98-464C-99D9-A6161FD270F0",
+                          "WinLineCaption": "line09",
+                          "WinLineURL": "",
+                          "WinLineLayout": ["5", "11", "7", "13", "9"]
+                      }, {
+                          "WinLineID": "62BCEEA1-B09A-4669-9C5B-ABB895354982",
+                          "WinLineCaption": "line10",
+                          "WinLineURL": "",
+                          "WinLineLayout": ["10", "11", "7", "3", "4"]
+                      }, {
+                          "WinLineID": "0BF272D4-7578-4664-A418-69BFE534DB48",
+                          "WinLineCaption": "line11",
+                          "WinLineURL": "",
+                          "WinLineLayout": ["0", "1", "7", "13", "14"]
+                      }, {
+                          "WinLineID": "5F6A6B7B-AA5C-44F6-B1F7-1AC4F7EAB38E",
+                          "WinLineCaption": "line12",
+                          "WinLineURL": "",
+                          "WinLineLayout": ["0", "11", "2", "13", "4"]
+                      }, {
+                          "WinLineID": "4A9ED292-1B83-4DBB-A2C2-A14C95318D04",
+                          "WinLineCaption": "line13",
+                          "WinLineURL": "",
+                          "WinLineLayout": ["10", "1", "12", "3", "14"]
+                      }, {
+                          "WinLineID": "732E69EE-7BBC-43A3-BA76-762E70475824",
+                          "WinLineCaption": "line14",
+                          "WinLineURL": "",
+                          "WinLineLayout": ["5", "11", "12", "13", "9"]
+                      }, {
+                          "WinLineID": "3F420E5A-179D-4718-A734-14574E20FD0B",
+                          "WinLineCaption": "line15",
+                          "WinLineURL": "",
+                          "WinLineLayout": ["5", "1", "2", "3", "9"]
+                      }, {
+                          "WinLineID": "3E9D0449-5D21-4AB9-9139-4F5E42AA7917",
+                          "WinLineCaption": "line16",
+                          "WinLineURL": "",
+                          "WinLineLayout": ["5", "6", "2", "8", "9"]
+                      }, {
+                          "WinLineID": "2847CDE8-2607-405D-87E0-69D95EC15F06",
+                          "WinLineCaption": "line17",
+                          "WinLineURL": "",
+                          "WinLineLayout": ["5", "6", "12", "8", "9"]
+                      }, {
+                          "WinLineID": "1E0D4B03-B3C9-4C92-A6D7-29CA7C140DB1",
+                          "WinLineCaption": "line18",
+                          "WinLineURL": "",
+                          "WinLineLayout": ["5", "1", "7", "8", "14"]
+                      }],
+                      "WagerSettings": {
+                          "CoinValues": ["1", "2", "5", "10", "25", "50", "100", "200"],
+                          "BetLevels": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"],
+                          "BetLines": ["18"]
+                      },
+                      "Settings": [{
+                          "SettingName": "LocalizedDecimalDigitsCount",
+                          "SettingType": "0",
+                          "SettingKey": "LocalizedDecimalDigitsCount",
+                          "SettingValue": "2",
+                          "CData": null
+                      }, {
+                          "SettingName": "WinLevel",
+                          "SettingType": "0",
+                          "SettingKey": "3",
+                          "SettingValue": "181",
+                          "CData": null
+                      }, {
+                          "SettingName": "PosterImageURL",
+                          "SettingType": "2",
+                          "SettingKey": "PosterImageURL",
+                          "SettingValue": "",
+                          "CData": null
+                      }, {
+                          "SettingName": "LocalizedThousandsSeparator",
+                          "SettingType": "2",
+                          "SettingKey": "LocalizedThousandsSeparator",
+                          "SettingValue": ",",
+                          "CData": null
+                      }, {
+                          "SettingName": "HelpURL",
+                          "SettingType": "2",
+                          "SettingKey": "HelpURL",
+                          "SettingValue": "./help/index.html",
+                          "CData": null
+                      }, {
+                          "SettingName": "RechargeCreditURL",
+                          "SettingType": "2",
+                          "SettingKey": "RechargeCreditURL",
+                          "SettingValue": "",
+                          "CData": null
+                      }, {
+                          "SettingName": "BoardSize",
+                          "SettingType": "0",
+                          "SettingKey": "BoardSize",
+                          "SettingValue": "15",
+                          "CData": null
+                      }, {
+                          "SettingName": "MaxAutoPlayRounds",
+                          "SettingType": "0",
+                          "SettingKey": "MaxAutoPlayRounds",
+                          "SettingValue": "999",
+                          "CData": null
+                      }, {
+                          "SettingName": "HistoryURL",
+                          "SettingType": "2",
+                          "SettingKey": "HistoryURL",
+                          "SettingValue": "",
+                          "CData": null
+                      }, {
+                          "SettingName": "NumberOfReels",
+                          "SettingType": "0",
+                          "SettingKey": "NumberOfReels",
+                          "SettingValue": "5",
+                          "CData": null
+                      }, {
+                          "SettingName": "ResponsibleGaming",
+                          "SettingType": "3",
+                          "SettingKey": "ResponsibleGaming",
+                          "SettingValue": "0",
+                          "CData": null
+                      }, {
+                          "SettingName": "WinLevel",
+                          "SettingType": "0",
+                          "SettingKey": "2",
+                          "SettingValue": "19",
+                          "CData": null
+                      }, {
+                          "SettingName": "PosterImageHash",
+                          "SettingType": "2",
+                          "SettingKey": "PosterImageHash",
+                          "SettingValue": "",
+                          "CData": null
+                      }, {
+                          "SettingName": "LobbyURL",
+                          "SettingType": "2",
+                          "SettingKey": "LobbyURL",
+                          "SettingValue": "",
+                          "CData": null
+                      }, {
+                          "SettingName": "WinLevel",
+                          "SettingType": "0",
+                          "SettingKey": "1",
+                          "SettingValue": "1",
+                          "CData": null
+                      }, {
+                          "SettingName": "RulesURL",
+                          "SettingType": "2",
+                          "SettingKey": "RulesURL",
+                          "SettingValue": "",
+                          "CData": null
+                      }, {
+                          "SettingName": "LocalizedCurrencySymbol",
+                          "SettingType": "2",
+                          "SettingKey": "LocalizedCurrencySymbol",
+                          "SettingValue": "$",
+                          "CData": null
+                      }, {
+                          "SettingName": "ThumbnailHash",
+                          "SettingType": "2",
+                          "SettingKey": "ThumbnailHash",
+                          "SettingValue": "",
+                          "CData": null
+                      }, {
+                          "SettingName": "CurrencySymbolPosition",
+                          "SettingType": "0",
+                          "SettingKey": "CurrencySymbolPosition",
+                          "SettingValue": "0",
+                          "CData": null
+                      }, {
+                          "SettingName": "MobileRulesURL",
+                          "SettingType": "2",
+                          "SettingKey": "MobileRulesURL",
+                          "SettingValue": "",
+                          "CData": null
+                      }, {
+                          "SettingName": "ReelsWindowHeight",
+                          "SettingType": "0",
+                          "SettingKey": "ReelsWindowHeight",
+                          "SettingValue": "3",
+                          "CData": null
+                      }, {
+                          "SettingName": "LocalizedDecimalSeparator",
+                          "SettingType": "2",
+                          "SettingKey": "LocalizedDecimalSeparator",
+                          "SettingValue": ".",
+                          "CData": null
+                      }],
+                      "PayTables": [{
+                          "PayTableID": "DCFEBF01-64B1-4299-B6D6-4A2FB4B4DB99",
+                          "BetAmount": "1",
+                          "BetMultiplier": "0",
+                          "OverallOdds": "0",
+                          "OverallPayout": "0",
+                          "MinWager": "0",
+                          "MaxWager": "0",
+                          "Prizes": [{
+                              "PrizeID": "F7A37D0E-B0EB-44D9-8437-9FF6047A5DA4",
+                              "Wager": "1",
+                              "WinAmount": "200",
+                              "WinLabel": "",
+                              "PrizeLabel": "SUN x 5",
+                              "PrizeOdds": "0",
+                              "PrizePayout": "0",
+                              "PrizeLines": [{
+                                  "PrizeLineID": "62996759-35A8-4F52-8A1C-8677A6CBA586",
+                                  "WinAmount": "200",
+                                  "Label": "SUN x 5",
+                                  "RequiredQty": "5",
+                                  "SymbolID": "8E3D091C-116F-44C6-BFBA-975B341132F2",
+                                  "PrizeCode": "SUN",
+                                  "CData": null
+                              }],
+                              "CData": null
+                          }, {
+                              "PrizeID": "8B082990-093D-45B7-85CB-55F75DE6106F",
+                              "Wager": "1",
+                              "WinAmount": "150",
+                              "WinLabel": "",
+                              "PrizeLabel": "CLOUD x 5",
+                              "PrizeOdds": "0",
+                              "PrizePayout": "0",
+                              "PrizeLines": [{
+                                  "PrizeLineID": "AE4A3E7E-C3AE-4466-99B8-D470BC039354",
+                                  "WinAmount": "150",
+                                  "Label": "CLOUD x 5",
+                                  "RequiredQty": "5",
+                                  "SymbolID": "B824CBC4-E003-4B82-94D8-6D979CE235E7",
+                                  "PrizeCode": "CLOUD",
+                                  "CData": null
+                              }],
+                              "CData": null
+                          }, {
+                              "PrizeID": "10FA89F8-F600-48A1-B1EC-936D3BC1443C",
+                              "Wager": "1",
+                              "WinAmount": "100",
+                              "WinLabel": "",
+                              "PrizeLabel": "RAIN x 5",
+                              "PrizeOdds": "0",
+                              "PrizePayout": "0",
+                              "PrizeLines": [{
+                                  "PrizeLineID": "DF51FEE9-0D57-45F9-8BE9-4FE1FD5BB5FF",
+                                  "WinAmount": "100",
+                                  "Label": "RAIN x 5",
+                                  "RequiredQty": "5",
+                                  "SymbolID": "E371047D-7857-45C6-8E42-D0A7FFC074AE",
+                                  "PrizeCode": "RAIN",
+                                  "CData": null
+                              }],
+                              "CData": null
+                          }, {
+                              "PrizeID": "A63F13A2-E310-47FB-BDAC-9610D7D08978",
+                              "Wager": "1",
+                              "WinAmount": "80",
+                              "WinLabel": "",
+                              "PrizeLabel": "WIND x 5",
+                              "PrizeOdds": "0",
+                              "PrizePayout": "0",
+                              "PrizeLines": [{
+                                  "PrizeLineID": "B3C23017-9D1D-4E20-ADB7-1B17F3023F27",
+                                  "WinAmount": "80",
+                                  "Label": "WIND x 5",
+                                  "RequiredQty": "5",
+                                  "SymbolID": "75AFE921-AADA-4E90-BABB-3F04FBFAE994",
+                                  "PrizeCode": "WIND",
+                                  "CData": null
+                              }],
+                              "CData": null
+                          }, {
+                              "PrizeID": "CFA5D374-1FE5-484B-808E-5975DB3C0A75",
+                              "Wager": "1",
+                              "WinAmount": "60",
+                              "WinLabel": "",
+                              "PrizeLabel": "SNOW x 5",
+                              "PrizeOdds": "0",
+                              "PrizePayout": "0",
+                              "PrizeLines": [{
+                                  "PrizeLineID": "50DE154A-59D5-44A7-8E22-62F1FABD6DC7",
+                                  "WinAmount": "60",
+                                  "Label": "SNOW x 5",
+                                  "RequiredQty": "5",
+                                  "SymbolID": "08981962-96F9-41BD-B586-548ACBC2BD3B",
+                                  "PrizeCode": "SNOW",
+                                  "CData": null
+                              }],
+                              "CData": null
+                          }, {
+                              "PrizeID": "E4B71F3A-9083-42F9-B8C6-AD7543EAEDA3",
+                              "Wager": "1",
+                              "WinAmount": "50",
+                              "WinLabel": "",
+                              "PrizeLabel": "A x 5",
+                              "PrizeOdds": "0",
+                              "PrizePayout": "0",
+                              "PrizeLines": [{
+                                  "PrizeLineID": "4592D6B3-CB45-4D8D-9320-CBB8960458CE",
+                                  "WinAmount": "50",
+                                  "Label": "A x 5",
+                                  "RequiredQty": "5",
+                                  "SymbolID": "112198F5-2847-4A42-AEED-18C84B455642",
+                                  "PrizeCode": "A",
+                                  "CData": null
+                              }],
+                              "CData": null
+                          }, {
+                              "PrizeID": "976D1CB2-4CE0-4AE7-8E88-7B0D337CFF0C",
+                              "Wager": "1",
+                              "WinAmount": "45",
+                              "WinLabel": "",
+                              "PrizeLabel": "K x 5",
+                              "PrizeOdds": "0",
+                              "PrizePayout": "0",
+                              "PrizeLines": [{
+                                  "PrizeLineID": "0B8A089D-F7E8-4CD2-8A83-99D662FCD294",
+                                  "WinAmount": "45",
+                                  "Label": "K x 5",
+                                  "RequiredQty": "5",
+                                  "SymbolID": "27F34095-FB1D-4889-9756-5FC9308D54BF",
+                                  "PrizeCode": "K",
+                                  "CData": null
+                              }],
+                              "CData": null
+                          }, {
+                              "PrizeID": "CE5D4CAA-C0D4-4FC9-A95A-9F0F02BAED73",
+                              "Wager": "1",
+                              "WinAmount": "40",
+                              "WinLabel": "",
+                              "PrizeLabel": "Q x 5",
+                              "PrizeOdds": "0",
+                              "PrizePayout": "0",
+                              "PrizeLines": [{
+                                  "PrizeLineID": "2C12377B-E891-4980-82D2-3CB1AAE877F3",
+                                  "WinAmount": "40",
+                                  "Label": "Q x 5",
+                                  "RequiredQty": "5",
+                                  "SymbolID": "C42BEE45-DBBC-4749-8483-BE296C6C196E",
+                                  "PrizeCode": "Q",
+                                  "CData": null
+                              }],
+                              "CData": null
+                          }, {
+                              "PrizeID": "6D37CBE4-407A-453D-911B-0B3198FED59F",
+                              "Wager": "1",
+                              "WinAmount": "40",
+                              "WinLabel": "",
+                              "PrizeLabel": "SUN x 4",
+                              "PrizeOdds": "0",
+                              "PrizePayout": "0",
+                              "PrizeLines": [{
+                                  "PrizeLineID": "1E15A9D6-223E-4D49-808F-626624A2608F",
+                                  "WinAmount": "40",
+                                  "Label": "SUN x 4",
+                                  "RequiredQty": "4",
+                                  "SymbolID": "8E3D091C-116F-44C6-BFBA-975B341132F2",
+                                  "PrizeCode": "SUN",
+                                  "CData": null
+                              }],
+                              "CData": null
+                          }, {
+                              "PrizeID": "B75356AF-2BA7-42B2-84EC-C383446A04D1",
+                              "Wager": "1",
+                              "WinAmount": "35",
+                              "WinLabel": "",
+                              "PrizeLabel": "J x 5",
+                              "PrizeOdds": "0",
+                              "PrizePayout": "0",
+                              "PrizeLines": [{
+                                  "PrizeLineID": "199C2AEA-3EF7-4916-B1C4-67C67B04F50C",
+                                  "WinAmount": "35",
+                                  "Label": "J x 5",
+                                  "RequiredQty": "5",
+                                  "SymbolID": "EBD625C7-CB21-4CDC-A24C-47B3A8187821",
+                                  "PrizeCode": "J",
+                                  "CData": null
+                              }],
+                              "CData": null
+                          }, {
+                              "PrizeID": "FEB72512-1E02-4FCD-AFA7-C3CBA0D77FE1",
+                              "Wager": "1",
+                              "WinAmount": "30",
+                              "WinLabel": "",
+                              "PrizeLabel": "CLOUD x 4",
+                              "PrizeOdds": "0",
+                              "PrizePayout": "0",
+                              "PrizeLines": [{
+                                  "PrizeLineID": "3066100F-8CA3-4823-A080-ED78D5C09F6C",
+                                  "WinAmount": "30",
+                                  "Label": "CLOUD x 4",
+                                  "RequiredQty": "4",
+                                  "SymbolID": "B824CBC4-E003-4B82-94D8-6D979CE235E7",
+                                  "PrizeCode": "CLOUD",
+                                  "CData": null
+                              }],
+                              "CData": null
+                          }, {
+                              "PrizeID": "B8CE009D-DE24-407D-B2D9-20D17820742C",
+                              "Wager": "1",
+                              "WinAmount": "30",
+                              "WinLabel": "",
+                              "PrizeLabel": "SCAT x 5 (Level >= 4)",
+                              "PrizeOdds": "0",
+                              "PrizePayout": "0",
+                              "PrizeLines": [{
+                                  "PrizeLineID": "C450671D-EAF5-4901-ADD5-16FC86B5F0A6",
+                                  "WinAmount": "30",
+                                  "Label": "Scat x 5",
+                                  "RequiredQty": "5",
+                                  "SymbolID": "E7D3A171-5987-4E08-9900-1D2FD5DBDDFD",
+                                  "PrizeCode": "SCATTER",
+                                  "CData": null
+                              }, {
+                                  "PrizeLineID": "25631428-CB27-429A-962B-C31A35C1E8DE",
+                                  "WinAmount": "5",
+                                  "Label": "Level >= 4",
+                                  "RequiredQty": "5",
+                                  "SymbolID": "E7D3A171-5987-4E08-9900-1D2FD5DBDDFD",
+                                  "PrizeCode": "SCATTER",
+                                  "CData": null
+                              }],
+                              "CData": null
+                          }, {
+                              "PrizeID": "2B113206-6DAA-4118-8B11-F6AEFB0586B4",
+                              "Wager": "1",
+                              "WinAmount": "30",
+                              "WinLabel": "",
+                              "PrizeLabel": "TEN x 5",
+                              "PrizeOdds": "0",
+                              "PrizePayout": "0",
+                              "PrizeLines": [{
+                                  "PrizeLineID": "53B47D2D-ED94-49BA-934C-DF57CCF849D5",
+                                  "WinAmount": "30",
+                                  "Label": "TEN x 5",
+                                  "RequiredQty": "5",
+                                  "SymbolID": "FCEB97FF-EE08-4BE3-9A2B-F7B17C130B69",
+                                  "PrizeCode": "TEN",
+                                  "CData": null
+                              }],
+                              "CData": null
+                          }, {
+                              "PrizeID": "73B543FD-57C2-40E1-BE9E-899A0A228F52",
+                              "Wager": "1",
+                              "WinAmount": "30",
+                              "WinLabel": "",
+                              "PrizeLabel": "SCAT x 5 (Level < 4)",
+                              "PrizeOdds": "0",
+                              "PrizePayout": "0",
+                              "PrizeLines": [{
+                                  "PrizeLineID": "4293FB04-10E4-479A-9094-53384C7F43C8",
+                                  "WinAmount": "30",
+                                  "Label": "Scat x 5",
+                                  "RequiredQty": "5",
+                                  "SymbolID": "E7D3A171-5987-4E08-9900-1D2FD5DBDDFD",
+                                  "PrizeCode": "SCATTER",
+                                  "CData": null
+                              }, {
+                                  "PrizeLineID": "F8BBF3C9-C0FA-4E7D-BE2D-69E9568947B6",
+                                  "WinAmount": "15",
+                                  "Label": "Level < 4",
+                                  "RequiredQty": "5",
+                                  "SymbolID": "E7D3A171-5987-4E08-9900-1D2FD5DBDDFD",
+                                  "PrizeCode": "SCATTER",
+                                  "CData": null
+                              }],
+                              "CData": null
+                          }, {
+                              "PrizeID": "449D22CA-F096-403C-9D5F-2751C921919A",
+                              "Wager": "1",
+                              "WinAmount": "25",
+                              "WinLabel": "",
+                              "PrizeLabel": "RAIN x 4",
+                              "PrizeOdds": "0",
+                              "PrizePayout": "0",
+                              "PrizeLines": [{
+                                  "PrizeLineID": "219E51D6-C426-473F-8CE3-75DB8B84C444",
+                                  "WinAmount": "25",
+                                  "Label": "RAIN x 4",
+                                  "RequiredQty": "4",
+                                  "SymbolID": "E371047D-7857-45C6-8E42-D0A7FFC074AE",
+                                  "PrizeCode": "RAIN",
+                                  "CData": null
+                              }],
+                              "CData": null
+                          }, {
+                              "PrizeID": "F4137FBF-877A-4FA2-AC4E-DE797A39CEF6",
+                              "Wager": "1",
+                              "WinAmount": "20",
+                              "WinLabel": "",
+                              "PrizeLabel": "WIND x 4",
+                              "PrizeOdds": "0",
+                              "PrizePayout": "0",
+                              "PrizeLines": [{
+                                  "PrizeLineID": "0EF8054D-1804-462C-9224-23FD7D03A421",
+                                  "WinAmount": "20",
+                                  "Label": "WIND x 4",
+                                  "RequiredQty": "4",
+                                  "SymbolID": "75AFE921-AADA-4E90-BABB-3F04FBFAE994",
+                                  "PrizeCode": "WIND",
+                                  "CData": null
+                              }],
+                              "CData": null
+                          }, {
+                              "PrizeID": "ACEE4845-4D0B-4AA1-AC24-5B4EE453E976",
+                              "Wager": "1",
+                              "WinAmount": "18",
+                              "WinLabel": "",
+                              "PrizeLabel": "SNOW x 4",
+                              "PrizeOdds": "0",
+                              "PrizePayout": "0",
+                              "PrizeLines": [{
+                                  "PrizeLineID": "17FF1DFE-AC4D-4A66-B2DF-B8E61ABB250F",
+                                  "WinAmount": "18",
+                                  "Label": "SNOW x 4",
+                                  "RequiredQty": "4",
+                                  "SymbolID": "08981962-96F9-41BD-B586-548ACBC2BD3B",
+                                  "PrizeCode": "SNOW",
+                                  "CData": null
+                              }],
+                              "CData": null
+                          }, {
+                              "PrizeID": "044069C6-C63A-466B-A5BF-0B955C50AA7F",
+                              "Wager": "1",
+                              "WinAmount": "15",
+                              "WinLabel": "",
+                              "PrizeLabel": "SCAT x 4 (Level < 4)",
+                              "PrizeOdds": "0",
+                              "PrizePayout": "0",
+                              "PrizeLines": [{
+                                  "PrizeLineID": "7CB49308-A023-42B7-ADA8-CEDEB144477D",
+                                  "WinAmount": "15",
+                                  "Label": "Scat x 4",
+                                  "RequiredQty": "4",
+                                  "SymbolID": "E7D3A171-5987-4E08-9900-1D2FD5DBDDFD",
+                                  "PrizeCode": "SCATTER",
+                                  "CData": null
+                              }, {
+                                  "PrizeLineID": "D82DC190-D0FA-4DB6-B4AC-689B0BDA6F4E",
+                                  "WinAmount": "10",
+                                  "Label": "Level < 4",
+                                  "RequiredQty": "4",
+                                  "SymbolID": "E7D3A171-5987-4E08-9900-1D2FD5DBDDFD",
+                                  "PrizeCode": "SCATTER",
+                                  "CData": null
+                              }],
+                              "CData": null
+                          }, {
+                              "PrizeID": "F39AFA30-AFB7-49BA-A2B9-A16B5471ED4C",
+                              "Wager": "1",
+                              "WinAmount": "15",
+                              "WinLabel": "",
+                              "PrizeLabel": "A x 4",
+                              "PrizeOdds": "0",
+                              "PrizePayout": "0",
+                              "PrizeLines": [{
+                                  "PrizeLineID": "330EA765-54B7-422C-8A33-F2FDCAB402A5",
+                                  "WinAmount": "15",
+                                  "Label": "A x 4",
+                                  "RequiredQty": "4",
+                                  "SymbolID": "112198F5-2847-4A42-AEED-18C84B455642",
+                                  "PrizeCode": "A",
+                                  "CData": null
+                              }],
+                              "CData": null
+                          }, {
+                              "PrizeID": "22006C32-E570-438D-9607-A2F77432EB47",
+                              "Wager": "1",
+                              "WinAmount": "15",
+                              "WinLabel": "",
+                              "PrizeLabel": "K x 4",
+                              "PrizeOdds": "0",
+                              "PrizePayout": "0",
+                              "PrizeLines": [{
+                                  "PrizeLineID": "E13A114E-695F-4C81-BDA4-DC6254A5E580",
+                                  "WinAmount": "15",
+                                  "Label": "K x 4",
+                                  "RequiredQty": "4",
+                                  "SymbolID": "27F34095-FB1D-4889-9756-5FC9308D54BF",
+                                  "PrizeCode": "K",
+                                  "CData": null
+                              }],
+                              "CData": null
+                          }, {
+                              "PrizeID": "BBE99ED3-75CB-41BE-BA97-DFB66344341B",
+                              "Wager": "1",
+                              "WinAmount": "15",
+                              "WinLabel": "",
+                              "PrizeLabel": "SCAT x 4 (Level >= 4)",
+                              "PrizeOdds": "0",
+                              "PrizePayout": "0",
+                              "PrizeLines": [{
+                                  "PrizeLineID": "D7E0659D-C448-4645-9A6C-6A1D888EE326",
+                                  "WinAmount": "15",
+                                  "Label": "Scat x 4",
+                                  "RequiredQty": "4",
+                                  "SymbolID": "E7D3A171-5987-4E08-9900-1D2FD5DBDDFD",
+                                  "PrizeCode": "SCATTER",
+                                  "CData": null
+                              }, {
+                                  "PrizeLineID": "F2609E8A-6FAD-42DB-8821-FA1048E5BC89",
+                                  "WinAmount": "5",
+                                  "Label": "Level >= 4",
+                                  "RequiredQty": "4",
+                                  "SymbolID": "E7D3A171-5987-4E08-9900-1D2FD5DBDDFD",
+                                  "PrizeCode": "SCATTER",
+                                  "CData": null
+                              }],
+                              "CData": null
+                          }, {
+                              "PrizeID": "A0972467-0333-4999-B306-DA3A6E99C8F7",
+                              "Wager": "1",
+                              "WinAmount": "15",
+                              "WinLabel": "",
+                              "PrizeLabel": "SUN x 3",
+                              "PrizeOdds": "0",
+                              "PrizePayout": "0",
+                              "PrizeLines": [{
+                                  "PrizeLineID": "274F1AF1-5E17-44F6-A30B-C3CA0E7177DF",
+                                  "WinAmount": "15",
+                                  "Label": "SUN x 3",
+                                  "RequiredQty": "3",
+                                  "SymbolID": "8E3D091C-116F-44C6-BFBA-975B341132F2",
+                                  "PrizeCode": "SUN",
+                                  "CData": null
+                              }],
+                              "CData": null
+                          }, {
+                              "PrizeID": "A1F9579A-B710-4BBF-8678-905D2EF40536",
+                              "Wager": "1",
+                              "WinAmount": "10",
+                              "WinLabel": "",
+                              "PrizeLabel": "J x 4",
+                              "PrizeOdds": "0",
+                              "PrizePayout": "0",
+                              "PrizeLines": [{
+                                  "PrizeLineID": "66E4B572-E2D5-40A8-8FBC-E3F78BC29265",
+                                  "WinAmount": "10",
+                                  "Label": "J x 4",
+                                  "RequiredQty": "4",
+                                  "SymbolID": "EBD625C7-CB21-4CDC-A24C-47B3A8187821",
+                                  "PrizeCode": "J",
+                                  "CData": null
+                              }],
+                              "CData": null
+                          }, {
+                              "PrizeID": "9FCD245D-3666-4BC2-8CE8-11B4F4A43DC4",
+                              "Wager": "1",
+                              "WinAmount": "10",
+                              "WinLabel": "",
+                              "PrizeLabel": "Q x 4",
+                              "PrizeOdds": "0",
+                              "PrizePayout": "0",
+                              "PrizeLines": [{
+                                  "PrizeLineID": "357C8585-AF35-431C-BCC0-3C63B3E1CA37",
+                                  "WinAmount": "10",
+                                  "Label": "Q x 4",
+                                  "RequiredQty": "4",
+                                  "SymbolID": "C42BEE45-DBBC-4749-8483-BE296C6C196E",
+                                  "PrizeCode": "Q",
+                                  "CData": null
+                              }],
+                              "CData": null
+                          }, {
+                              "PrizeID": "43636935-5706-4881-8BF1-3D86D05C77D6",
+                              "Wager": "1",
+                              "WinAmount": "10",
+                              "WinLabel": "",
+                              "PrizeLabel": "CLOUD x 3",
+                              "PrizeOdds": "0",
+                              "PrizePayout": "0",
+                              "PrizeLines": [{
+                                  "PrizeLineID": "F18AC9A0-1866-4C50-9944-6695E770024B",
+                                  "WinAmount": "10",
+                                  "Label": "CLOUD x 3",
+                                  "RequiredQty": "3",
+                                  "SymbolID": "B824CBC4-E003-4B82-94D8-6D979CE235E7",
+                                  "PrizeCode": "CLOUD",
+                                  "CData": null
+                              }],
+                              "CData": null
+                          }, {
+                              "PrizeID": "748856F6-2EA5-480D-8FDA-E189F9338AEB",
+                              "Wager": "1",
+                              "WinAmount": "10",
+                              "WinLabel": "",
+                              "PrizeLabel": "RAIN x 3",
+                              "PrizeOdds": "0",
+                              "PrizePayout": "0",
+                              "PrizeLines": [{
+                                  "PrizeLineID": "BAAE8755-AAB8-4FB5-9C18-351A66A8F6E2",
+                                  "WinAmount": "10",
+                                  "Label": "RAIN x 3",
+                                  "RequiredQty": "3",
+                                  "SymbolID": "E371047D-7857-45C6-8E42-D0A7FFC074AE",
+                                  "PrizeCode": "RAIN",
+                                  "CData": null
+                              }],
+                              "CData": null
+                          }, {
+                              "PrizeID": "8B64BCEC-A3F4-4FD8-873F-9591D4F745C1",
+                              "Wager": "1",
+                              "WinAmount": "10",
+                              "WinLabel": "",
+                              "PrizeLabel": "WIND x 3",
+                              "PrizeOdds": "0",
+                              "PrizePayout": "0",
+                              "PrizeLines": [{
+                                  "PrizeLineID": "749C1A3B-95B7-453A-A630-C8EC91C05B99",
+                                  "WinAmount": "10",
+                                  "Label": "WIND x 3",
+                                  "RequiredQty": "3",
+                                  "SymbolID": "75AFE921-AADA-4E90-BABB-3F04FBFAE994",
+                                  "PrizeCode": "WIND",
+                                  "CData": null
+                              }],
+                              "CData": null
+                          }, {
+                              "PrizeID": "427052B0-17A7-4081-A47A-70374FDEDFD2",
+                              "Wager": "1",
+                              "WinAmount": "8",
+                              "WinLabel": "",
+                              "PrizeLabel": "TEN x 4",
+                              "PrizeOdds": "0",
+                              "PrizePayout": "0",
+                              "PrizeLines": [{
+                                  "PrizeLineID": "9692BB18-86E0-4C1C-BBE2-0274732B0F4C",
+                                  "WinAmount": "8",
+                                  "Label": "TEN x 4",
+                                  "RequiredQty": "4",
+                                  "SymbolID": "FCEB97FF-EE08-4BE3-9A2B-F7B17C130B69",
+                                  "PrizeCode": "TEN",
+                                  "CData": null
+                              }],
+                              "CData": null
+                          }, {
+                              "PrizeID": "B21F8900-DB68-4063-9627-A69A9E4B1412",
+                              "Wager": "1",
+                              "WinAmount": "5",
+                              "WinLabel": "",
+                              "PrizeLabel": "SCAT x 3 (Level >= 4)",
+                              "PrizeOdds": "0",
+                              "PrizePayout": "0",
+                              "PrizeLines": [{
+                                  "PrizeLineID": "D03BFF81-2DEF-4AA1-9CE6-B9756D9EF207",
+                                  "WinAmount": "5",
+                                  "Label": "Scat x 3",
+                                  "RequiredQty": "3",
+                                  "SymbolID": "E7D3A171-5987-4E08-9900-1D2FD5DBDDFD",
+                                  "PrizeCode": "SCATTER",
+                                  "CData": null
+                              }, {
+                                  "PrizeLineID": "6D6F737F-CA4C-4EE9-B9B8-73582DF859A1",
+                                  "WinAmount": "5",
+                                  "Label": "Level >= 4",
+                                  "RequiredQty": "3",
+                                  "SymbolID": "E7D3A171-5987-4E08-9900-1D2FD5DBDDFD",
+                                  "PrizeCode": "SCATTER",
+                                  "CData": null
+                              }],
+                              "CData": null
+                          }, {
+                              "PrizeID": "D4BACF85-B60A-4AD6-98B2-9297BE6C805D",
+                              "Wager": "1",
+                              "WinAmount": "5",
+                              "WinLabel": "",
+                              "PrizeLabel": "SNOW x 3",
+                              "PrizeOdds": "0",
+                              "PrizePayout": "0",
+                              "PrizeLines": [{
+                                  "PrizeLineID": "E6CC318E-5A28-4D9E-98F4-D115CC7F570B",
+                                  "WinAmount": "5",
+                                  "Label": "SNOW x 3",
+                                  "RequiredQty": "3",
+                                  "SymbolID": "08981962-96F9-41BD-B586-548ACBC2BD3B",
+                                  "PrizeCode": "SNOW",
+                                  "CData": null
+                              }],
+                              "CData": null
+                          }, {
+                              "PrizeID": "76A795D4-331F-4FB0-8DF0-E327202CED5F",
+                              "Wager": "1",
+                              "WinAmount": "5",
+                              "WinLabel": "",
+                              "PrizeLabel": "A x 3",
+                              "PrizeOdds": "0",
+                              "PrizePayout": "0",
+                              "PrizeLines": [{
+                                  "PrizeLineID": "20CD119D-D940-433D-B0C4-4537250077D2",
+                                  "WinAmount": "5",
+                                  "Label": "A x 3",
+                                  "RequiredQty": "3",
+                                  "SymbolID": "112198F5-2847-4A42-AEED-18C84B455642",
+                                  "PrizeCode": "A",
+                                  "CData": null
+                              }],
+                              "CData": null
+                          }, {
+                              "PrizeID": "86B67F0F-48D8-4280-ACF7-C46353EC71B4",
+                              "Wager": "1",
+                              "WinAmount": "5",
+                              "WinLabel": "",
+                              "PrizeLabel": "K x 3",
+                              "PrizeOdds": "0",
+                              "PrizePayout": "0",
+                              "PrizeLines": [{
+                                  "PrizeLineID": "1A853106-55A9-4C49-81EE-66DE5C3EAC44",
+                                  "WinAmount": "5",
+                                  "Label": "K x 3",
+                                  "RequiredQty": "3",
+                                  "SymbolID": "27F34095-FB1D-4889-9756-5FC9308D54BF",
+                                  "PrizeCode": "K",
+                                  "CData": null
+                              }],
+                              "CData": null
+                          }, {
+                              "PrizeID": "76E749BD-3BC6-424B-8539-C0A625FF5DEC",
+                              "Wager": "1",
+                              "WinAmount": "5",
+                              "WinLabel": "",
+                              "PrizeLabel": "SCAT x 3 (Level < 4)",
+                              "PrizeOdds": "0",
+                              "PrizePayout": "0",
+                              "PrizeLines": [{
+                                  "PrizeLineID": "7E25E2A0-9BFF-4C15-8929-FE30FEFB1426",
+                                  "WinAmount": "5",
+                                  "Label": "Scat x 3",
+                                  "RequiredQty": "3",
+                                  "SymbolID": "E7D3A171-5987-4E08-9900-1D2FD5DBDDFD",
+                                  "PrizeCode": "SCATTER",
+                                  "CData": null
+                              }, {
+                                  "PrizeLineID": "0085B059-F788-404D-97DD-63F023DA4F99",
+                                  "WinAmount": "5",
+                                  "Label": "Level < 4",
+                                  "RequiredQty": "3",
+                                  "SymbolID": "E7D3A171-5987-4E08-9900-1D2FD5DBDDFD",
+                                  "PrizeCode": "SCATTER",
+                                  "CData": null
+                              }],
+                              "CData": null
+                          }, {
+                              "PrizeID": "BE95C4FF-7BAD-480F-A21D-BC58553DC47A",
+                              "Wager": "1",
+                              "WinAmount": "3",
+                              "WinLabel": "",
+                              "PrizeLabel": "J x 3",
+                              "PrizeOdds": "0",
+                              "PrizePayout": "0",
+                              "PrizeLines": [{
+                                  "PrizeLineID": "0362FDB6-6EDB-4A0C-9508-DB311FC820CA",
+                                  "WinAmount": "3",
+                                  "Label": "J x 3",
+                                  "RequiredQty": "3",
+                                  "SymbolID": "EBD625C7-CB21-4CDC-A24C-47B3A8187821",
+                                  "PrizeCode": "J",
+                                  "CData": null
+                              }],
+                              "CData": null
+                          }, {
+                              "PrizeID": "1FC5D501-97C1-4F01-97FF-9D8F6F0592E0",
+                              "Wager": "1",
+                              "WinAmount": "3",
+                              "WinLabel": "",
+                              "PrizeLabel": "TEN x 3",
+                              "PrizeOdds": "0",
+                              "PrizePayout": "0",
+                              "PrizeLines": [{
+                                  "PrizeLineID": "260B91BC-A4C1-4144-AF6E-29B8C012DED2",
+                                  "WinAmount": "3",
+                                  "Label": "TEN x 3",
+                                  "RequiredQty": "3",
+                                  "SymbolID": "FCEB97FF-EE08-4BE3-9A2B-F7B17C130B69",
+                                  "PrizeCode": "TEN",
+                                  "CData": null
+                              }],
+                              "CData": null
+                          }, {
+                              "PrizeID": "F99BF2D0-43E5-4C9E-BAAC-3D6D28472117",
+                              "Wager": "1",
+                              "WinAmount": "3",
+                              "WinLabel": "",
+                              "PrizeLabel": "Q x 3",
+                              "PrizeOdds": "0",
+                              "PrizePayout": "0",
+                              "PrizeLines": [{
+                                  "PrizeLineID": "34B3452B-3EBD-4CB6-9C09-AFEB64CF3F6F",
+                                  "WinAmount": "3",
+                                  "Label": "Q x 3",
+                                  "RequiredQty": "3",
+                                  "SymbolID": "C42BEE45-DBBC-4749-8483-BE296C6C196E",
+                                  "PrizeCode": "Q",
+                                  "CData": null
+                              }],
+                              "CData": null
+                          }, {
+                              "PrizeID": "7F4A3B92-99E2-4321-854A-AE62EE13CC9E",
+                              "Wager": "1",
+                              "WinAmount": "0",
+                              "WinLabel": "",
+                              "PrizeLabel": "Non Winning",
+                              "PrizeOdds": "0",
+                              "PrizePayout": "0",
+                              "PrizeLines": [{
+                                  "PrizeLineID": "825A964F-539E-4C7F-B277-E38E8A5BAA8E",
+                                  "WinAmount": "0",
+                                  "Label": "Non Winning",
+                                  "RequiredQty": "0",
+                                  "SymbolID": "",
+                                  "PrizeCode": "",
+                                  "CData": null
+                              }],
+                              "CData": null
+                          }],
+                          "CData": null
+                      }],
+                      "Resources": [{
+                          "Locale": "en-gb",
+                          "Tokens": [{
+                              "TokenID": "MSG_RESPONSIBLE_SESSION_TIME_LIMIT",
+                              "Text": "You have set a Session Time Limit that has now been reached.",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_FAST_SPINS_LABEL",
+                              "Text": "Fast Spins",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_PAYTABLE_LABEL",
+                              "Text": "Paytable",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_STOP_LABEL",
+                              "Text": "Stop",
+                              "CData": null
+                          }, {
+                              "TokenID": "MSG_HELP",
+                              "Text": "Help",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_AUTOPLAY_STOP_ANY",
+                              "Text": "Stop on any Win",
+                              "CData": null
+                          }, {
+                              "TokenID": "MGS_RESPONSIBLE_REALITY_CHECK_TITLE",
+                              "Text": "Reality Check Message!",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_INFO_WILD",
+                              "Text": "Substitutes all except Scatter",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_HELP_LABEL",
+                              "Text": "Rules",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_AUTOPLAY_STOP_WIN_CASH",
+                              "Text": "Stop on win cash amount:",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_AMBIENT_SOUNDS_LABEL",
+                              "Text": "Ambient Sounds",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_AUTOPLAY_STOP_WIN_AMOUNT",
+                              "Text": "Stop on win amount:",
+                              "CData": null
+                          }, {
+                              "TokenID": "MSG_FUN_MODE",
+                              "Text": "You are playing for fun.",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_BET_LEVEL_LABEL",
+                              "Text": "Bet Level",
+                              "CData": null
+                          }, {
+                              "TokenID": "MSG_OUT_OF_BALANCE_TOTAL",
+                              "Text": "Your balance is not sufficient to place a bet. Please update your balance and try again.",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_PAYTABLE_PAGE_01_INFO_02",
+                              "Text": "Free Spins",
+                              "CData": null
+                          }, {
+                              "TokenID": "MSG_OUT_OF_BALANCE_BET",
+                              "Text": "Your balance is not sufficient to place this bet. Please lower the bet level and try again.",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_START_LABEL",
+                              "Text": "Start",
+                              "CData": null
+                          }, {
+                              "TokenID": "MSG_FREE_SPINS_AWARD",
+                              "Text": "Free Spins: $(1)",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_FTHS_INFO_05",
+                              "Text": "Each stage has a different multiplier, starting from x2 and up to x5.",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_AUTOPLAY_LABEL",
+                              "Text": "Autoplay",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_REALITY_CHECK_INTERVAR_LABEL",
+                              "Text": "Set Reality Check Message Interval",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_AUTOPLAY_STOP_LABEL",
+                              "Text": "Stop Auto",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_PAYTABLE_PAGE_02_INFO_02",
+                              "Text": "Thunderstorm Free Spins are awarded when 3,4 or 5 Scatter symbols appear anywhere on the board.",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_PAYTABLE_PAGE_02_INFO_11",
+                              "Text": "When Stage 5 is achieved, additional scatter wins will only trigger 5 Stage 4 Free Spins, regardless of the number of scatters symbols that appeared.",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_FTHS_INFO_04",
+                              "Text": "Thunderstorm Free Spins have 4 stages.",
+                              "CData": null
+                          }, {
+                              "TokenID": "MSG_FREE_SPINS_END",
+                              "Text": "You won $(1) coins after $(2) Free Spins!",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_RGO_LABEL",
+                              "Text": "Responsible Gaming",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_PAYTABLE_PAGE_02_INFO_03",
+                              "Text": "Thunderstorm Free Spins have 4 stages.",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_ADVANCED_OPTIONS",
+                              "Text": "Advanced Options",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_PAYTABLE_GENERAL_INFO",
+                              "Text": "Wins are calculated for combinations starting on the leftmost reel to the rightmost reel. Winning coin are based on bet level 1. Additional levels multiply the winnings. Only the highest win is paid per bet line. Additional information can be found in the Game Rules. Malfunction voids all pays and plays.",
+                              "CData": null
+                          }, {
+                              "TokenID": "MSG_REALITY_CHECK_HH_MM",
+                              "Text": "You have been playing for $(1) hours and $(2) minutes.",
+                              "CData": null
+                          }, {
+                              "TokenID": "BTN_TXT_EXIT_TO_LOBBY_LABEL",
+                              "Text": "Exit to Lobby",
+                              "CData": null
+                          }, {
+                              "TokenID": "CONTINUE_LABEL",
+                              "Text": "CONTINUE",
+                              "CData": null
+                          }, {
+                              "TokenID": "MSG_GENERIC_ERROR",
+                              "Text": "An unexpected error has occurred. Please close the game in order to return to the lobby. We apologize for the inconvenience.",
+                              "CData": null
+                          }, {
+                              "TokenID": "BTN_TXT_CONTINUE_LABEL",
+                              "Text": "Continue Playing",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_PAYTABLE_PAGE_02_INFO_10",
+                              "Text": "Stage 4: x5",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_RESPONSIBLE_GAMING_OPTIONS",
+                              "Text": "Responsible Gaming Option",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_TOTAL_ROUNDS_LABEL",
+                              "Text": "Total Rounds",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_PAYTABLE_PAGE_02_INFO_09",
+                              "Text": "Stage 3: x4",
+                              "CData": null
+                          }, {
+                              "TokenID": "MSG_SESSION_TIME_LIMIT_TITLE",
+                              "Text": "Session Time Limit Reached",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_PAYTABLE_PAGE_01_INFO_03",
+                              "Text": "Scatter symbol combinations pay when appear anywhere on the board.",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_SPIN",
+                              "Text": "Spin",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_TOTAL_BET_LABEL",
+                              "Text": "Total Bet",
+                              "CData": null
+                          }, {
+                              "TokenID": "MSG_SERVER_TIME_OUT",
+                              "Text": "An unexpected error has occurred. Please close the game in order to return to the lobby. We apologize for the inconvenience.",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_SOUND_EFFECTS_TOGGLE",
+                              "Text": "Enable Sound Effects",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_LINES_LABEL",
+                              "Text": "Lines",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_FAST_SPINS_TOGGLE",
+                              "Text": "Enable Fast Spins",
+                              "CData": null
+                          }, {
+                              "TokenID": "MSG_FREE_SPINS_REMAIN",
+                              "Text": "$(1) Free Spins Left - Total Wins: $(2)",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_OPTIONS_LABEL",
+                              "Text": "Options",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_PAYTABLE_PAGE_02_INFO_05",
+                              "Text": "Each additional stage is initiated from the previous",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_AUTOPLAY_START_LABEL",
+                              "Text": "Start Auto",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_MAX_TIME_PER_SESSION_LABEL",
+                              "Text": "Set Maximum Time Per Session",
+                              "CData": null
+                          }, {
+                              "TokenID": "MSG_SESSION_IS_OVER",
+                              "Text": "Your session has ended. Please close the game in order to return to the lobby.",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_PAYTABLE_PAGE_02_INFO_04",
+                              "Text": "Stage 1 is initiated from the main game.",
+                              "CData": null
+                          }, {
+                              "TokenID": "MSG_BIG_WIN",
+                              "Text": "Big Win: $(1)!",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_PAYTABLE_PAGE_02_INFO_06",
+                              "Text": "Each Stage has a different multiplier:",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_PAYTABLE_PAGE_02_INFO_08",
+                              "Text": "Stage 2: x3",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_SOUND_EFFECTS_LABEL",
+                              "Text": "Sound Effects",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_SOUND_SETTINGS_LABEL",
+                              "Text": "Sound Settings",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_SOUND_LABEL",
+                              "Text": "Sound",
+                              "CData": null
+                          }, {
+                              "TokenID": "MSG_DEFAULT",
+                              "Text": "Good Luck!",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_GAMEPLAY_LABEL",
+                              "Text": "GamePlay",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_AUTOPLAY_STOP_TIME",
+                              "Text": "Stop on time:",
+                              "CData": null
+                          }, {
+                              "TokenID": "MSG_WIN",
+                              "Text": "WIN:",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_TITLE_OPTIONS",
+                              "Text": "Options",
+                              "CData": null
+                          }, {
+                              "TokenID": "MSG_MEDIUM_WIN",
+                              "Text": "You Win:",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_AUTOPLAY_STOP_LOSE",
+                              "Text": "Stop on lose amount:",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_PAYTABLE_PAGE_02_INFO_07",
+                              "Text": "Stage 1: x2",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_MAX_BET_LABEL",
+                              "Text": "Max Bet",
+                              "CData": null
+                          }, {
+                              "TokenID": "MSG_REALITY_CHECK_MM",
+                              "Text": "You have been playing for $(1) minutes.",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_GAMEPLAY_SETTINGS_LABEL",
+                              "Text": "Gameplay Settings",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_FTHS_INFO_06",
+                              "Text": "Additional Scatter Wins during a Thunderstorm Free Spins round, will award Free Spins of the next level!",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_COINS_LABEL",
+                              "Text": "Coins",
+                              "CData": null
+                          }, {
+                              "TokenID": "DON’T_SHOW_AGAIN_LABEL",
+                              "Text": "Don’t show again",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_COIN_VALUE_LABEL",
+                              "Text": "Coin Value",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_FTHS_INFO_02",
+                              "Text": "3 or more Scatter Symbols initiate the Thunderstorm Free Spins.",
+                              "CData": null
+                          }, {
+                              "TokenID": "MSG_COMPATIBILITY_ERROR",
+                              "Text": "Your web browser is not compatible with this game. A WebGL enabled browser is required.",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_PAYTABLE_PAGE_02_INFO_01",
+                              "Text": "THUNDERSTORM FREE SPINS",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_BALANCE_LABEL",
+                              "Text": "Balance",
+                              "CData": null
+                          }, {
+                              "TokenID": "MSG_SMALL_WIN",
+                              "Text": "You Win:",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_BET_LINE_LABEL",
+                              "Text": "Bet Line",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_FTHS_INFO_01",
+                              "Text": "THUNDERSTORM FREE SPINS",
+                              "CData": null
+                          }, {
+                              "TokenID": "MSG_SESSION_TIME_LIMIT_INFO",
+                              "Text": "You have set a Session Time Limit that has now been reached",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_BET_LABEL",
+                              "Text": "Bet",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_PAYTABLE_PAGE_01_INFO_01",
+                              "Text": "Wild symbols can appear on reels 2,3,4 and 5.",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_SOUND_AMBIANCE_TOGGLE",
+                              "Text": "Enable Ambient Sounds",
+                              "CData": null
+                          }, {
+                              "TokenID": "TXT_WIN_LABEL",
+                              "Text": "Win",
+                              "CData": null
+                          }],
+                          "CData": null
+                      }],
+                      "CData": null
+                  },
+                  "Statistics": {
+                      "Handle": "9ms"
+                  }
+              
+          },
+          "unified_panel_localization": {
+              "localized_gameplay_label": {
+                  "en-GB": "Gameplay settings"
+              },
+              "localized_fast_spins": {
+                  "en-GB": "Enable fast spins"
+              },
+              "localized_sound_effects": {
+                  "en-GB": "Enable Sound Effects"
+              },
+              "localized_sound_ambiance": {
+                  "en-GB": "Enable Ambiance"
+              },
+
+              "localized_fun_play": {
+                  "en-GB": "PLAYING FOR FUN"
+              },
+              "localized_bet": {
+                  "en-GB": "Bet: "
+              },
+              "localized_win": {
+                  "en-GB": "Win: "
+              },
+              "localized_balance": {
+                  "en-GB": "Balance: "
+              }
+
+          },
+          "autoplay_specs": {
+              "win_amount": 250,
+              "cash_amount": "1.25",
+              "time": "5Min",
+              "loss": "0,75"
+          }
+
+
+
+      }
+      

@@ -1,0 +1,68 @@
+{"frames": [
+
+{
+	"filename": "BG.jpg",
+	"frame": {"x":1,"y":1,"w":1280,"h":720},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1280,"h":720},
+	"sourceSize": {"w":1280,"h":720}
+},
+{
+	"filename": "BG_free-spin.jpg",
+	"frame": {"x":1,"y":723,"w":1280,"h":720},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1280,"h":720},
+	"sourceSize": {"w":1280,"h":720}
+},
+{
+	"filename": "FreeSpin_.png",
+	"frame": {"x":1,"y":1445,"w":1234,"h":337},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":23,"w":1234,"h":337},
+	"sourceSize": {"w":1280,"h":397}
+},
+{
+	"filename": "Help_plate.png",
+	"frame": {"x":1283,"y":1,"w":655,"h":1130},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":75,"w":655,"h":1130},
+	"sourceSize": {"w":720,"h":1280}
+},
+{
+	"filename": "Message_BOARD.png",
+	"frame": {"x":1283,"y":1133,"w":485,"h":499},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":485,"h":499},
+	"sourceSize": {"w":485,"h":499}
+},
+{
+	"filename": "win-small.png",
+	"frame": {"x":1,"y":1784,"w":1280,"h":260},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1280,"h":260},
+	"sourceSize": {"w":1280,"h":260}
+},
+{
+	"filename": "WinTab_.png",
+	"frame": {"x":1770,"y":1133,"w":160,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":160,"h":130},
+	"sourceSize": {"w":160,"h":130}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "screensmb.png",
+	"format": "RGBA8888",
+	"size": {"w":2048,"h":2048},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:c701e68846aac86215d4b64e0df963a6:9b08d3205df3b225e39329d4599e7fe0:2b1303c7fd21802d62cb5dad56267695$"
+}
+}

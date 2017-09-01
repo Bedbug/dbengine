@@ -1,0 +1,23 @@
+{
+  "name": "kenney",
+  "images": {
+    "slider_end": "images/grey_sliderEnd.png",
+    "slider_base": "images/grey_sliderHorizontal.png",
+    "slider_handle_off": "images/grey_sliderDown.png",
+    "slider_handle_on": "images/blue_sliderDown.png",
+    "panel": "images/black_panel.png"
+  },
+  "button": {
+    "border-x": 8,
+    "border-y": 8
+  },
+  "text_field": {
+    "border-x": 8,
+    "border-y": 8
+  },
+  "panel": {
+    "border-x": 10,
+    "border-y": 10
+  }
+}
+

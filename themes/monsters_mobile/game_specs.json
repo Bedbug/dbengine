@@ -1,0 +1,1495 @@
+{
+  "title": "Monster's Reels",
+  "theme": "monsters",
+  "version": "1.0.1.0",
+  "config": {
+    "bet_lines": 18,
+    "timmings": {
+      "real_delay": true,
+      "reel_spins_num": 6,
+      "reel_fast_spins_num": 1,
+      "reel_each_spin_delay": 200,
+      "reel_spin_duration": 400,
+      "reel_fast_spin_duration": 400,
+      "reel_time_space": 100,
+      "reel_fast_spin_time_space": 50,
+      "symbol_stagger_start_delay": 100,
+      "symbol_stagger_end_delay": 200,
+      "anticipation_time": 3000,
+      "fast_spin_anticipation_time": 1000,
+      "reel_finish_wait_time": 200
+    },
+    "bonus_game": {
+      "spin_space_delay": 1000,
+      "end_delay": 2000
+    }
+  },
+  "grid": {
+    "debug": false,
+    "use_mask": true,
+    "mask_padding": [
+      8,
+      6,
+      8,
+      -2
+    ],
+    "columns": 5,
+    "rows": 3,
+    "x": 155,
+    "y": 55
+  },
+  "reels": {
+    "spacing": {
+      "x": 3,
+      "y": 5
+    },
+    "slots_adjustments": [
+      [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  "slots": {
+    "symbols_count": 1,
+    "width": 190,
+    "height": 190,
+    "concated": true,
+    "scatterSymbolID": ""
+  },
+  "logo": {
+    "x": 670,
+    "y": 35,
+    "width": 600,
+    "height": 50
+  },
+  "infobox": {
+    "visible": true,
+    "x": 290,
+    "y": 612,
+    "width": 690,
+    "height": 35,
+    "rounded": 6,
+    "style": {
+      "font": "20px Contrail",
+      "fill": "white",
+      "alpha": 1,
+      "gradient": false,
+      "rampColor1": "white",
+      "rampColor2": "white"
+    }
+  },
+  "messages": {
+    "style": {
+      "normal": {
+        "bgColor": "0x54571d",
+        "fill": "0xffffff",
+        "headingBgColor": "0xffffff",
+        "headingFill": "#3456A5",
+        "lineColor": "0xebffa1",
+        "shadow": true,
+        "bevel": true,
+        "alpha": 0.5,
+        "gradient": true,
+        "rampColor1": "0x3456A5",
+        "rampColor2": "0xffffff"
+      },
+      "error": {
+        "bgColor": "0x000000",
+        "fill": "0xffffff",
+        "headingBgColor": "0xff0000",
+        "headingFill": "#FFF",
+        "lineColor": "0xff0000"
+      }
+    }
+  },
+  "dot_constants": {
+    "start": 210,
+    "end": 1085,
+    "start_stagger": 0,
+    "end_stagger": 0
+  },
+  "lines": [
+    {
+      "winlineid": "",
+      "id": "line02",
+      "localized_label": {
+        "en": "line"
+      },
+      "side_index": 0,
+      "name": 2,
+      "dots": {
+        "start": [
+          "start",
+          70
+        ],
+        "end": null,
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line04",
+      "localized_label": {
+        "en": "line"
+      },
+      "side_index": 1,
+      "name": 4,
+      "dots": {
+        "start": [
+          "start",
+          90
+        ],
+        "end": null,
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        0,
+        1,
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line08",
+      "localized_label": {
+        "en": "line"
+      },
+      "side_index": 2,
+      "name": 8,
+      "dots": {
+        "start": [
+          "start",
+          110
+        ],
+        "end": null,
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line11",
+      "localized_label": {
+        "en": "line"
+      },
+      "side_index": 3,
+      "name": 11,
+      "dots": {
+        "start": [
+          "start",
+          130
+        ],
+        "end": null,
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        0,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line14",
+      "localized_label": {
+        "en": "line"
+      },
+      "side_index": 4,
+      "name": 14,
+      "dots": {
+        "start": [
+          "start",
+          150
+        ],
+        "end": null,
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        0,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line17",
+      "localized_label": {
+        "en": "line"
+      },
+      "side_index": 5,
+      "name": 17,
+      "dots": {
+        "start": [
+          "start",
+          170
+        ],
+        "end": null,
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        0,
+        2,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line20",
+      "localized_label": {
+        "en": "line"
+      },
+      "side_index": 6,
+      "name": 20,
+      "dots": {
+        "start": [
+          "start",
+          190
+        ],
+        "end": null,
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        0,
+        2,
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line23",
+      "localized_label": {
+        "en": "line"
+      },
+      "side_index": 7,
+      "name": 23,
+      "dots": {
+        "start": [
+          "start",
+          210
+        ],
+        "end": null,
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        0,
+        0,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line01",
+      "localized_label": {
+        "en": "line"
+      },
+      "side_index": 8,
+      "name": 1,
+      "dots": {
+        "start": [
+          "start",
+          230
+        ],
+        "end": null,
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line06",
+      "localized_label": {
+        "en": "line"
+      },
+      "side_index": 9,
+      "name": 6,
+      "dots": {
+        "start": [
+          "start",
+          250
+        ],
+        "end": null,
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        1,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line07",
+      "localized_label": {
+        "en": "line"
+      },
+      "side_index": 10,
+      "name": 7,
+      "dots": {
+        "start": [
+          "start",
+          270
+        ],
+        "end": null,
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        1,
+        2,
+        1,
+        2,
+        1
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line10",
+      "localized_label": {
+        "en": "line"
+      },
+      "side_index": 11,
+      "name": 10,
+      "dots": {
+        "start": [
+          "start",
+          290
+        ],
+        "end": null,
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        1,
+        0,
+        1,
+        2,
+        1
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line13",
+      "localized_label": {
+        "en": "line"
+      },
+      "side_index": 12,
+      "name": 13,
+      "dots": {
+        "start": [
+          "start",
+          310
+        ],
+        "end": null,
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        1,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line16",
+      "localized_label": {
+        "en": "line"
+      },
+      "side_index": 13,
+      "name": 16,
+      "dots": {
+        "start": [
+          "start",
+          330
+        ],
+        "end": null,
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        1,
+        0,
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line19",
+      "localized_label": {
+        "en": "line"
+      },
+      "side_index": 14,
+      "name": 19,
+      "dots": {
+        "start": [
+          "start",
+          350
+        ],
+        "end": null,
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        1,
+        2,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line22",
+      "localized_label": {
+        "en": "line"
+      },
+      "side_index": 15,
+      "name": 22,
+      "dots": {
+        "start": [
+          "start",
+          370
+        ],
+        "end": null,
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        1,
+        1,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line25",
+      "localized_label": {
+        "en": "line"
+      },
+      "side_index": 16,
+      "name": 25,
+      "dots": {
+        "start": [
+          "start",
+          390
+        ],
+        "end": null,
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        1,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line03",
+      "localized_label": {
+        "en": "line"
+      },
+      "side_index": 17,
+      "name": 3,
+      "dots": {
+        "start": [
+          "start",
+          410
+        ],
+        "end": null,
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line05",
+      "localized_label": {
+        "en": "line"
+      },
+      "side_index": 18,
+      "name": 5,
+      "dots": {
+        "start": [
+          "start",
+          430
+        ],
+        "end": null,
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        2,
+        1,
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line09",
+      "localized_label": {
+        "en": "line"
+      },
+      "side_index": 19,
+      "name": 9,
+      "dots": {
+        "start": [
+          "start",
+          450
+        ],
+        "end": null,
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        2,
+        2,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line12",
+      "localized_label": {
+        "en": "line"
+      },
+      "side_index": 20,
+      "name": 12,
+      "dots": {
+        "start": [
+          "start",
+          470
+        ],
+        "end": null,
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        2,
+        1,
+        2,
+        1,
+        2
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line15",
+      "localized_label": {
+        "en": "line"
+      },
+      "side_index": 21,
+      "name": 15,
+      "dots": {
+        "start": [
+          "start",
+          490
+        ],
+        "end": null,
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        2,
+        1,
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line18",
+      "localized_label": {
+        "en": "line"
+      },
+      "side_index": 22,
+      "name": 18,
+      "dots": {
+        "start": [
+          "start",
+          510
+        ],
+        "end": null,
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        2,
+        0,
+        2,
+        0,
+        2
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line21",
+      "localized_label": {
+        "en": "line"
+      },
+      "side_index": 23,
+      "name": 21,
+      "dots": {
+        "start": [
+          "start",
+          530
+        ],
+        "end": null,
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        2,
+        0,
+        1,
+        2,
+        1
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line24",
+      "localized_label": {
+        "en": "line"
+      },
+      "side_index": 24,
+      "name": 24,
+      "dots": {
+        "start": [
+          "start",
+          550
+        ],
+        "end": null,
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        2,
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line30",
+      "localized_label": {
+        "en": "line"
+      },
+      "side_index": 0,
+      "name": 30,
+      "dots": {
+        "start": null,
+        "end": [
+          "end",
+          70
+        ],
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        2,
+        2,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line32",
+      "localized_label": {
+        "en": "line"
+      },
+      "side_index": 1,
+      "name": 32,
+      "dots": {
+        "start": null,
+        "end": [
+          "end",
+          90
+        ],
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        0,
+        1,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line35",
+      "localized_label": {
+        "en": "line"
+      },
+      "side_index": 2,
+      "name": 35,
+      "dots": {
+        "start": null,
+        "end": [
+          "end",
+          110
+        ],
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        1,
+        2,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line36",
+      "localized_label": {
+        "en": "line"
+      },
+      "side_index": 3,
+      "name": 36,
+      "dots": {
+        "sprite_sheet": "uri_to_spriteshet",
+        "start": null,
+        "end": [
+          "end",
+          130
+        ]
+      },
+      "slots": [
+        0,
+        2,
+        2,
+        2,
+        0
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line38",
+      "localized_label": {
+        "en": "line"
+      },
+      "side_index": 4,
+      "name": 38,
+      "dots": {
+        "start": null,
+        "end": [
+          "end",
+          150
+        ],
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        0,
+        2,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line45",
+      "localized_label": {
+        "en": "line"
+      },
+      "side_index": 5,
+      "name": 45,
+      "dots": {
+        "start": null,
+        "end": [
+          "end",
+          170
+        ],
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        2,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line46",
+      "localized_label": {
+        "en": "line"
+      },
+      "side_index": 6,
+      "name": 46,
+      "dots": {
+        "sprite_sheet": "uri_to_spriteshet",
+        "start": null,
+        "end": [
+          "end",
+          190
+        ]
+      },
+      "slots": [
+        1,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line28",
+      "localized_label": {
+        "en": "line"
+      },
+      "side_index": 7,
+      "name": 28,
+      "dots": {
+        "start": null,
+        "end": [
+          "end",
+          210
+        ],
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        1,
+        2,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line31",
+      "localized_label": {
+        "en": "line"
+      },
+      "side_index": 8,
+      "name": 31,
+      "dots": {
+        "start": null,
+        "end": [
+          "end",
+          230
+        ],
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        1,
+        0,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line40",
+      "localized_label": {
+        "en": "line"
+      },
+      "side_index": 9,
+      "name": 40,
+      "dots": {
+        "start": null,
+        "end": [
+          "end",
+          250
+        ],
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        1,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line41",
+      "localized_label": {
+        "en": "line"
+      },
+      "side_index": 10,
+      "name": 41,
+      "dots": {
+        "start": null,
+        "end": [
+          "end",
+          270
+        ],
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        1,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line42",
+      "localized_label": {
+        "en": "line"
+      },
+      "side_index": 11,
+      "name": 42,
+      "dots": {
+        "start": null,
+        "end": [
+          "end",
+          290
+        ],
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line43",
+      "localized_label": {
+        "en": "line"
+      },
+      "side_index": 12,
+      "name": 43,
+      "dots": {
+        "start": null,
+        "end": [
+          "end",
+          310
+        ],
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        2,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line48",
+      "localized_label": {
+        "en": "line"
+      },
+      "side_index": 13,
+      "name": 48,
+      "dots": {
+        "start": null,
+        "end": [
+          "end",
+          330
+        ],
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        0,
+        1,
+        1,
+        2,
+        1
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line49",
+      "localized_label": {
+        "en": "line"
+      },
+      "side_index": 14,
+      "name": 49,
+      "dots": {
+        "start": null,
+        "end": [
+          "end",
+          350
+        ],
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        2,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line50",
+      "localized_label": {
+        "en": "line"
+      },
+      "side_index": 15,
+      "name": 50,
+      "dots": {
+        "start": null,
+        "end": [
+          "end",
+          370
+        ],
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        1,
+        1,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line26",
+      "localized_label": {
+        "en": "line"
+      },
+      "side_index": 16,
+      "name": 26,
+      "dots": {
+        "start": null,
+        "end": [
+          "end",
+          390
+        ],
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        0,
+        2,
+        1,
+        0,
+        2
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line27",
+      "localized_label": {
+        "en": "line"
+      },
+      "side_index": 17,
+      "name": 27,
+      "dots": {
+        "start": null,
+        "end": [
+          "end",
+          410
+        ],
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        2,
+        0,
+        1,
+        0,
+        2
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line29",
+      "localized_label": {
+        "en": "line"
+      },
+      "side_index": 18,
+      "name": 29,
+      "dots": {
+        "start": null,
+        "end": [
+          "end",
+          430
+        ],
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        0,
+        0,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line33",
+      "localized_label": {
+        "en": "line"
+      },
+      "side_index": 19,
+      "name": 33,
+      "dots": {
+        "start": null,
+        "end": [
+          "end",
+          450
+        ],
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        2,
+        1,
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line34",
+      "localized_label": {
+        "en": "line"
+      },
+      "side_index": 20,
+      "name": 34,
+      "dots": {
+        "start": null,
+        "end": [
+          "end",
+          470
+        ],
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        1,
+        0,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line37",
+      "localized_label": {
+        "en": "line"
+      },
+      "side_index": 21,
+      "name": 37,
+      "dots": {
+        "start": null,
+        "end": [
+          "end",
+          490
+        ],
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        2,
+        0,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line39",
+      "localized_label": {
+        "en": "line"
+      },
+      "side_index": 22,
+      "name": 39,
+      "dots": {
+        "start": null,
+        "end": [
+          "end",
+          510
+        ],
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        2,
+        0,
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line44",
+      "localized_label": {
+        "en": "line"
+      },
+      "side_index": 23,
+      "name": 44,
+      "dots": {
+        "start": null,
+        "end": [
+          "end",
+          530
+        ],
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        0,
+        1,
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line47",
+      "localized_label": {
+        "en": "line"
+      },
+      "side_index": 24,
+      "name": 47,
+      "dots": {
+        "start": null,
+        "end": [
+          "end",
+          550
+        ],
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        1,
+        1,
+        2,
+        1,
+        2
+      ]
+    }
+  ],
+  "test_symbols": [
+    {
+      "SymbolID": "969BA2F3-F659-4B46-B44F-9DBD36F30794",
+      "SymbolName": "H1",
+      "SymbolType": 0,
+      "SymbolURL": "",
+      "SymbolMultiplier": 1,
+      "SymbolHintURL": "",
+      "CData": null
+    },
+    {
+      "SymbolID": "0E73B235-D4D2-4653-8ABB-A063E61C9151",
+      "SymbolName": "H2",
+      "SymbolType": 0,
+      "SymbolURL": "",
+      "SymbolMultiplier": 1,
+      "SymbolHintURL": "",
+      "CData": null
+    },
+    {
+      "SymbolID": "A998952E-AB3D-4A46-8628-6F70EFBB832A",
+      "SymbolName": "L1",
+      "SymbolType": 0,
+      "SymbolURL": "",
+      "SymbolMultiplier": 1,
+      "SymbolHintURL": "",
+      "CData": null
+    },
+    {
+      "SymbolID": "CC65C5A8-4668-45B0-A823-B51596811EE9",
+      "SymbolName": "L2",
+      "SymbolType": 0,
+      "SymbolURL": "",
+      "SymbolMultiplier": 1,
+      "SymbolHintURL": "",
+      "CData": null
+    },
+    {
+      "SymbolID": "3EE018AF-11C1-42D0-B6A7-5C8E85258B33",
+      "SymbolName": "L3",
+      "SymbolType": 0,
+      "SymbolURL": "",
+      "SymbolMultiplier": 1,
+      "SymbolHintURL": "",
+      "CData": null
+    },
+    {
+      "SymbolID": "3D8EC913-6A73-457C-A715-1FD8D36BF5D8",
+      "SymbolName": "L4",
+      "SymbolType": 0,
+      "SymbolURL": "",
+      "SymbolMultiplier": 1,
+      "SymbolHintURL": "",
+      "CData": null
+    },
+    {
+      "SymbolID": "7A132125-E78F-432B-BA99-6080997029BE",
+      "SymbolName": "L5",
+      "SymbolType": 0,
+      "SymbolURL": "",
+      "SymbolMultiplier": 1,
+      "SymbolHintURL": "",
+      "CData": null
+    },
+    {
+      "SymbolID": "D5A2BAC5-DD89-43B9-9F3A-C02BBA7DDCBC",
+      "SymbolName": "M1",
+      "SymbolType": 0,
+      "SymbolURL": "",
+      "SymbolMultiplier": 1,
+      "SymbolHintURL": "",
+      "CData": null
+    },
+    {
+      "SymbolID": "582B66FF-A2E5-4269-8EF5-84344A1430C6",
+      "SymbolName": "M2",
+      "SymbolType": 0,
+      "SymbolURL": "",
+      "SymbolMultiplier": 1,
+      "SymbolHintURL": "",
+      "CData": null
+    },
+    {
+      "SymbolID": "BC53FEFA-98F1-45BA-85F4-DE904BB9A70C",
+      "SymbolName": "M3",
+      "SymbolType": 0,
+      "SymbolURL": "",
+      "SymbolMultiplier": 1,
+      "SymbolHintURL": "",
+      "CData": null
+    },
+    {
+      "SymbolID": "9BC1EFB1-9F03-4148-8687-79ADD7A54B69",
+      "SymbolName": "SCATTER",
+      "SymbolType": 1,
+      "SymbolURL": "",
+      "SymbolMultiplier": 1,
+      "SymbolHintURL": "",
+      "CData": null
+    },
+    {
+      "SymbolID": "6C1A1314-0929-49A5-9173-24CD39388412",
+      "SymbolName": "WILD",
+      "SymbolType": 2,
+      "SymbolURL": "",
+      "SymbolMultiplier": 1,
+      "SymbolHintURL": "",
+      "CData": null
+    }
+  ],
+  "rumblings": [
+    "Wow! Look at those effects!",
+    "Risk big, win big, my grandma used to say.",
+    "If you like sparkles, this is you game."
+  ]
+}

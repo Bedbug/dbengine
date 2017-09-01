@@ -1,0 +1,537 @@
+{
+  "title": "WinCill",
+  "theme": "weather",
+  "version": "1.0.1.0",
+  "config": {
+    "bet_lines": 18,
+    "timmings": {
+      "reel_spins_num": 6,
+      "reel_fast_spins_num": 1,
+      "reel_each_spin_delay": 200,
+      "reel_spin_duration": 400,
+      "reel_fast_spin_duration": 400,
+      "reel_time_space": 100,
+      "reel_fast_spin_time_space": 50,
+      "symbol_stagger_start_delay": 100,
+      "symbol_stagger_end_delay": 200,
+      "anticipation_time": 3000,
+      "fast_spin_anticipation_time": 1000,
+      "reel_finish_wait_time": 200
+    },
+    "bonus_game": {
+      "spin_space_delay": 1000,
+      "end_delay": 2000
+    }
+  },
+  "grid": {
+    "debug": false,
+    "use_mask": true,
+    "mask_padding": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "columns": 5,
+    "rows": 3,
+    "x": 240,
+    "y": 70
+  },
+  "reels": {
+    "spacing": {
+      "x": 0,
+      "y": 0
+    }
+  },
+  "logo": {
+    "x": 670,
+    "y": 35,
+    "width": 600,
+    "height": 50
+  },
+  "infobox": {
+    "visible": true,
+    "x": 245,
+    "y": 590,
+    "width": 840,
+    "height": 35,
+    "rounded": 6,
+    "style": {
+      "font": "bold 20px ArialRound",
+      "fill": "#fff"
+    }
+  },
+  "messages": {
+    "style": {
+      "normal": {
+        "bgColor": "0x3456A5",
+        "fill": "0xffffff",
+        "headingBgColor": "0xffffff",
+        "headingFill": "#3456A5",
+        "lineColor": "0xffffff",
+        "shadow": true,
+        "bevel": true,
+        "alpha": 0.5,
+        "gradient": true,
+        "rampColor1": "0x3456A5",
+        "rampColor2": "0xffffff"
+      },
+      "error": {
+        "bgColor": "0x000000",
+        "fill": "0xffffff",
+        "headingBgColor": "0xff0000",
+        "headingFill": "#FFF",
+        "lineColor": "0xff0000"
+      }
+    }
+  },
+  "slots": {
+    "symbols_count": 1,
+    "width": 170,
+    "height": 170,
+    "concated": false,
+    "symbols": {
+      "1": "slot1",
+      "2": "slot2",
+      "3": "slot3",
+      "4": "slot4",
+      "5": "slot5",
+      "6": "slot6",
+      "7": "slot7",
+      "8": "slot8",
+      "9": "slot9",
+      "10": "slot10",
+      "11": "slot11",
+      "12": "slot12"
+    },
+    "scatterSymbolID": "00000030-0000-0000-0000-000000000011"
+  },
+  "dot_constants": {
+    "start": 270,
+    "end": 1080,
+    "start_stagger": 0,
+    "end_stagger": 0
+  },
+  "lines": [
+    {
+      "id": "line02",
+      "winlineid": "",
+      "localized_label": {
+        "en": "line"
+      },
+      "name": "2",
+      "dots": {
+        "start": [
+          270,
+          150
+        ],
+        "end": null,
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "line04",
+      "winlineid": "",
+      "localized_label": {
+        "en": "line"
+      },
+      "name": "4",
+      "dots": {
+        "start": [
+          270,
+          180
+        ],
+        "end": null,
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        0,
+        1,
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "line06",
+      "winlineid": "",
+      "localized_label": {
+        "en": "line"
+      },
+      "name": "6",
+      "dots": {
+        "start": [
+          270,
+          210
+        ],
+        "end": null,
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        0,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "line01",
+      "winlineid": "",
+      "localized_label": {
+        "en": "line"
+      },
+      "name": "1",
+      "dots": {
+        "start": [
+          270,
+          285
+        ],
+        "end": null,
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "line08",
+      "winlineid": "",
+      "localized_label": {
+        "en": "line"
+      },
+      "name": "8",
+      "dots": {
+        "start": [
+          270,
+          315
+        ],
+        "end": null,
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        1,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "line09",
+      "winlineid": "",
+      "localized_label": {
+        "en": "line"
+      },
+      "name": "9",
+      "dots": {
+        "start": [
+          270,
+          345
+        ],
+        "end": null,
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        1,
+        2,
+        1,
+        2,
+        1
+      ]
+    },
+    {
+      "id": "line14",
+      "winlineid": "",
+      "localized_label": {
+        "en": "line"
+      },
+      "name": "14",
+      "dots": {
+        "start": [
+          270,
+          375
+        ],
+        "end": null,
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        1,
+        2,
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "id": "line03",
+      "winlineid": "",
+      "localized_label": {
+        "en": "line"
+      },
+      "name": "3",
+      "dots": {
+        "start": [
+          270,
+          450
+        ],
+        "end": null,
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "id": "line05",
+      "winlineid": "",
+      "localized_label": {
+        "en": "line"
+      },
+      "name": "5",
+      "dots": {
+        "start": [
+          270,
+          480
+        ],
+        "end": null,
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        2,
+        1,
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "line07",
+      "winlineid": "",
+      "localized_label": {
+        "en": "line"
+      },
+      "name": "7",
+      "dots": {
+        "start": [
+          270,
+          510
+        ],
+        "end": null,
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        2,
+        1,
+        2,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "line10",
+      "winlineid": "",
+      "localized_label": {
+        "en": "line"
+      },
+      "name": "10",
+      "dots": {
+        "start": null,
+        "end": [
+          1080,
+          167
+        ],
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        2,
+        2,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "line12",
+      "winlineid": "",
+      "localized_label": {
+        "en": "line"
+      },
+      "name": "12",
+      "dots": {
+        "start": null,
+        "end": [
+          1080,
+          197
+        ],
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        0,
+        2,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "id": "line15",
+      "winlineid": "",
+      "localized_label": {
+        "en": "line"
+      },
+      "name": "15",
+      "dots": {
+        "start": null,
+        "end": [
+          1080,
+          300
+        ],
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "line16",
+      "winlineid": "",
+      "localized_label": {
+        "en": "line"
+      },
+      "name": "16",
+      "dots": {
+        "start": null,
+        "end": [
+          1080,
+          330
+        ],
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        1,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "line17",
+      "winlineid": "",
+      "localized_label": {
+        "en": "line"
+      },
+      "name": "17",
+      "dots": {
+        "start": null,
+        "end": [
+          1080,
+          360
+        ],
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        1,
+        1,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "line18",
+      "winlineid": "",
+      "localized_label": {
+        "en": "line"
+      },
+      "name": "18",
+      "dots": {
+        "start": null,
+        "end": [
+          1080,
+          510
+        ],
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        1,
+        0,
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "winlineid": "",
+      "id": "line11",
+      "localized_label": {
+        "en": "line"
+      },
+      "name": "11",
+      "dots": {
+        "start": null,
+        "end": [
+          1080,
+          450
+        ],
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        0,
+        0,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "id": "line13",
+      "winlineid": "",
+      "localized_label": {
+        "en": "line"
+      },
+      "name": "13",
+      "dots": {
+        "start": null,
+        "end": [
+          1080,
+          480
+        ],
+        "sprite_sheet": "uri_to_spriteshet"
+      },
+      "slots": [
+        2,
+        0,
+        2,
+        0,
+        2
+      ]
+    }
+  ],
+  "rumblings": [
+    "Wow! Bad weather today, right?",
+    "Risk big, win big, my grandma used to say.",
+    "Wish it would rain less.",
+    "Those rainy days are the best!"
+  ]
+}
